@@ -1,0 +1,310 @@
+
+/*----------------------
+----OVERRIDES ---
+------------------------*/
+.section-title [class*=icon]{
+    position:absolute;
+    top: 25px;
+    left:50%;
+    margin-left:-60px;
+    font-size:120px;
+    color:#333;
+    z-index:-1;
+}
+
+/*----------------------
+----Navigation Styles---
+------------------------*/
+
+
+#main-nav.scrolled{    
+    background: rgba(0,0,0,0.8);
+    border-bottom:1px solid #ddd;
+}
+
+#main-nav.scrolled .navbar-toggle{
+    color:#8aaad9;
+    border-color:#8aaad9;
+}
+
+#main-nav.scrolled .navbar-toggle .icon-bar{
+    background:#8aaad9;
+}
+
+#main-nav.scrolled .nav a,
+#main-nav.scrolled .nav a:active,
+#main-nav.scrolled .nav a:hover{
+    color:#8aaad9;
+}
+
+
+/*----------------------
+-----Header Styles------
+------------------------*/
+
+.jumbotron .message-box{
+    width:90%;
+    margin:300px auto 0;
+    background:rgba(0,0,0,0.5);
+    padding:20px 0;
+    color: white;
+}
+
+
+/*------------------------
+-----Services Styles------
+------------------------*/
+
+.services ul  {
+    text-align: right;
+    list-style-position: right;
+    direction: rtl;
+}
+.col-md-push-3 ul  {
+    text-align: left;
+    list-style-position: left;
+    direction: ltr;
+}
+
+
+/*-----------------------
+------About Styles-------
+------------------------*/
+
+#about {
+    background:url(../assets/headstock.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    padding:15px 0 200px 0px;
+    background-color: #efae49;
+}
+
+#about h1 {
+    color:#fff;
+    font-size:30px;
+    line-height:35px;
+    font-weight:300;
+    margin-bottom:24px;
+    position:relative;
+}
+
+#about p {
+    font-size:20px;
+    line-height:28px;
+    font-weight:300;
+    margin-bottom:40px;
+}
+
+
+/*-----------------------
+------Skills Styles-------
+------------------------*/
+
+#skills {
+    background:url(../assets/guitarNeckShot.jpg) no-repeat top left fixed; 
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    background-color: #000;
+    padding:60px 0 80px 0;
+}
+
+
+
+/*----------------------
+-----Contact Styles-----
+------------------------*/
+
+#contact {
+    background:url(../assets/contact-bg.jpg) no-repeat center left fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    padding:80px 0; 
+}
+
+#contact-form .form-control {
+    background:rgba(0,0,0,0.6);
+    border: none;
+    border-radius:1px;
+    outline:none;
+    box-shadow:none;
+    margin-bottom:30px;
+    height:65px;
+    font-size:28px;
+    line-height:45px;
+    font-weight:300;
+    padding-left:64px;
+}
+
+/*----------------------
+-----Twitter Styles-----
+------------------------*/
+#twitter .tweet{
+    font-size:20px;
+    line-height:30px;
+    font-weight:300;
+    word-spacing:3px;
+    margin-bottom:35px;
+}
+
+
+
+/*-----------------------
+------Media Queries------
+------------------------*/
+
+@media (max-width: 1199px) { /* iPads */
+
+    .jumbotron {
+        background:url(../assets/header-bg.jpg) no-repeat top left; 
+        -webkit-background-size: cover;
+           -moz-background-size: cover;
+             -o-background-size: cover;
+                background-size: cover;
+        
+    }
+
+    #about {
+        background:url(../assets/headstock.jpg) no-repeat center center;
+        background-color: #efae49;
+        -webkit-background-size: cover;
+           -moz-background-size: cover;
+             -o-background-size: cover;
+                background-size: cover;
+    }
+
+    #contact {
+        background:url(../assets/contact-bg.jpg) no-repeat center center;
+        color:#fff;
+        padding:80px 0; 
+        -webkit-background-size: cover;
+           -moz-background-size: cover;
+             -o-background-size: cover;
+                background-size: cover;
+    }
+
+    #skills {
+        background:url(../assets/guitarNeckShot.jpg) no-repeat top left;
+        -webkit-background-size: cover;
+           -moz-background-size: cover;
+             -o-background-size: cover;
+                background-size: cover;    
+    }
+
+    .navbar-brand,
+    .navbar-brand:hover,
+    .navbar-brand:active,
+    .navbar-brand:focus {
+        padding:0 10px;
+        font-size:19px;
+        line-height:20px;
+        font-weight:normal;
+        
+    }
+
+    .navbar-brand span {
+        font-size:16px;
+        font-weight:300;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+
+
+    #about h1 {
+        font-size:26px;
+        line-height:26px;
+    }
+
+    #about p {
+        font-size:19px;
+        line-height:25px;
+    }
+
+}
+
+
+@media only screen and (min-width:0px) and (max-width:767px) {  /* iPhones and Smartphones */
+
+
+    #main-nav .navbar-brand{
+        
+    }
+
+    #main-nav{  /* home state for the main nav bar */
+        background: rgba(0,0,0,0.6);
+        border-bottom:1px solid #ddd;
+    }
+
+    #main-nav .navbar-toggle{
+        color:#8aaad9;
+        border-color:#8aaad9;
+    }
+
+    #main-nav .navbar-toggle .icon-bar{
+        background:#8aaad9;
+    }
+
+    #main-nav .container{
+        padding:10px 20px;
+    }
+
+    #main-nav .nav a,
+    #main-nav .nav a:active,
+    #main-nav .nav a:hover{
+        color:#8aaad9;
+        line-height:42px;
+        text-align:center;
+    }
+
+    #main-nav .nav a:before {
+        display:none;
+    }
+
+    #main-nav .nav a:hover,
+    #main-nav .nav li.active a {
+        box-shadow:0 0 0 1px;
+    }
+
+    h1.section-title{
+        font-size:42px;
+        line-height:56px;
+    }
+}
+
+@media (max-width: 479px) {
+
+    .navbar-brand,
+    .navbar-brand:hover,
+    .navbar-brand:active,
+    .navbar-brand:focus {
+        padding:0 10px;
+        font-size:18px;
+        line-height:20px;
+        font-weight:normal;
+        
+    }
+
+    .navbar-brand span {
+        font-size:14px;
+        font-weight:300;
+    }
+
+    h1.section-title{
+        font-size:32px;
+        line-height:46px;
+        margin: 0 0 60px;
+    }
+
+    p {
+        font-size:16px;
+        line-height:21px;
+    }
+}
