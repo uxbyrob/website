@@ -76,6 +76,12 @@
     list-style-position: right;
     direction: rtl;
 }
+
+.services p {
+	font-weight: 400px;
+}
+
+
 .col-md-push-3 ul  {
     text-align: left;
     list-style-position: left;
