@@ -14,7 +14,7 @@
 
  .message-box-test{
     margin:10px auto 0;
-		background:rgba(0,0,0,0.5);
+		background:rgba(0,0,0,0.6);
     padding:40px;
     color: white;
 }
@@ -136,7 +136,7 @@
 ------------------------*/
 
 #contact {
-    background:url(../assets/guitar-railroad.jpg) no-repeat center left fixed;
+    background:url(../assets/guitar-railroad.jpg) no-repeat center left;
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
