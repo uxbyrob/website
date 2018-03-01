@@ -22,7 +22,7 @@
 p {
     font-size:18px;
     line-height:24px;
-    font-weight:400;
+    font-weight:300;
     letter-spacing:0.01em;
     margin-bottom:20px;
 }
@@ -33,7 +33,7 @@ p {
 
 
 #main-nav.scrolled{    
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.5);
     border-bottom:1px solid #ddd;
 }
 
