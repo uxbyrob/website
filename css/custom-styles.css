@@ -81,7 +81,7 @@
 ------------------------*/
 
 #about {
-    background:url(../assets/classical-black.jpg) no-repeat center center fixed;
+    background:url(../assets/classical-blac.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
@@ -112,7 +112,7 @@
 ------------------------*/
 
 #skills {
-    background:url(../assets/guitarNeckShot.jpg) no-repeat top left fixed; 
+    background:url(../assets/guitar-railroad.jpg) no-repeat top left fixed; 
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
