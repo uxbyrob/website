@@ -42,6 +42,15 @@
 -----Header Styles------
 ------------------------*/
 
+.jumbotron {
+    background:url(../assets/fender-vintage.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    color:#efae49;
+}
+
 .jumbotron .message-box{
     width:90%;
     margin:300px auto 0;
@@ -119,7 +128,7 @@
 ------------------------*/
 
 #contact {
-    background:url(../assets/contact-bg.jpg) no-repeat center left fixed;
+    background:url(../assets/fender-vintage.jpg) no-repeat center left fixed;
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
