@@ -37,20 +37,7 @@ p {
     border-bottom:1px solid #333;
 }
 
-#main-nav.scrolled .navbar-toggle{
-    color:#8aaad9;
-    border-color:#8aaad9;
-}
 
-#main-nav.scrolled .navbar-toggle .icon-bar{
-    background:#8aaad9;
-}
-
-#main-nav.scrolled .nav a,
-#main-nav.scrolled .nav a:active,
-#main-nav.scrolled .nav a:hover{
-    color:#8aaad9;
-}
 
 
 /*----------------------
