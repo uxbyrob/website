@@ -38,6 +38,10 @@ p {
 }
 
 
+#main-nav.scrolled .nav a:active,
+#main-nav.scrolled .nav a:hover{
+    color:#8aaad9;
+}
 
 
 /*----------------------
