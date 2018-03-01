@@ -110,8 +110,8 @@
 }
 
 #about .message-box{
-    
-    
+    width:90%;
+    margin:10px auto 0;
 		background:rgba(0,0,0,0.5);
     padding:20px;
     color: white;
