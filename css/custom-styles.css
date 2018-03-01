@@ -79,7 +79,7 @@
 /*-----------------------
 ------About Styles-------
 ------------------------*/
-.container #about {
+#about .container {
 	margin: 10px;
 }
 
