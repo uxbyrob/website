@@ -79,6 +79,9 @@
 /*-----------------------
 ------About Styles-------
 ------------------------*/
+.container #about {
+	margin: 10px;
+}
 
 #about {
     background:url(../assets/guitar-grey-bg.jpg) no-repeat center center fixed;
@@ -86,7 +89,7 @@
        -moz-background-size: cover;
          -o-background-size: cover;
             background-size: cover;
-    padding:15px 0 200px 0px;
+    padding:10px 0 200px 0px;
     background-color: #efae49;
 }
 
