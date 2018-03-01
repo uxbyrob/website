@@ -79,9 +79,7 @@
 /*-----------------------
 ------About Styles-------
 ------------------------*/
-#about .container {
-	margin: 10px;
-}
+
 
 #about {
     background:url(../assets/guitar-grey-bg.jpg) no-repeat center center fixed;
