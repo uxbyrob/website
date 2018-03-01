@@ -95,7 +95,7 @@
          -o-background-size: cover;
             background-size: cover;
     padding:40px 0 100px 0px;
-    background-color: #efae49;
+    background-color: brown;
 }
 
 #about h1 {
@@ -120,7 +120,7 @@
 ------------------------*/
 
 #skills {
-    background:url(../assets/acoustic-vintage.jpg) no-repeat top left fixed; 
+    background:url(../assets/black-les-paul.jpg) no-repeat top left fixed; 
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
