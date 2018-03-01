@@ -106,8 +106,7 @@
     margin-bottom:40px;
 }
 
-.about .message-box{
-    
+#about .message-box{
     background:rgba(0,0,0,0.5);
     padding:20px 0;
     color: white;
