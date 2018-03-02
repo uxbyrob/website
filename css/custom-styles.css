@@ -37,10 +37,10 @@ p {
     border-bottom:1px solid #333;
 }
 
-
-#main-nav.scrolled .nav a:active,
-#main-nav.scrolled .nav a:hover{
-    color:#8aaad9;
+#main-nav.scrolled .nav a:hover:before,
+#main-nav.scrolled .nav li.active a:before {
+	color:#8aaad9;
+	text-shadow: 12px 0 #8aaad9, -12px 0 #8aaad9;
 }
 
 
