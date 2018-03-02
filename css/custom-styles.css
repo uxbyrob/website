@@ -20,9 +20,9 @@
 }
 
 p {
-    font-size:18px;
-    line-height:24px;
-    font-weight:300;
+    font-size:17px;
+    line-height:28px;
+    font-weight:400;
     letter-spacing:0.01em;
     margin-bottom:20px;
 }
@@ -74,6 +74,10 @@ p {
     text-align: right;
     list-style-position: right;
     direction: rtl;
+}
+
+.services li {
+		font-size: 16px;
 }
 
 
