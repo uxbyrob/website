@@ -179,6 +179,12 @@ p {
     margin-bottom:35px;
 }
 
+#twitter h2 {
+    font-size: 19px;
+    font-weight: bold;
+		color: white;
+}
+
 
 /* -------------------------
 -------- Footer ------------
