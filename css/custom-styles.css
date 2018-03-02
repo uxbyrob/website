@@ -332,6 +332,12 @@ p {
         font-size:42px;
         line-height:56px;
     }
+	
+	#about img {
+    box-shadow: 0x 0px 0px 0px rgba(255,255,255,0.2), -3px 0px 0px 3px rgba(255,255,255,0.2);
+}
+	
+		
 }
 
 @media (max-width: 479px) {
@@ -362,4 +368,5 @@ p {
         font-size:16px;
         line-height:21px;
     }
+	
 }
