@@ -83,6 +83,10 @@ p {
     direction: ltr;
 }
 
+#services .row.line {
+    height: 2px;
+}
+
 
 /*-----------------------
 ------About Styles-------
