@@ -87,6 +87,11 @@ p {
     height: 2px;
 }
 
+.services .icon {
+    border: 7px solid #f05557;
+    border-radius: 50%;
+}
+
 
 /*-----------------------
 ------About Styles-------
