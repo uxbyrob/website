@@ -65,6 +65,10 @@ p {
     color: white;
 }
 
+.jumbotron .left-col p {
+    padding: 18px 20px 12px 30px;
+}
+
 
 /*------------------------
 -----Services Styles------
