@@ -216,7 +216,7 @@ p {
 @media (max-width: 1199px) { /* iPads */
 
     .jumbotron {
-        background:url(../assets/fender-vintage.jpg) no-repeat top left; 
+        background:url(../assets/fender-vintage.jpg) no-repeat center center; 
         -webkit-background-size: cover;
            -moz-background-size: cover;
              -o-background-size: cover;
