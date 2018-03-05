@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="959.45" height="234.82" viewBox="0 0 959.45 234.82">
+  <title>Contextual Icons</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="ihs-icon-align-right">
+      <path d="M885.31,201.32a12,12,0,1,0,12,12A12,12,0,0,0,885.31,201.32Zm5.3,19.85a9.47,9.47,0,1,1,2.6-13.15A9.5,9.5,0,0,1,890.61,221.17Z" style="fill: #32363b"/>
+      <path d="M886.86,208.42a1.5,1.5,0,1,1-1.5-1.5A1.5,1.5,0,0,1,886.86,208.42Z" style="fill: #32363b"/>
+      <path d="M887,211.67h-3.65v2.15h.8v3.7h-.8v2.15h4.4v-2.15h-.8v-5.85Z" style="fill: #32363b"/>
+      <g>
+        <path d="M765.95,206.32a8,8,0,1,0,8,8A8,8,0,0,0,765.95,206.32Zm3.53,13.23a6.31,6.31,0,1,1,1.73-8.77A6.33,6.33,0,0,1,769.48,219.55Z" style="fill: #32363b"/>
+        <path d="M767,211.05a1,1,0,1,1-1-1A1,1,0,0,1,767,211.05Z" style="fill: #32363b"/>
+        <path d="M767,213.55h-2.43V215h.53v2.47h-.53v1.43h2.93v-1.43H767v-3.9Z" style="fill: #32363b"/>
+      </g>
+      <path d="M897.25,144.9l-12.41-22.26a1.29,1.29,0,0,0-.83-.41h0a.78.78,0,0,0-.73.51L871.39,145a1.11,1.11,0,0,0,0,.82.79.79,0,0,0,.73.41h24.29a.88.88,0,0,0,.73-.41A1,1,0,0,0,897.25,144.9Zm-10.74-1.23a.91.91,0,0,1-.1.51c-.1.1-.21.2-.31.2h-3.65c-.1,0-.21-.1-.31-.2a.76.76,0,0,1-.1-.51v-2.36a.91.91,0,0,1,.1-.51c.1-.1.21-.2.31-.2h3.65c.1,0,.21.1.31.2a.76.76,0,0,1,.1.51Zm0-5.33c0,.2-.1.31-.21.51s-.21.2-.31.2h-3.65c-.1,0-.21-.1-.31-.2s-.1-.31-.21-.51l-.1-8.92a.91.91,0,0,1,.1-.51c.1-.1.21-.21.31-.21h4.07c.1,0,.21.1.31.21a.76.76,0,0,1,.1.51Z" style="fill: #32363b"/>
+      <path d="M773.9,141.45l-7.63-13a.81.81,0,0,0-.51-.24h0a.48.48,0,0,0-.45.3l-7.31,13a.62.62,0,0,0,0,.48.49.49,0,0,0,.45.24h14.95a.57.57,0,0,0,.51-.78Zm-6.61-.72a.51.51,0,0,1-.06.3c-.06.06-.13.12-.19.12h-2.25c-.06,0-.13-.06-.19-.12s-.06-.18-.06-.3v-1.38a.51.51,0,0,1,.06-.3c.06-.06.13-.12.19-.12H767c.06,0,.13.06.19.12s.06.18.06.3Zm0-3.11c0,.12-.06.18-.13.3s-.13.12-.19.12h-2.25c-.06,0-.13-.06-.19-.12s-.06-.18-.13-.3l-.06-5.2a.51.51,0,0,1,.06-.3c.06-.06.13-.12.19-.12h2.5c.06,0,.13.06.19.12s.06.18.06.3Z" style="fill: #32363b"/>
+      <path d="M773.81,88.39l-1.57-1.71a.43.43,0,0,0-.66,0l-6.5,7.15-2.76-3a.45.45,0,0,0-.67,0l-1.56,1.72a.55.55,0,0,0,0,.74l4.66,5.14a.46.46,0,0,0,.33.14.47.47,0,0,0,.34-.14l8.4-9.25a.61.61,0,0,0,.14-.37.59.59,0,0,0-.14-.38Z" style="fill: #32363b"/>
+      <path d="M646.22,89.93l-1.12-1.28a.3.3,0,0,0-.47,0L640,94l-2-2.29a.31.31,0,0,0-.48,0L636.42,93a.43.43,0,0,0,0,.55l3.33,3.85a.32.32,0,0,0,.24.1.33.33,0,0,0,.24-.1l6-6.94a.47.47,0,0,0,.1-.27.46.46,0,0,0-.1-.28Z" style="fill: #32363b"/>
+      <path d="M896.08,84.64l-2.69-2.85a.75.75,0,0,0-1.14,0L881.11,93.71l-4.73-5.08a.79.79,0,0,0-1.15,0l-2.67,2.87a.9.9,0,0,0,0,1.23l8,8.56a.8.8,0,0,0,.57.23.81.81,0,0,0,.57-.23l14.39-15.42a1,1,0,0,0,.23-.61,1,1,0,0,0-.23-.63Z" style="fill: #32363b"/>
+      <text transform="translate(0 27.46)" style="font-size: 32px;font-family: ArialMT, Arial">Contextual Icons</text>
+      <text transform="translate(754.14 64.67)" style="font-size: 14px;fill: #f7931e;font-family: Arial-BoldMT, Arial;font-weight: 700">Base</text>
+      <text transform="translate(628.65 64.67)" style="font-size: 14px;fill: #f7931e;font-family: Arial-BoldMT, Arial;font-weight: 700">-sm</text>
+      <text transform="translate(14.7 64.67)" style="font-size: 14px;fill: #f7931e;font-family: Arial-BoldMT, Arial;font-weight: 700">Class</text>
+      <text transform="translate(152.4 64.67)" style="font-size: 14px;fill: #f7931e;font-family: Arial-BoldMT, Arial;font-weight: 700">A<tspan x="10.11" y="0" style="letter-spacing: -0.07421875em">L</tspan><tspan x="17.62" y="0">T</tspan></text>
+      <text transform="translate(875.54 64.67)" style="font-size: 14px;fill: #f7931e;font-family: Arial-BoldMT, Arial;font-weight: 700">-lg</text>
+      <text transform="translate(298.13 64.67)" style="font-size: 14px;fill: #f7931e;font-family: Arial-BoldMT, Arial;font-weight: 700">IHS-Icon-</text>
+      <text transform="translate(439.13 64.67)" style="font-size: 14px;fill: #f7931e;font-family: Arial-BoldMT, Arial;font-weight: 700">Ico-</text>
+      <text transform="translate(11.7 98.98)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.success</text>
+      <text transform="translate(141.4 98.98)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Success</text>
+      <text transform="translate(298.13 98.98)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-checkmark</text>
+      <line x1="3.55" y1="74.32" x2="959.45" y2="74.32" style="fill: #c1c5ca;stroke: #32363b;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="114.32" x2="959.45" y2="114.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="154.32" x2="959.45" y2="154.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="194.32" x2="959.45" y2="194.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="234.32" x2="959.45" y2="234.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <text transform="translate(909.04 98.98)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">24X20</text>
+      <text transform="translate(784.04 98.98)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">14X12</text>
+      <text transform="translate(660.04 98.98)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">10X9</text>
+      <text transform="translate(11.7 140.68)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.warning</text>
+      <text transform="translate(141.4 140.68)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial"><tspan style="letter-spacing: -0.037109375em">W</tspan><tspan x="12.69" y="0">arning</tspan></text>
+      <text transform="translate(298.13 140.68)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-warning</text>
+      <text transform="translate(909.04 140.68)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">26X24</text>
+      <text transform="translate(784.04 140.68)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">16X14</text>
+      <text transform="translate(11.7 182.39)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.danger</text>
+      <text transform="translate(141.4 182.39)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Danger</text>
+      <text></text>
+      <text transform="translate(909.04 182.39)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">24X24</text>
+      <text transform="translate(909.04 219.32)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">24X24</text>
+      <text transform="translate(784.04 182.39)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">14X14</text>
+      <text transform="translate(660.04 181.39)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">10X10</text>
+      <text transform="translate(11.7 222.09)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.info</text>
+      <text transform="translate(141.4 222.09)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Information</text>
+      <text transform="translate(298.13 222.09)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-info-reversed</text>
+      <text transform="translate(784.04 219.09)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">16X16</text>
+      <path d="M884.31,161.91a12,12,0,1,0,12,12A12,12,0,0,0,884.31,161.91Zm0,21A9,9,0,0,1,877,168.7l12.53,12.53A8.93,8.93,0,0,1,884.31,182.91Zm7.33-3.79-12.53-12.53a9,9,0,0,1,12.53,12.53Z" style="fill: #32363b"/>
+      <path d="M765.95,167.91a7,7,0,1,0,7,7A7,7,0,0,0,765.95,167.91Zm0,12.25a5.24,5.24,0,0,1-4.27-8.29l7.31,7.31A5.21,5.21,0,0,1,765.95,180.16Zm4.27-2.21-7.31-7.31a5.24,5.24,0,0,1,7.31,7.31Z" style="fill: #32363b"/>
+      <path d="M641.31,170.91a5,5,0,1,0,5,5A5,5,0,0,0,641.31,170.91Zm0,8.75a3.74,3.74,0,0,1-3.05-5.92l5.22,5.22A3.72,3.72,0,0,1,641.31,179.66Zm3.05-1.58-5.22-5.22a3.74,3.74,0,0,1,5.22,5.22Z" style="fill: #32363b"/>
+    </g>
+  </g>
+</svg>

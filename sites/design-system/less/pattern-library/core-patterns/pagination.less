@@ -1,0 +1,42 @@
+.cpl-scope {
+    // ----------------------------- PAGINATION -------------------- //
+    
+    .pagination {
+    
+        li a {
+            line-height: inherit;
+            vertical-align: middle;
+
+            &:hover span { 
+                color: @gray-lighter;
+                .border(0px);
+            }
+
+            &:hover svg { 
+                fill: @gray-lighter;
+                .border(0px);
+            }
+        }
+
+        &.short {
+            height: 24px;
+
+            li a {
+                line-height: inherit;
+                padding: @padding-small-vertical + 1 @padding-small-horizontal - 4 @padding-small-vertical - 1 @padding-small-horizontal - 4;
+                vertical-align: middle;
+            }
+
+            svg {
+                width: 9px;
+                height: 9px;
+            }
+
+        }
+
+        svg {       
+            .icon-set(16px, @gray-light, 0px, 0px);
+        }       
+    }
+
+} // End .cpl-scope

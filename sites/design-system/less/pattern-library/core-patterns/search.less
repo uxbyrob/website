@@ -1,0 +1,62 @@
+.cpl-scope {
+    // --------------------------------------------- SEARCH BAR -------------- //
+
+    .search-group {  
+
+        .filter-selector {
+            margin-right: 4px;
+            background: inherit;
+        }
+
+        .btn-icon {
+                background: -webkit-linear-gradient(-75deg, #08AC4B,#328F8A); 
+        }
+
+        ul {
+            .resetGaps();
+            //min-width: 272px;
+            //background-clip: padding-box;
+
+            li {
+                .fixTransformIssue();
+                .border(0px);
+                padding: 3px 0px;
+                list-style-type: none;
+                line-height: 24px;
+                display: block;
+
+                a {
+                    color: inherit;
+                    text-decoration: none;
+                }
+
+                &:hover {
+                    background-color: @component-hover-bg;
+                    color: @component-hover-color;
+                    
+                    a {
+                        color: inherit;
+                    }
+                }
+            }        
+        }
+
+        .ihs-icon-arrow {
+            .icon-set(12px, inherit, 0px 0px 0px 4px, 0px);
+        }
+        
+    }
+
+    .search-filter {
+        background-color: @body-bg;
+        color: @gray-base;
+        .resetGaps();
+        //min-width: 100px;
+
+        .border-radius(0px);
+        .shadow-set(0 0px 0px rgba(0, 0, 0, .175));
+
+        
+    }
+} // End .cpl-scope
+ 

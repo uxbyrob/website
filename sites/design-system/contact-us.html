@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" class="cpl-scope">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Library designed for displaying and referencing building blocks for our software applications across the IHS Markit Enterprise. Based off the Atomic Design model for atoms, molecules and organisms and leveraging Bootstrap as the main framework and refernced CSS classes">
+        
+    <meta name="author" content="Rob Seaman">
+
+    <title>IHS Markit Pattern Library 3 (New World) | Contact Us</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link id="siteTheme" rel="stylesheet" href="css/styles-nw-ihsm.css" media="all">
+    <link rel="stylesheet" href="website-only/site.css" media="all">
+    <!--  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">  -->
+   
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<header class="ihs-header navbar navbar-default navbar-static-top">
+        
+    <div class="brand pull-left" data-href="index.html">
+        <div class="ihs-logo"></div>
+        <h1>CssPatternLibrary3 <span>v2.0.0</span></h1>
+        <small style="margin-top: 20px;">Design System</small>
+    </div>
+
+    <div id="themeSwitcherLabel" style="width: 200px; height: 1.58rem; border-bottom: 1px solid #DBDCDE; text-align: center; position: absolute; right: 16px; top: 0; line-height: 1.8rem;">Theme</div>
+    <div id="themeSwitcher" class="bs-component pull-right" style="margin-top: 18px;">
+        <ul class="nav nav-pills">
+            <li class="active">
+                <a href="#" data-theme="ihsm" class="theme-link" onclick="toggleTheme(this)" title="Switch to the IHS Markit (IHSM) theme from 'styles-nw-ihsm.css'">IHS Markit</a>
+            </li>
+            <li>
+                <a href="#" data-theme="ihs" class="theme-link" onclick="toggleTheme(this)" title="Switch to the IHS theme from 'styles-nw-ihs.css'">IHS</a>
+            </li>
+            <li>
+                <a href="#" data-theme="default" class="theme-link" onclick="toggleTheme(this)" title="Switch to the default (currently IHS) theme from 'styles-nw.css'">Default</a>
+            </li>
+        </ul>
+    </div>
+    
+    
+    
+    
+<!--
+    <ul class="icon-set nav navbar-nav">
+
+        <li class="search-area">
+        <div class="input-group search-group">
+            <span class="input-group-addon" id="ew-caret-picker" data-toggle="dropdown">
+                <svg class="caret rotate-270"></svg>
+            </span>
+
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Filter 1</a></li>
+                <li><a href="#">Filter 2</a></li>
+                <li><a href="#">Filter 3</a></li>
+            </ul>
+
+            <input type="hidden" name="search-param" value="all" id="search-param">
+            <input type="text" class="form-control short typeahead" name="x" placeholder="Enter search term">
+
+            <span class="input-group-btn">
+                <button class="btn btn-icon" type="button"><svg class="ihs-icon-search"></svg></button>
+            </span>
+
+        </div>
+        </li>
+
+        <li class="icon-area">
+                <div class="icon-menu" data-toggle="dropdown">
+                <svg class="ihs-icon-help"></svg>
+                </div>
+
+                <div class="dropdown-menu header right">
+                <strong>HELP</strong>
+                    <hr>
+                    <ul class="menu-links">
+                        <li><a href="#/">Action</a></li>
+                        <li><a href="#/">Another action</a></li>
+                        <li><a href="#/">Something else here</a></li>
+                    </ul>
+                <hr>
+                <strong>Americas:</strong>
+                <p>
+                +1 (800) 447-2273<br>
+                Sunday 8:00pm to Friday 8:00pm (ET)
+                </p>
+                <strong>Outside the US/Canada:</strong>
+                <p>
+                +1 (303) 858-6187
+                </p>
+                <strong>Europe, Middle East and Africa:</strong>
+                <p>
+                +44 1344 328 300<br>
+                Monday 12:00am to Saturday 12:00am (UTC)
+                </p>
+                <strong>Asia Pacific:</strong>
+                <p>
+                +604 291 3600<br>
+                Monday 12:00am to Saturday 12:00am (UTC)
+                </p>
+                <p>
+                <a href="mailto:customercare@ihsmarkit.com" class="email">CustomerCare@ihsmarkit.com</a>
+                </p>
+                </div>
+        </li>
+        <li class="icon-area">
+                <div class="icon-menu" data-toggle="dropdown">
+                <svg class="ihs-icon-settings"></svg>
+                </div>
+                <div class="dropdown-menu header right">
+                    <ul class="menu-links">
+                        <li><a href="#/">Action</a></li>
+                        <li><a href="#/">Another action</a></li>
+                        <li><a href="#/">Something else here</a></li>
+                        <li><a href="#/">Separated link</a></li>
+                    </ul>
+                </div>
+        </li>
+        <li class="icon-area">
+                <div class="icon-menu" data-toggle="dropdown">
+                <svg class="ihs-icon-admin" data-toggle="drop down"></svg>
+                <span class="greeting">Hi User</span>
+                </div>
+
+                <div class="dropdown-menu header right">
+                    <ul class="menu-links">
+                        <li><a href="#/">Log Out</a></li>
+                        <li><a href="#/">About Product</a></li>
+                        <hr>
+                        <li><a href="#/">Entitlement 1</a></li>
+                        <li><a href="#/">Entitlement 2</a></li>
+                        <li><a href="#/">Entitlement 3</a></li>
+                    </ul>
+                </div>
+        </li>
+    </ul>
+-->
+
+    <ul class="ihs-menu nav navbar-nav navbar-gray">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="communication.html">Communication</a></li>
+        <li class="active"><a href="contact-us.html">Contact Us</a></li>
+<!--
+        <li><a href="#branding">Branding</a></li>
+        <li><a href="#colors">Colors</a></li>
+        <li><a href="#start">Getting Started</a></li>
+        <li><a href="#components">Component Patterns</a></li>
+        <li><a href="#templates">Templates</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li class="pull-right"><a href="#workspace">My Workspace</a></li>
+-->
+    </ul>
+</header>
+        
+
+<!-- Main body content -->
+<div class="container-fluid" style="margin-bottom: 4rem;">
+<div class="row">
+
+    <div class="col-sm-12">
+        <h2 class="brand-color-secondary-text"><em class="product-title">Contact the Design Systems Team responsible for the <abbr title="CssPatternLibrary 3 design system">CPL3</abbr></em></h2>
+        <p class="lead">Drop us a line</p>
+        <p>
+            The IHS Markit Design Systems Team is responsible for the <abbr title="User Interface">UI</abbr> and <abbr title="User Experience">UX</abbr> design and development of the <em class="product-title"><abbr title="CssPatternLibrary 3 design system">CPL3</abbr></em>. Please reach out to get help and answers from our team. We won't bite &hellip; we pinky-promise. :D
+        </p>
+
+        <h3>Where are we located? When are we available?</h3>
+        <p>
+            Unless otherwise noted <strong>our team is mostly based in Denver, <abbr title="Colorado">CO</abbr>, United States.</strong> Which means the <strong>best times to contact us are during normal work days from 8:00 a.m. to 4:00 p.m. M.S.T.</strong>
+        </p>
+        <address class="vcard" class="adr">
+            <span class="">East Building</span><br />
+            <span class="street-address">15 Inverness Way East</span><br />
+            <span class="region">Englewood, CO</span><br />
+            <span class="postal-code">80112</span><br />
+            <span class="country-name">United States</span>
+        </address>
+        <p class="tel">+1 800 IHS-CARE (+1 800 447 2273)</p>
+    </div> <!-- /.col-sm-12 -->
+
+
+
+
+    <div class="col-sm-12">
+        <div class="col-sm-4">
+            <h3>Management</h3>
+            <address class="vcard author contact">
+                <fieldset class="form-horizontal">
+                    <legend><em class="person-name"><a href="https://mysource.ihs.com/people/MZY47536">Mark Schraad</a></em>  <span class="role text-muted">(Manager - main management contact)</span></legend>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label job-title-label">Title:</label>
+                        <span class="job-title-name">
+                            Executive Director, Development
+                        </span>
+                    </div>
+                    <div class="form-group"><label class="col-sm-3 control-label">Email:</label>
+                        <a href="mailto:Mark.Schraad@ihsmarkit.com?cc=Michael.Witt@ihsmarkit.com, Mike.Heinrich@ihsmarkit.com&subject=CPL3 information" class="email">
+                            <svg class="ihs-icon-envelope hasUse" style="width: 12px; height: 12px; margin-bottom: -2px;">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="svg/icons-latest.svg#ihs-icon-envelope"></use>
+                            </svg>
+                            Mark.Schraad@ihsmarkit.com
+                        </a>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label phone-type extension"><abbr title="Desk Phone Extension">Desk Extension</abbr>:</label>
+                        <span class="tel">+1 303 858 6228</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label phone-type internal-extension"><abbr title="Internal Desk Phone Extension">Internal Extension</abbr>:</label>
+                        <span class="tel">710 6228</span>
+                    </div>
+                </fieldset>
+            </address>
+
+            <address class="vcard author contact">
+                <fieldset class="form-horizontal">
+                    <legend><em class="person-name"><a href="https://mysource.ihs.com/people/HOM40214">Andy James</a></em> <span class="role text-muted">(Supervisor)</span></legend>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label job-title-label">Title:</label>
+                        <span class="job-title-name">
+                            <abbr title="Vice President">VP</abbr>, Development
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label location-label">Location:</label>
+                        <span class="location-name country-name">
+                            Houston, <abbr title="Texas">TX</abbr>
+                        </span>
+                    </div>
+                    <div class="form-group"><label class="col-sm-3 control-label">Email:</label>
+                        <a href="mailto:Andy.James@ihsmarkit.com?cc=Michael.Witt@ihsmarkit.com, Mike.Heinrich@ihsmarkit.com&subject=CPL3 information" class="email">
+                            <svg class="ihs-icon-envelope hasUse" style="width: 12px; height: 12px; margin-bottom: -2px;">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="svg/icons-latest.svg#ihs-icon-envelope"></use>
+                            </svg>
+                            Andy.James@ihsmarkit.com
+                        </a>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label phone-type internal-extension"><abbr title="Internal Desk Phone Extension">Internal Extension</abbr>:</label>
+                        <span class="tel">723 7101</span>
+                    </div>
+                </fieldset>
+            </address>
+        </div> <!-- /.col-sm-4 -->
+
+
+
+
+        <div class="col-sm-4">
+            <h3>Design</h3>
+            <address class="vcard author contact">
+                <fieldset class="form-horizontal">
+                    <legend><em class="person-name"><a href="https://mysource.ihs.com/people/EQA52494">Mike Heinrich</a></em>  <span class="role text-muted">(Lead Designer - main design contact)</span></legend>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label job-title-label">Title:</label>
+                        <span class="job-title-name">
+                            Associate Director, <abbr title="User Interface">UI</abbr> Design
+                        </span>
+                    </div>
+                    <div class="form-group"><label class="col-sm-3 control-label">Email:</label>
+                        <a href="mailto:Mike.Heinrich@ihsmarkit.com?cc=Michael.Witt@ihsmarkit.com&subject=CPL3 information" class="email">
+                            <svg class="ihs-icon-envelope hasUse" style="width: 12px; height: 12px; margin-bottom: -2px;">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="svg/icons-latest.svg#ihs-icon-envelope"></use>
+                            </svg>
+                            Mike.Heinrich@ihsmarkit.com
+                        </a>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label instant-message-type skype">Skype:</label>
+                        <span class="instant-message-name skype-name">
+                            mikeheinrich7461
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label phone-type cell"><abbr title="Cell Phone">Cell</abbr>:</label>
+                        <span class="tel">+1 303 912 7461</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label phone-type extension"><abbr title="Desk Phone Extension">Desk Extension</abbr>:</label>
+                        <span class="tel">+1 303 736 3510</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label phone-type internal-extension"><abbr title="Internal Desk Phone Extension">Internal Extension</abbr>:</label>
+                        <span class="tel">710 3510</span>
+                    </div>
+                </fieldset>
+            </address>
+        </div> <!-- /.col-sm-4 -->
+
+
+
+
+        <div class="col-sm-4">
+            <h3>Development</h3>
+            <address class="vcard author contact">
+                <fieldset class="form-horizontal">
+                    <legend><em class="person-name"><a href="https://mysource.ihs.com/people/GXB44509">Michael Witt</a></em>  <span class="role text-muted">(Lead Developer - main development contact)</span></legend>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label job-title-label">Title:</label>
+                        <span class="job-title-name">
+                            Principal Software Engineer
+                        </span>
+                    </div>
+                    <div class="form-group"><label class="col-sm-3 control-label">Email:</label>
+                        <a href="mailto:Michael.Witt@ihsmarkit.com?cc=Mike.Heinrich@ihsmarkit.com&subject=CPL3 information" class="email">
+                            <svg class="ihs-icon-envelope hasUse" style="width: 12px; height: 12px; margin-bottom: -2px;">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="svg/icons-latest.svg#ihs-icon-envelope"></use>
+                            </svg>
+                            Michael.Witt@ihsmarkit.com
+                        </a>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label instant-message-type skype">Skype:</label>
+                        <span class="instant-message-name skype-name">
+                            michael.rod.witt
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label phone-type cell"><abbr title="Cell Phone">Cell</abbr>:</label>
+                        <span class="tel">+1 720 220 5224 (preferred)</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label phone-type extension"><abbr title="Desk Phone Extension">Desk Extension</abbr>:</label>
+                        <span class="tel text-muted">+1 303 858 6323</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label phone-type internal-extension"><abbr title="Internal Desk Phone Extension">Internal Extension</abbr>:</label>
+                        <span class="tel text-muted">710 6323</span>
+                    </div>
+                </fieldset>
+            </address>
+
+            <address class="vcard author contact">
+                <fieldset class="form-horizontal">
+                    <legend><em class="person-name"><a href="https://mysource.ihs.com/people/JTB50061">Rob Seaman</a></em>  <span class="role text-muted">(Developer)</span></legend>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label job-title-label">Title:</label>
+                        <span class="job-title-name">
+                            Principal <abbr title="User Experiance">UX</abbr> Architect
+                        </span>
+                    </div>
+                    <div class="form-group"><label class="col-sm-3 control-label">Email:</label>
+                        <a href="mailto:Rob.Seaman@ihsmarkit.com?cc=Michael.Witt@ihsmarkit.com, Mike.Heinrich@ihsmarkit.com&subject=CPL3 information" class="email">
+                            <svg class="ihs-icon-envelope hasUse" style="width: 12px; height: 12px; margin-bottom: -2px;">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="svg/icons-latest.svg#ihs-icon-envelope"></use>
+                            </svg>
+                            Rob.Seaman@ihsmarkit.com
+                        </a>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label instant-message-type skype">Skype:</label>
+                        <span class="instant-message-name skype-name">
+                            robseamanihs
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label phone-type extension"><abbr title="Desk Phone Extension">Desk Extension</abbr>:</label>
+                        <span class="tel">+1 303 736 3480</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label phone-type internal-extension"><abbr title="Internal Desk Phone Extension">Internal Extension</abbr>:</label>
+                        <span class="tel">710 3480</span>
+                    </div>
+                </fieldset>
+            </address>
+        </div> <!-- /.col-sm-4 -->
+            
+
+
+        as of <time datetime="2017-10-20" class="published updated">October 20th, 2017</time>
+    </div>
+
+</div> <!-- /.row -->
+</div> <!-- /.container-fluid -->
+
+<!-- Footer -->
+<div class="footer footer-small navbar-fixed-bottom">
+    <div class="footer-control rotate-90" id="footer-toggle">
+        <svg class="ihs-icon-chevron"></svg>
+    </div>
+    <div class="copyright-links">
+        <small> &copy; 2017, IHS Markit. All rights reserved. Reproduction in whole or part without permission is prohibited.</small>
+        <ul>
+               <li><a href="#/">Terms of Use</a></li>
+               <li>|</li>
+               <li><a href="#/">Privacy Policy</a></li>
+               <li>|</li>
+               <li><a href="#/">Customer Care</a></li>
+        </ul>
+    </div>
+    <div class="logo pull-right">
+        <div class="ihs-logo"></div>
+        <h1>IHS Markit</h1>      
+    </div>
+</div> <!-- /.footer -->
+
+<!-- Javascript Scaffolding -->
+<script src="./js/jquery-1.11.2.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<!-- PL site only -->
+<!-- <script src="./js/pattern-library.js"></script> -->
+
+
+
+<script src="./js/svg-url.js"></script>
+<script src="./js/svg-cache.js"></script>
+
+<script src="js/ihs-header.js"></script>
+<script src="js/ihs-footer.js"></script>
+
+<script type="text/javascript">
+
+    var themes = {
+        'default': 'css/styles-nw.css',
+        'ihs': 'css/styles-nw-ihs.css',
+        'ihsm': 'css/styles-nw-ihsm.css'
+    };
+
+    $( document ).ready( function() {
+        // Set up theme switcher
+        var themeSheet = $('#siteTheme');
+
+        $('.theme-link').click(function(){
+            var themeUrl = themes[$(this).attr('data-theme')]; 
+            themeSheet.attr('href',themeUrl);
+        });
+    });
+
+    function toggleTheme(pill) {
+        $('#themeSwitcher li').removeClass('active');
+        $(pill).parent().addClass('active');
+    }
+
+</script>
+
+</body>
+
+</html>

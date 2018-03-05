@@ -1,0 +1,80 @@
+<style type="text/css">
+    .block {
+        height: 50px;
+    }
+</style>
+
+
+<div class="col-xs-10" style="margin-left: -1%;">
+    <h2 class="brand-color-secondary-text">Quick Start</h2>
+    <p>Quick tips for getting up and running with <em class="product-title"><abbr title="the CssPatternLibrary 3 design system">CPL3</abbr></em>.</p>
+
+    <h4>Information</h4>
+    <ol>
+        <li>
+            <strong>The <em class="product-title">CssPatternLibrary 3 design system</em> = <em class="product-title"><abbr title="the CssPatternLibrary 3 design system">CPL3</abbr></em></strong> in much of the documentation on this site.
+        </li>
+        <li>
+            <strong><em class="product-title"><abbr title="the CssPatternLibrary 3 design system">CPL3</abbr></em> is available via an internal <abbr title="Node Package Manager">npm</abbr> service that is only available to employees of <abbr title="IHS Markit">IHSM</abbr>.</strong> 
+            <br />Thus, you must configure your computer to look for this internal npm service when trying to install <em class="product-title"><abbr title="the CssPatternLibrary 3 design system">CPL3</abbr></em> and other internal <abbr title="Node Package Manager">npm</abbr> packages. Please refer to step one below.
+        </li>
+        <li>
+            <strong>Usage:</strong> Initial downloads and subsequent updates of <em class="product-title"><abbr title="the CssPatternLibrary 3 design system">CPL3</abbr></em> are available via the use of <a href="https://www.npmjs.com/">npm.js</a>, <a href="https://yarnpkg.com/en/">Yarn</a>, and other similar tools. 
+            <br /><strong>Note:</strong> <em>As with all <abbr title="Node Package Manager">npm</abbr> packages - updates are available on an "opt-in" basis. This means developers or build tools will need to periodically check for updates and apply them to your product for it to receive the latest updates from <em class="product-title"><abbr title="the CssPatternLibrary 3 design system">CPL3</abbr></em>.</em>
+        </li>
+        <li>
+            <strong>Suggest changes and improvements:</strong> Coming soon
+        </li>
+    </ol>
+
+    <h4>Dependencies</h4>
+    <ol>
+        <li>
+            <a href="https://nodejs.org/en/">Node.js</a>
+        </li>
+        <li>
+            <a href="https://www.npmjs.com/">npm.js</a>, <a href="https://yarnpkg.com/en/">Yarn</a>, or similar tools that can make use of an <abbr title="Node Package Manager">npm</abbr> package
+        </li>
+        <li>
+            <a href="http://getbootstrap.com/">Twitter Bootstrap</a>
+            <ol>
+                <li>
+                    <a href="https://jquery.com/">jQuery</a>
+                </li>
+            </ol>
+        </li>
+    </ol>
+    <h4>Steps</h4>
+    <ol>
+        <li>
+            <strong>Assure you are correctly set up to use the <abbr title="IHS Markit">IHSM</abbr> internal <abbr title="Node Package Manager">npm</abbr> server.</strong> 
+            <br />You must be connected to the <abbr title="IHS Markit">IHSM</abbr> network (possibly via <abbr title="Virtual Private Network">VPN</abbr>).
+            <br />Add a .npmrc (i.e. <abbr title="Node Package Manager">npm</abbr> resource) file to your project's root folder (usually the one that has a node_modules folder) that has the following content:
+<code class="code-block">
+<pre>always-auth=true
+registry=http://npm-na.ihs.com/repository/public-npm-all/
+</pre>
+</code>
+            See <a href="#" onclick="dynamicLoad('#myDiv', 'instructions/instructions.html', navCompletedCallback);">our detailed instructions</a> if you encounter difficulties.
+        </li>
+        <li>
+            <strong>Run the install command</strong> 
+<code class="code-block"><pre>npm install csspatternlibrary3 --save</pre></code> 
+            from the command line of your project root folder (or wherever you are currently storing your "node_modules" folder).
+        </li>
+        <li>
+            <strong>Include the needed <em class="product-title"><abbr title="the CssPatternLibrary 3 design system">CPL3</abbr></em> resources in your product.</strong>
+            <br />The main <abbr title="Cascading Style Sheets">CSS</abbr> file (which already includes all needed Twitter Bootstrap styles) 
+<code class="code-block"><pre>&lt;link rel="stylesheet" href="css/styles-nw-min.css" /></pre></code> 
+            <br />Some components will require the inclusion of their corresponding JavaScript files to function correctly. For example the <a href="patterns/carousel.html" class="dynamicLoad">Carousel component</a> requires
+<code class="code-block">
+<pre>&lt;-- Either the bootstrap.min.js file which includes all of the JavaScript for all of the CPL3 components bundled together -->
+&lt;script src="js/bootstrap.min.js">&lt;/script>
+
+&lt;-- Or the individual carousel.js if it makes more sense to cherry-pick out only what you need. -->
+&lt;script src="js/carousel.js">&lt;/script>
+</pre>
+</code> 
+        </li>
+    </ol>
+</div>

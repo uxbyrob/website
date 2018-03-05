@@ -1,0 +1,113 @@
+// ------------------------------------------ ACCORDION  -------------------- //
+.cpl-scope {
+    .ew-accordion {
+        .border(0px);
+
+        .panel-default {
+            .border(0px);
+            background-color: inherit;
+        }
+
+        .panel-heading {
+            .border(0px);
+            background-color: inherit;
+            padding-left: 0px;
+        }
+
+        .panel-title {
+            font-size: @font-size-base;
+            color: inherit;
+        }
+
+        .panel-body {
+            .border(0px);
+            background-color: @body-bg;
+        }
+
+    }
+
+    .ihs-accordion {
+        border: 0px solid red;
+
+        /*
+        .panel-default {
+            .border(0px);
+            background-color: inherit;
+        }
+        .panel + .panel {
+            margin-top: 0px;
+        }
+        .panel-heading {
+            .border(1px, @gray-light);
+            .border-radius();
+            background-color: @gray-lighter;
+            padding: 7px 7px;
+            height: 32px;
+
+            position: relative;
+            cursor: pointer;
+
+            &[aria-expanded="true"] {
+                .border-radius-bottom();
+            }
+
+        }
+        */
+        
+        .panel-heading {
+            position: relative;
+            border-top: 1px solid #DDD;
+            cursor: pointer;
+
+            &:first-child {
+                border-top: none;
+            }
+
+            .ihs-icon-arrow {
+                display: inline-block;
+                height: 10px;
+                position: absolute;
+                top: ~"calc(50% - 5px)";
+                right: 0;
+
+                // expanded
+                transform: rotate(-90deg);
+            }
+
+            &.collapsed .ihs-icon-arrow {
+                transform: rotate(0deg);
+            }
+        }
+
+        .panel-title {
+            font-size: @font-size-base;
+            font-weight: bold;
+            //color: @gray-base;
+            display: block;
+            .resetGaps
+        }
+        // put in arrow icon, pointed left //
+        
+        /*
+        .panel-title:after {
+                .icon-font();
+                .icon-set(@font-size-body, @gray-base, 4px 4px 0px 0px, 0px);
+                float: right;
+        }
+            // pointed down //
+            .chevron-open:after {
+                .rotate-270;
+            }
+        .panel-heading + .panel-collapse {
+
+        & >.panel-body {
+            background-color: @body-bg;
+            .border(1px, @gray-light);
+            border-top: 0px;
+            padding: 15px 7px;
+        }
+        }
+        */
+
+    }
+}

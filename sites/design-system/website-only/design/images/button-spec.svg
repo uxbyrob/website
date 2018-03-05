@@ -1,0 +1,312 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="592" height="1614.64" viewBox="0 0 592 1614.64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="30" y="60.64" width="16" height="23" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect x="86" y="59.64" width="16" height="24" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect x="103" y="59.64" width="8" height="26" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect x="48" y="1242.64" width="8" height="26" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect x="575" y="1242.64" width="8" height="26" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <rect x="29" y="43.64" width="82" height="16" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <rect x="47" y="1226.64" width="536" height="16" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-8">
+      <rect x="64" y="941.64" width="16" height="23" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-9">
+      <rect x="105" y="940.64" width="16" height="24" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-10">
+      <rect x="55" y="924.64" width="90" height="16" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-11">
+      <rect x="62" y="1518.64" width="8" height="23" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-12">
+      <rect x="76" y="1518.64" width="8" height="23" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-13">
+      <rect x="85" y="1518.64" width="8" height="23" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-14">
+      <rect x="100" y="1518.64" width="8" height="23" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-15">
+      <rect x="109" y="1518.64" width="8" height="23" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-16">
+      <rect x="124" y="1518.64" width="8" height="23" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-17">
+      <rect x="133" y="1518.64" width="8" height="23" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-18">
+      <rect x="148" y="1518.64" width="8" height="23" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-19">
+      <rect x="157" y="1518.64" width="8" height="23" style="fill: none"/>
+    </clipPath>
+    <clipPath id="clip-path-20">
+      <rect x="177" y="1518.64" width="8" height="23" style="fill: none"/>
+    </clipPath>
+  </defs>
+  <title>button Spec</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <rect y="35.64" width="592" height="1579" style="fill: #f0f1f2"/>
+      <text transform="translate(29.11 16.74)" style="font-size: 20px;font-family: MyriadPro-Regular, Myriad Pro">.btn</text>
+      <text transform="translate(57.11 297.74)" style="font-size: 15px;font-family: MyriadPro-Regular, Myriad Pro">-btn-p<tspan x="39.57" y="0" style="letter-spacing: 0.00400390625em">r</tspan><tspan x="44.53" y="0">ima</tspan><tspan x="67.78" y="0" style="letter-spacing: 0.025em">r</tspan><tspan x="73.06" y="0">y</tspan></text>
+      <text transform="translate(46.11 1209.74)" style="font-size: 15px;font-family: MyriadPro-Regular, Myriad Pro">-btn-block</text>
+      <text transform="translate(46.11 1356.74)" style="font-size: 15px;font-family: MyriadPro-Regular, Myriad Pro">-btn<tspan x="26.43" y="0" style="letter-spacing: 0.01396484375em">-</tspan><tspan x="31.24" y="0" style="letter-spacing: -0.005989583333333334em">g</tspan><tspan x="39.54" y="0" style="letter-spacing: -0.009993489583333333em">r</tspan><tspan x="44.29" y="0" style="letter-spacing: 0.00003255208333333333em">oup</tspan></text>
+      <text transform="translate(46.11 1495.74)" style="font-size: 15px;font-family: MyriadPro-Regular, Myriad Pro">-btn-<tspan x="31.03" y="0" style="letter-spacing: -0.005989583333333334em">t</tspan><tspan x="35.91" y="0">oolbar</tspan></text>
+      <text transform="translate(57.11 469.74)" style="font-size: 15px;font-family: MyriadPro-Regular, Myriad Pro">-btn<tspan x="26.43" y="0" style="letter-spacing: 0.01796875em">-</tspan><tspan x="31.3" y="0">danger</tspan></text>
+      <text transform="translate(57.11 657.74)" style="font-size: 15px;font-family: MyriadPro-Regular, Myriad Pro">-btn-lg</text>
+      <text transform="translate(25.67 113.64)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial"><tspan xml:space="preserve">Size: Height: SM 24px, MD 30px, LG 36px  Width: based on label</tspan></text>
+      <text transform="translate(60.67 1304.64)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial"><tspan xml:space="preserve">Size: Height: SM 24px, MD 30px, LG 36px  Width: full width</tspan></text>
+      <text transform="translate(25.67 138.04)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Color: BG: White, Boarder: 1px brand-primary</text>
+      <text transform="translate(65.67 366.04)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Color: BG: @brand-primar<tspan x="163.59" y="0" style="letter-spacing: -0.07421875em">y</tspan><tspan x="169.55" y="0">, Boarder: 1px brand-primary</tspan></text>
+      <text transform="translate(25.67 162.44)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Spacing: Push right and left</text>
+      <text transform="translate(61.67 1568.44)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Spacing: Push-mini right and left</text>
+      <text transform="translate(25.67 186.84)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Margin: Stack top, Push-sm right</text>
+      <text transform="translate(60.67 1324.84)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Margin: Stack top, Push-sm right and left </text>
+      <text transform="translate(270.67 1423.84)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">If active state is needed use <tspan x="0" y="18.2">@brand-primary</tspan></text>
+      <text transform="translate(25.67 211.24)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial"><tspan style="letter-spacing: -0.05517578125em">T</tspan><tspan x="7.78" y="0">ype: </tspan><tspan x="38.13" y="0" style="letter-spacing: -0.01806640625em">P</tspan><tspan x="47.22" y="0" xml:space="preserve"> Bold @brand-primary</tspan></text>
+      <text transform="translate(55.67 749.24)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial"><tspan style="letter-spacing: -0.05517578125em">T</tspan><tspan x="7.78" y="0">ype: H4 Bold</tspan></text>
+      <text transform="translate(65.67 387.24)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial"><tspan style="letter-spacing: -0.05517578125em">T</tspan><tspan x="7.78" y="0">ype: </tspan><tspan x="38.13" y="0" style="letter-spacing: -0.01806640625em">P</tspan><tspan x="47.22" y="0" xml:space="preserve"> Bold White</tspan></text>
+      <text transform="translate(65.67 562.24)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial"><tspan style="letter-spacing: -0.05517578125em">T</tspan><tspan x="7.78" y="0">ype: </tspan><tspan x="38.13" y="0" style="letter-spacing: -0.01806640625em">P</tspan><tspan x="47.22" y="0" xml:space="preserve"> Bold @brand-danger</tspan></text>
+      <text transform="translate(25.67 236.24)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Hover: BG: Hover (over white hover is 8% darken)</text>
+      <text transform="translate(25.67 260.24)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Disabled: BG: White Boarder @gray-light,<tspan x="259.31" y="0" style="letter-spacing: -0.01806640625em"> </tspan><tspan x="262.95" y="0" style="letter-spacing: -0.11083984375em">T</tspan><tspan x="269.95" y="0">ext @gray-light </tspan></text>
+      <text transform="translate(65.67 615.24)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Disabled: BG: White Boarder @gray-light,<tspan x="259.31" y="0" style="letter-spacing: -0.01806640625em"> </tspan><tspan x="262.95" y="0" style="letter-spacing: -0.11083984375em">T</tspan><tspan x="269.95" y="0">ext @gray-light </tspan></text>
+      <text transform="translate(65.67 430.24)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Disabled: BG &amp; Boarder: @gray-light,<tspan x="232.87" y="0" style="letter-spacing: -0.01806640625em"> </tspan><tspan x="236.5" y="0" style="letter-spacing: -0.11083984375em">T</tspan><tspan x="243.5" y="0">ext: white</tspan></text>
+      <text transform="translate(65.67 408.24)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Hover: Darken 12%</text>
+      <text transform="translate(65.67 537.04)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Color: BG: White, Boarder: 1px brand-danger</text>
+      <text transform="translate(65.67 590.24)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Hover: BG @brand-danger Darken 12%,<tspan x="252.33" y="0" style="letter-spacing: -0.01806640625em"> </tspan><tspan x="255.97" y="0" style="letter-spacing: -0.05517578125em">T</tspan><tspan x="263.75" y="0">ype: </tspan><tspan x="294.1" y="0" style="letter-spacing: -0.01806640625em">P</tspan><tspan x="303.19" y="0" xml:space="preserve"> Bold White</tspan></text>
+      <g>
+        <path d="M573.45,1267.14H58.52a2,2,0,0,1-2-2v-20a2,2,0,0,1,2-2H573.45a2,2,0,0,1,2,2v20A2,2,0,0,1,573.45,1267.14Z" style="fill: #fff"/>
+        <path d="M573.45,1267.14H58.52a2,2,0,0,1-2-2v-20a2,2,0,0,1,2-2H573.45a2,2,0,0,1,2,2v20A2,2,0,0,1,573.45,1267.14Z" style="fill: none;stroke: #009697;stroke-miterlimit: 10"/>
+      </g>
+      <text transform="translate(271.41 1259.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">Button Block</text>
+      <text transform="translate(55.66 726.64)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial"><tspan xml:space="preserve">Size: Height: SM 32px, MD 40px, LG 48px  Width: Fluid</tspan></text>
+      <g>
+        <rect x="59.55" y="673.14" width="80.89" height="31" rx="2" ry="2" style="fill: #fff"/>
+        <rect x="59.55" y="673.14" width="80.89" height="31" rx="2" ry="2" style="fill: none;stroke: #009697;stroke-miterlimit: 10"/>
+      </g>
+      <text transform="translate(76.02 693.39)" style="font-size: 14px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">Default</text>
+      <text transform="translate(57.11 793.74)" style="font-size: 15px;font-family: MyriadPro-Regular, Myriad Pro">-btn-sm</text>
+      <text transform="translate(55.67 870.24)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial"><tspan style="letter-spacing: -0.05517578125em">T</tspan><tspan x="7.78" y="0">ype: </tspan><tspan x="38.13" y="0" style="letter-spacing: -0.01806640625em">P</tspan><tspan x="47.22" y="0" xml:space="preserve"> Bold</tspan></text>
+      <text transform="translate(55.66 847.64)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial"><tspan xml:space="preserve">Size: Height: SM 16px, MD 20px, LG 24px  Width: Fluid</tspan></text>
+      <g>
+        <rect x="59.55" y="807.14" width="80.89" height="15" rx="2" ry="2" style="fill: #fff"/>
+        <rect x="59.55" y="807.14" width="80.89" height="15" rx="2" ry="2" style="fill: none;stroke: #009697;stroke-miterlimit: 10"/>
+      </g>
+      <text transform="translate(79.41 819.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">Default</text>
+      <text transform="translate(57.11 919.74)" style="font-size: 15px;font-family: MyriadPro-Regular, Myriad Pro">-btn-link</text>
+      <text transform="translate(79.41 957.39)" style="font-size: 12px;fill: #007778;font-family: Arial-BoldMT, Arial;font-weight: 700">Link</text>
+      <text transform="translate(156.41 957.39)" style="font-size: 12px;fill: #84888d;font-family: Arial-BoldMT, Arial;font-weight: 700">Link</text>
+      <g>
+        <rect x="222.55" y="60.14" width="80.89" height="24" rx="2" ry="2" style="fill: #fff"/>
+        <rect x="222.55" y="60.14" width="80.89" height="24" rx="2" ry="2" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      </g>
+      <text transform="translate(237.74 76.39)" style="font-size: 12px;fill: #c1c5ca;font-family: Arial-BoldMT, Arial;font-weight: 700">Disabled</text>
+      <g>
+        <rect x="254.55" y="486.14" width="80.89" height="24" rx="2" ry="2" style="fill: #fff"/>
+        <rect x="254.55" y="486.14" width="80.89" height="24" rx="2" ry="2" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      </g>
+      <text transform="translate(269.74 502.39)" style="font-size: 12px;fill: #c1c5ca;font-family: Arial-BoldMT, Arial;font-weight: 700">Disabled</text>
+      <g>
+        <rect x="132.5" y="60.14" width="72" height="24" rx="2" ry="2" style="fill: #e6e7e8"/>
+        <rect x="132.5" y="60.14" width="72" height="24" rx="2" ry="2" style="fill: none;stroke: #009697;stroke-miterlimit: 10"/>
+      </g>
+      <text transform="translate(151.74 76.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">Hover</text>
+      <g>
+        <rect x="29.5" y="60.14" width="72" height="24" rx="2" ry="2" style="fill: #fff"/>
+        <rect x="29.5" y="60.14" width="72" height="24" rx="2" ry="2" style="fill: none;stroke: #009697;stroke-miterlimit: 10"/>
+      </g>
+      <text transform="translate(45.42 76.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">Default</text>
+      <g>
+        <rect x="61.53" y="1375.14" width="179.1" height="24" rx="2" ry="2" style="fill: #fff"/>
+        <rect x="61.53" y="1375.14" width="179.1" height="24" rx="2" ry="2" style="fill: none;stroke: #009697;stroke-miterlimit: 10"/>
+      </g>
+      <text transform="translate(79.08 1391.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">One</text>
+      <text transform="translate(136.2 1391.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700"><tspan style="letter-spacing: -0.07421875em">T</tspan><tspan x="6.44" y="0">wo</tspan></text>
+      <text transform="translate(192.41 1391.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">Three</text>
+      <g>
+        <rect x="62.5" y="312.14" width="72" height="24" rx="2" ry="2" style="fill: #009697"/>
+        <rect x="62.5" y="312.14" width="72" height="24" rx="2" ry="2" style="fill: none;stroke: #009697;stroke-miterlimit: 10"/>
+      </g>
+      <text transform="translate(76.4 328.39)" style="font-size: 12px;fill: #fff;font-family: Arial-BoldMT, Arial;font-weight: 700">Primary</text>
+      <g>
+        <rect x="254.55" y="312.14" width="79.93" height="24" rx="2" ry="2" style="fill: #c1c5ca"/>
+        <rect x="254.55" y="312.14" width="79.93" height="24" rx="2" ry="2" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      </g>
+      <text transform="translate(269.74 328.39)" style="font-size: 12px;fill: #fff;font-family: Arial-BoldMT, Arial;font-weight: 700">Disabled</text>
+      <rect x="161" y="311.64" width="72" height="24" rx="2" ry="2" style="fill: #007778"/>
+      <text transform="translate(180.24 327.89)" style="font-size: 12px;fill: #fff;font-family: Arial-BoldMT, Arial;font-weight: 700">Hover</text>
+      <rect x="161" y="486.64" width="72" height="24" rx="2" ry="2" style="fill: #b00015"/>
+      <text transform="translate(180.74 502.64)" style="font-size: 12px;fill: #fff;font-family: Arial-BoldMT, Arial;font-weight: 700">Hover</text>
+      <rect x="62.5" y="486.14" width="72" height="24" rx="2" ry="2" style="fill: none;stroke: #cf1034;stroke-miterlimit: 10"/>
+      <text transform="translate(78.08 502.14)" style="font-size: 12px;fill: #cf1034;font-family: Arial-BoldMT, Arial;font-weight: 700">Danger</text>
+      <g id="Push" style="opacity: 0.5">
+        <g style="clip-path: url(#clip-path)">
+          <rect x="30" y="60.64" width="16" height="23" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <g id="Push-2" data-name="Push" style="opacity: 0.5">
+        <g style="clip-path: url(#clip-path-2)">
+          <rect x="86" y="59.64" width="16" height="24" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <g id="Push-sm" style="opacity: 0.6">
+        <g style="clip-path: url(#clip-path-3)">
+          <rect x="103" y="59.64" width="8" height="26" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <g id="Push-sm-2" data-name="Push-sm" style="opacity: 0.6">
+        <g style="clip-path: url(#clip-path-4)">
+          <rect x="48" y="1242.64" width="8" height="26" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <g id="Push-sm-3" data-name="Push-sm" style="opacity: 0.6">
+        <g style="clip-path: url(#clip-path-5)">
+          <rect x="575" y="1242.64" width="8" height="26" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <g id="Stack" style="opacity: 0.6">
+        <g style="clip-path: url(#clip-path-6)">
+          <rect x="29" y="43.64" width="82" height="16" style="fill: #08e1ff"/>
+        </g>
+      </g>
+      <g id="Stack-2" data-name="Stack" style="opacity: 0.6">
+        <g style="clip-path: url(#clip-path-7)">
+          <rect x="47" y="1226.64" width="536" height="16" style="fill: #08e1ff"/>
+        </g>
+      </g>
+      <text transform="translate(55.67 1017.64)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial"><tspan xml:space="preserve">Size: Height: SM 24px, MD 30px, LG 36px  Width: Fluid</tspan></text>
+      <text transform="translate(55.67 1042.04)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Color: BG: None, Boarder: None</text>
+      <text transform="translate(55.67 1066.44)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Spacing: Push right and left</text>
+      <text transform="translate(55.67 1090.84)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial"><tspan xml:space="preserve">Margin: Stack top,  </tspan></text>
+      <text transform="translate(55.67 1115.24)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial"><tspan style="letter-spacing: -0.05517578125em">T</tspan><tspan x="7.78" y="0">ype: </tspan><tspan x="38.13" y="0" style="letter-spacing: -0.01806640625em">P</tspan><tspan x="47.22" y="0" xml:space="preserve"> Bold @brand-primary</tspan></text>
+      <text transform="translate(55.67 1140.24)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Hover: @brand-primary-dark</text>
+      <text transform="translate(55.67 1164.24)" style="font-size: 14px;fill: #f7931e;font-family: ArialMT, Arial">Disabled: <tspan x="62.25" y="0" style="letter-spacing: -0.01806640625em"> </tspan><tspan x="65.89" y="0" style="letter-spacing: -0.11083984375em">T</tspan><tspan x="72.89" y="0">ext @gray-light </tspan></text>
+      <g id="Push-3" data-name="Push" style="opacity: 0.5">
+        <g style="clip-path: url(#clip-path-8)">
+          <rect x="64" y="941.64" width="16" height="23" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <g id="Push-4" data-name="Push" style="opacity: 0.5">
+        <g style="clip-path: url(#clip-path-9)">
+          <rect x="105" y="940.64" width="16" height="24" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <g id="Stack-3" data-name="Stack" style="opacity: 0.6">
+        <g style="clip-path: url(#clip-path-10)">
+          <rect x="55" y="924.64" width="90" height="16" style="fill: #08e1ff"/>
+        </g>
+      </g>
+      <line x1="46.5" y1="1234.14" x2="46.5" y2="1282.25" style="fill: #fff;stroke: #000;stroke-miterlimit: 10"/>
+      <line x1="582.5" y1="1234.52" x2="582.5" y2="1282.64" style="fill: #fff;stroke: #000;stroke-miterlimit: 10"/>
+      <line x1="119" y1="1398.64" x2="119" y2="1375.64" style="fill: #fff;stroke: #009697;stroke-miterlimit: 10"/>
+      <line x1="176" y1="1398.64" x2="176" y2="1375.64" style="fill: #fff;stroke: #009697;stroke-miterlimit: 10"/>
+      <g>
+        <rect x="61.37" y="1518.14" width="123.28" height="24" rx="2" ry="2" style="fill: #fff"/>
+        <rect x="61.37" y="1518.14" width="123.28" height="24" rx="2" ry="2" style="fill: none;stroke: #009697;stroke-miterlimit: 10"/>
+      </g>
+      <text transform="translate(70.41 1534.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">1</text>
+      <text transform="translate(93.41 1534.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">2</text>
+      <line x1="84.5" y1="1541.64" x2="84.5" y2="1518.64" style="fill: #fff;stroke: #009697;stroke-miterlimit: 10"/>
+      <line x1="108.5" y1="1541.64" x2="108.5" y2="1518.64" style="fill: #fff;stroke: #009697;stroke-miterlimit: 10"/>
+      <g>
+        <rect x="270.53" y="1375.14" width="179.1" height="24" rx="2" ry="2" style="fill: #fff"/>
+        <rect x="270.53" y="1375.14" width="179.1" height="24" rx="2" ry="2" style="fill: none;stroke: #009697;stroke-miterlimit: 10"/>
+      </g>
+      <text transform="translate(288.08 1391.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">One</text>
+      <text transform="translate(401.41 1391.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">Three</text>
+      <line x1="328" y1="1398.64" x2="328" y2="1375.64" style="fill: #fff;stroke: #009697;stroke-miterlimit: 10"/>
+      <line x1="385" y1="1398.64" x2="385" y2="1375.64" style="fill: #fff;stroke: #009697;stroke-miterlimit: 10"/>
+      <rect x="328.5" y="1376.14" width="56" height="22" style="fill: #009697"/>
+      <text transform="translate(345.2 1391.39)" style="font-size: 12px;fill: #fff;font-family: Arial-BoldMT, Arial;font-weight: 700"><tspan style="letter-spacing: -0.07421875em">T</tspan><tspan x="6.44" y="0">wo</tspan></text>
+      <g id="Push-sm-4" data-name="Push-sm" style="opacity: 0.5">
+        <g style="clip-path: url(#clip-path-11)">
+          <rect x="62" y="1518.64" width="8" height="23" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <g id="Push-sm-5" data-name="Push-sm" style="opacity: 0.5">
+        <g style="clip-path: url(#clip-path-12)">
+          <rect x="76" y="1518.64" width="8" height="23" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <g id="Push-sm-6" data-name="Push-sm" style="opacity: 0.5">
+        <g style="clip-path: url(#clip-path-13)">
+          <rect x="85" y="1518.64" width="8" height="23" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <g id="Push-sm-7" data-name="Push-sm" style="opacity: 0.5">
+        <g style="clip-path: url(#clip-path-14)">
+          <rect x="100" y="1518.64" width="8" height="23" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <text transform="translate(117.41 1534.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">3</text>
+      <line x1="132.5" y1="1541.64" x2="132.5" y2="1518.64" style="fill: #fff;stroke: #009697;stroke-miterlimit: 10"/>
+      <g id="Push-sm-8" data-name="Push-sm" style="opacity: 0.5">
+        <g style="clip-path: url(#clip-path-15)">
+          <rect x="109" y="1518.64" width="8" height="23" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <g id="Push-sm-9" data-name="Push-sm" style="opacity: 0.5">
+        <g style="clip-path: url(#clip-path-16)">
+          <rect x="124" y="1518.64" width="8" height="23" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <text transform="translate(141.41 1534.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">4</text>
+      <line x1="156.5" y1="1541.64" x2="156.5" y2="1518.64" style="fill: #fff;stroke: #009697;stroke-miterlimit: 10"/>
+      <g id="Push-sm-10" data-name="Push-sm" style="opacity: 0.5">
+        <g style="clip-path: url(#clip-path-17)">
+          <rect x="133" y="1518.64" width="8" height="23" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <g id="Push-sm-11" data-name="Push-sm" style="opacity: 0.5">
+        <g style="clip-path: url(#clip-path-18)">
+          <rect x="148" y="1518.64" width="8" height="23" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <text transform="translate(164.08 1534.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">10</text>
+      <line x1="185.5" y1="1541.64" x2="185.5" y2="1518.64" style="fill: #fff;stroke: #009697;stroke-miterlimit: 10"/>
+      <g id="Push-sm-12" data-name="Push-sm" style="opacity: 0.5">
+        <g style="clip-path: url(#clip-path-19)">
+          <rect x="157" y="1518.64" width="8" height="23" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <g id="Push-sm-13" data-name="Push-sm" style="opacity: 0.5">
+        <g style="clip-path: url(#clip-path-20)">
+          <rect x="177" y="1518.64" width="8" height="23" style="fill: #ef8400"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <rect x="200.37" y="1518.14" width="123.28" height="24" rx="2" ry="2" style="fill: #fff"/>
+          <rect x="200.37" y="1518.14" width="123.28" height="24" rx="2" ry="2" style="fill: none;stroke: #009697;stroke-miterlimit: 10"/>
+        </g>
+        <text transform="translate(209.41 1534.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">1</text>
+        <text transform="translate(232.41 1534.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">2</text>
+        <line x1="223.5" y1="1541.64" x2="223.5" y2="1518.64" style="fill: #fff;stroke: #009697;stroke-miterlimit: 10"/>
+        <line x1="247.5" y1="1541.64" x2="247.5" y2="1518.64" style="fill: #fff;stroke: #009697;stroke-miterlimit: 10"/>
+        <text transform="translate(256.41 1534.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">3</text>
+        <line x1="271.5" y1="1541.64" x2="271.5" y2="1518.64" style="fill: #fff;stroke: #009697;stroke-miterlimit: 10"/>
+        <text transform="translate(280.41 1534.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">4</text>
+        <line x1="295.5" y1="1541.64" x2="295.5" y2="1518.64" style="fill: #fff;stroke: #009697;stroke-miterlimit: 10"/>
+        <text transform="translate(303.08 1534.39)" style="font-size: 12px;fill: #009697;font-family: Arial-BoldMT, Arial;font-weight: 700">10</text>
+      </g>
+    </g>
+  </g>
+</svg>

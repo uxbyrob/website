@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="959.45" height="954.82" viewBox="0 0 959.45 954.82">
+  <title>Core UI Controls</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="ihs-icon-align-right">
+      <path d="M786.92,766.32h-12.6a2.85,2.85,0,0,0-2.7,3v8.88a2.89,2.89,0,0,0,2.7,3l7.42.06v3.1l4.05-3.17h1.12a2.81,2.81,0,0,0,2.7-3V769.3A2.81,2.81,0,0,0,786.92,766.32Z" style="fill: #444"/>
+      <path d="M899.79,862.89a13.36,13.36,0,0,0-1.74-6.55h0c0-.13-.53-.67-1.74-1.07a13.13,13.13,0,0,1-3.08-1.2l-.27-.13a7.2,7.2,0,0,0,1.34-2.67,1.44,1.44,0,0,0,.4-.94,2.3,2.3,0,0,0-.13-1.87,3.93,3.93,0,0,0-.8-4.14,6.82,6.82,0,0,0-3.08-1.6c-2.94-.94-5.48.13-6.69,2.67a5.11,5.11,0,0,0,0,2.94c-.4.53-.13,1.34,0,1.87a1.93,1.93,0,0,0,.27.94,5.64,5.64,0,0,0,1.34,2.67l-.4.13a9.8,9.8,0,0,1-3.08,1.2,3.41,3.41,0,0,0-1.74,1.2,11.22,11.22,0,0,0-1.74,6.55c0,.4-.13,1.87.94,2.27,2,.8,5.75,1.2,9.63,1.2s7.62-.4,9.63-1.2c.94-.27.94-1.74.94-2.27Zm-1.47,1.2c-3.74,1.34-14.71,1.34-18.32,0,0,0-.13-.13-.13-1.07.13-1.6.13-3.88,1.47-5.88a3.46,3.46,0,0,1,1.07-.67,15,15,0,0,0,3.34-1.34l1.74-.94-.4-.67a5.49,5.49,0,0,1-1.6-2.81v-.27l-.13-.13a.78.78,0,0,1-.13-.53c0-.13-.13-.8-.13-.8l.27-.13-.13-.53a3.23,3.23,0,0,1,0-2.41,3.58,3.58,0,0,1,3.34-2.27,6.7,6.7,0,0,1,1.6.27,5.82,5.82,0,0,1,2.54,1.34,2.7,2.7,0,0,1,.4,3.08l-.13.53.4.13s.13.13,0,.8a1.46,1.46,0,0,1-.27.53l-.13.13v.13a6.38,6.38,0,0,1-1.6,2.94l-.67.53,1.74.94a18.08,18.08,0,0,0,3.34,1.34,5.93,5.93,0,0,1,1.2.67c1.34,1.87,1.47,4.28,1.6,5.88a4.72,4.72,0,0,1-.27,1.2Z" style="fill: #444"/>
+      <path d="M787.63,860.75a10,10,0,0,0-1.3-4.91h0c0-.1-.4-.5-1.3-.8a9.85,9.85,0,0,1-2.31-.9l-.2-.1a5.4,5.4,0,0,0,1-2,1.08,1.08,0,0,0,.3-.7,1.72,1.72,0,0,0-.1-1.4,3,3,0,0,0-.6-3.11,5.11,5.11,0,0,0-2.31-1.2,3.89,3.89,0,0,0-5,2,3.83,3.83,0,0,0,0,2.21c-.3.4-.1,1,0,1.4a1.45,1.45,0,0,0,.2.7,4.23,4.23,0,0,0,1,2l-.3.1a7.35,7.35,0,0,1-2.31.9,2.56,2.56,0,0,0-1.3.9,8.41,8.41,0,0,0-1.3,4.91c0,.3-.1,1.4.7,1.7a22.61,22.61,0,0,0,7.22.9,23,23,0,0,0,7.22-.9c.7-.2.7-1.3.7-1.7Zm-1.1.9c-2.81,1-11,1-13.74,0,0,0-.1-.1-.1-.8a8.68,8.68,0,0,1,1.1-4.41,2.59,2.59,0,0,1,.8-.5,11.26,11.26,0,0,0,2.51-1l1.3-.7-.3-.5a4.12,4.12,0,0,1-1.2-2.11v-.2l-.1-.1a.59.59,0,0,1-.1-.4c0-.1-.1-.6-.1-.6l.2-.1-.1-.4a2.43,2.43,0,0,1,0-1.8,2.68,2.68,0,0,1,2.51-1.7,5,5,0,0,1,1.2.2,4.37,4.37,0,0,1,1.91,1,2,2,0,0,1,.3,2.31l-.1.4.3.1s.1.1,0,.6a1.1,1.1,0,0,1-.2.4l-.1.1v.1a4.79,4.79,0,0,1-1.2,2.21l-.5.4,1.3.7a13.56,13.56,0,0,0,2.51,1,4.45,4.45,0,0,1,.9.5,8.63,8.63,0,0,1,1.2,4.41,3.54,3.54,0,0,1-.2.9Z" style="fill: #444"/>
+      <path d="M897.36,815.92a3.48,3.48,0,0,0-1.53-1,16.16,16.16,0,0,1-3.4-1.38l-1.08-.57a6.41,6.41,0,0,0,1.88-3.29,2,2,0,0,0,.41-.87,1.92,1.92,0,0,0-.08-1.47l-.14-.13c.27-.92.87-2.56-.62-4a7.06,7.06,0,0,0-2.94-1.52c-3-.93-5.1.38-6.07,2.56a4.18,4.18,0,0,0,0,3,.47.47,0,0,0-.14.13c-.28.35-.1,1.1,0,1.55a1.5,1.5,0,0,0,.38.79A5.71,5.71,0,0,0,885.9,813l-1.06.57a16.16,16.16,0,0,1-3.41,1.38,3.47,3.47,0,0,0-1.52,1c-1.59,2.21-1.69,4.9-1.77,6.6-.06,1.17.2,1.61.54,1.74,4.1,1.54,15.81,1.54,19.91,0,.33-.13.59-.57.54-1.74-.08-1.7-.19-4.39-1.77-6.6h0Z" style="fill: #444"/>
+      <path d="M884.23,565.18a3,3,0,1,1-3-2.86A2.93,2.93,0,0,1,884.23,565.18Zm0,9.18a3,3,0,1,1-3-2.86A2.93,2.93,0,0,1,884.23,574.36Zm0,9.1a3,3,0,1,1-3-2.86A2.93,2.93,0,0,1,884.23,583.46Z" style="fill: #444"/>
+      <path d="M777.08,568.23a2,2,0,1,1-2-1.91A2,2,0,0,1,777.08,568.23Zm0,6.12a2,2,0,1,1-2-1.91A2,2,0,0,1,777.08,574.34Zm0,6.07a2,2,0,1,1-2-1.91A2,2,0,0,1,777.08,580.41Z" style="fill: #444"/>
+      <path d="M889.57,882.34a12,12,0,1,0,12.16,11.84,12,12,0,0,0-12.16-11.84h0Zm0,19.31h-.07a1.75,1.75,0,0,1,0-3.49h.06a1.75,1.75,0,1,1,0,3.49h0Zm4.29-8.52a8.06,8.06,0,0,1-1.43,1.28l-.73.51a2,2,0,0,0-.74.9,1.84,1.84,0,0,0-.11.75v.12H888v-.24a3,3,0,0,1,.46-2,11.88,11.88,0,0,1,2.09-1.68,2.2,2.2,0,0,0,.5-.51,1.75,1.75,0,0,0,.42-1,2,2,0,0,0-.38-1.2,1.61,1.61,0,0,0-1.38-.52,1.5,1.5,0,0,0-1.4.65,2.61,2.61,0,0,0-.42,1.4v.12H885v-.12a4.38,4.38,0,0,1,1.87-3.78,4.94,4.94,0,0,1,2.71-.71,5.86,5.86,0,0,1,3.5,1,3.7,3.7,0,0,1,.71,5.08h0Z" style="fill: #444"/>
+      <path d="M780.5,883.34a9,9,0,1,0,9.12,8.88,9,9,0,0,0-9.12-8.88h0Zm0,14.48h-.05a1.31,1.31,0,0,1,0-2.62h0a1.31,1.31,0,1,1,0,2.62h0Zm3.22-6.39a6,6,0,0,1-1.07,1l-.55.38a1.47,1.47,0,0,0-.55.67,1.38,1.38,0,0,0-.08.56v.09h-2.1v-.18a2.29,2.29,0,0,1,.34-1.51,8.91,8.91,0,0,1,1.56-1.26,1.65,1.65,0,0,0,.37-.38,1.32,1.32,0,0,0,.32-.78,1.52,1.52,0,0,0-.29-.9,1.21,1.21,0,0,0-1-.39,1.13,1.13,0,0,0-1,.49,2,2,0,0,0-.32,1v.09h-2.16v-.09a3.28,3.28,0,0,1,1.4-2.83,3.7,3.7,0,0,1,2-.53,4.39,4.39,0,0,1,2.63.76,2.77,2.77,0,0,1,.53,3.81h0Z" style="fill: #444"/>
+      <path d="M901.72,934.82l-1.28-.47a9.72,9.72,0,0,0-.11-2.82l1.23-.57a1.54,1.54,0,0,0,.75-2l-.72-1.56a1.53,1.53,0,0,0-2-.75l-1.24.57a9.8,9.8,0,0,0-2.07-1.92l.47-1.28a1.54,1.54,0,0,0-.91-2l-1.61-.6a1.57,1.57,0,0,0-2,.91l-.47,1.28a9.8,9.8,0,0,0-2.82.11l-.57-1.23a1.54,1.54,0,0,0-2-.75l-1.56.72a1.54,1.54,0,0,0-.75,2l.57,1.23a9.67,9.67,0,0,0-1.92,2.08l-1.28-.47a1.57,1.57,0,0,0-2,.91l-.6,1.62a1.53,1.53,0,0,0,.91,2l1.28.47a9.71,9.71,0,0,0,.11,2.82l-1.23.57a1.54,1.54,0,0,0-.75,2l.72,1.56a1.54,1.54,0,0,0,2,.75l1.23-.57a9.75,9.75,0,0,0,2.07,1.92l-.47,1.28a1.54,1.54,0,0,0,.91,2l1.61.59a1.54,1.54,0,0,0,2-.91l.47-1.28a9.79,9.79,0,0,0,2.83-.11l.57,1.23a1.54,1.54,0,0,0,2,.75l1.56-.72a1.54,1.54,0,0,0,.75-2l-.57-1.23a9.67,9.67,0,0,0,1.92-2.08l1.28.47a1.54,1.54,0,0,0,2-.91l.6-1.61a1.54,1.54,0,0,0-.91-2Zm-8.45,4a6,6,0,0,1-2.54.56,6.08,6.08,0,0,1-2.55-11.6,6,6,0,0,1,2.54-.56,6.08,6.08,0,0,1,2.55,11.6Z" style="fill: #444"/>
+      <path d="M789.87,934.45l-1-.35a7.29,7.29,0,0,0-.08-2.12l.92-.43a1.15,1.15,0,0,0,.56-1.53l-.54-1.17a1.15,1.15,0,0,0-1.53-.56l-.93.43a7.35,7.35,0,0,0-1.56-1.44l.35-1a1.15,1.15,0,0,0-.68-1.48l-1.21-.45a1.18,1.18,0,0,0-1.48.68l-.36,1a7.35,7.35,0,0,0-2.12.08l-.43-.92a1.15,1.15,0,0,0-1.53-.56l-1.17.54a1.16,1.16,0,0,0-.57,1.53l.43.92a7.25,7.25,0,0,0-1.44,1.56l-1-.35a1.18,1.18,0,0,0-1.48.68l-.45,1.21a1.15,1.15,0,0,0,.68,1.48l1,.35a7.28,7.28,0,0,0,.08,2.12l-.92.43a1.15,1.15,0,0,0-.56,1.53l.54,1.17a1.15,1.15,0,0,0,1.53.56l.93-.43a7.31,7.31,0,0,0,1.56,1.44l-.35,1a1.15,1.15,0,0,0,.68,1.48l1.21.45a1.15,1.15,0,0,0,1.48-.68l.35-1a7.34,7.34,0,0,0,2.12-.08l.42.92a1.15,1.15,0,0,0,1.53.56l1.17-.54a1.15,1.15,0,0,0,.56-1.53l-.43-.92a7.25,7.25,0,0,0,1.44-1.56l1,.35a1.15,1.15,0,0,0,1.48-.68l.45-1.21a1.16,1.16,0,0,0-.68-1.48Zm-6.34,3a4.51,4.51,0,0,1-1.91.42,4.56,4.56,0,0,1-1.91-8.7,4.52,4.52,0,0,1,1.9-.42,4.56,4.56,0,0,1,1.91,8.7Z" style="fill: #444"/>
+      <path d="M895.2,645.26a1.73,1.73,0,0,0-1.24-.51h-1.77v-1.29a2,2,0,0,0-.65-1.51,2.16,2.16,0,0,0-1.56-.63h-.88a2.16,2.16,0,0,0-1.56.63,2,2,0,0,0-.65,1.51v1.29h-5.31v-1.29a2,2,0,0,0-.65-1.51,2.16,2.16,0,0,0-1.56-.63h-.88a2.16,2.16,0,0,0-1.56.63,2,2,0,0,0-.65,1.51v1.29H874.5a1.73,1.73,0,0,0-1.24.51,1.62,1.62,0,0,0-.53,1.21V663.6a1.62,1.62,0,0,0,.53,1.21,1.73,1.73,0,0,0,1.24.51H894a1.74,1.74,0,0,0,1.24-.51,1.62,1.62,0,0,0,.53-1.21V646.46A1.62,1.62,0,0,0,895.2,645.26ZM878.48,663.6h-4v-3.86h4Zm0-4.71h-4V654.6h4Zm0-5.14h-4v-3.86h4Zm-.31-6.13a.41.41,0,0,1-.13-.3v-3.86a.41.41,0,0,1,.13-.3.43.43,0,0,1,.31-.13h.88a.43.43,0,0,1,.31.13.4.4,0,0,1,.13.3v3.86a.41.41,0,0,1-.13.3.43.43,0,0,1-.31.13h-.88A.44.44,0,0,1,878.16,647.62Zm5.62,16h-4.42v-3.86h4.42Zm0-4.71h-4.42V654.6h4.42Zm0-5.14h-4.42v-3.86h4.42Zm5.31,9.86h-4.42v-3.86h4.42Zm0-4.71h-4.42V654.6h4.42Zm0-5.14h-4.42v-3.86h4.42Zm-.31-6.13a.4.4,0,0,1-.13-.3v-3.86a.4.4,0,0,1,.13-.3.43.43,0,0,1,.31-.13H890a.43.43,0,0,1,.31.13.4.4,0,0,1,.13.3v3.86a.41.41,0,0,1-.13.3.43.43,0,0,1-.31.13h-.88A.44.44,0,0,1,888.78,647.62Zm5.18,16h-4v-3.86h4Zm0-4.71h-4V654.6h4Zm0-5.14h-4v-3.86h4Z" style="fill: #444"/>
+      <path d="M785.23,647.27a1.27,1.27,0,0,0-.92-.38H783v-1a1.53,1.53,0,0,0-.48-1.14,1.59,1.59,0,0,0-1.15-.47h-.65a1.59,1.59,0,0,0-1.15.47,1.53,1.53,0,0,0-.48,1.14v1h-3.92v-1a1.53,1.53,0,0,0-.48-1.14,1.59,1.59,0,0,0-1.15-.47h-.65a1.59,1.59,0,0,0-1.15.47,1.53,1.53,0,0,0-.48,1.14v1h-1.31a1.27,1.27,0,0,0-.92.38,1.22,1.22,0,0,0-.39.9V661a1.22,1.22,0,0,0,.39.9,1.27,1.27,0,0,0,.92.38h14.38a1.27,1.27,0,0,0,.92-.38,1.23,1.23,0,0,0,.39-.9V648.18A1.22,1.22,0,0,0,785.23,647.27ZM772.87,661h-2.94v-2.89h2.94Zm0-3.54h-2.94v-3.21h2.94Zm0-3.86h-2.94v-2.89h2.94Zm-.23-4.59a.31.31,0,0,1-.1-.23v-2.89a.31.31,0,0,1,.1-.23.32.32,0,0,1,.23-.1h.65a.32.32,0,0,1,.23.1.3.3,0,0,1,.1.23v2.89a.31.31,0,0,1-.1.23.32.32,0,0,1-.23.1h-.65A.32.32,0,0,1,772.64,649Zm4.15,12h-3.27v-2.89h3.27Zm0-3.54h-3.27v-3.21h3.27Zm0-3.86h-3.27v-2.89h3.27Zm3.92,7.39h-3.27v-2.89h3.27Zm0-3.54h-3.27v-3.21h3.27Zm0-3.86h-3.27v-2.89h3.27Zm-.23-4.59a.3.3,0,0,1-.1-.23v-2.89a.3.3,0,0,1,.1-.23.32.32,0,0,1,.23-.1h.65a.32.32,0,0,1,.23.1.3.3,0,0,1,.1.23v2.89a.31.31,0,0,1-.1.23.32.32,0,0,1-.23.1h-.65A.32.32,0,0,1,780.48,649Zm3.83,12h-2.94v-2.89h2.94Zm0-3.54h-2.94v-3.21h2.94Zm0-3.86h-2.94v-2.89h2.94Z" style="fill: #444"/>
+      <path d="M885.23,618.73h4v4h-4Zm0-6h4v4h-4Zm0-6h4v4h-4Zm-6,12h4v4h-4Zm-6,0h4v4h-4Zm6-6h4v4h-4Z" style="fill: #444"/>
+      <path d="M779.62,618.23h3v3h-3Zm0-4.5h3v3h-3Zm0-4.5h3v3h-3Zm-4.5,9h3v3h-3Zm-4.5,0h3v3h-3Zm4.5-4.5h3v3h-3Z" style="fill: #444"/>
+      <path d="M647.45,618.73H650v2.5h-2.5Zm0-3.75H650v2.5h-2.5Zm0-3.75H650v2.5h-2.5Zm-3.75,7.5h2.5v2.5h-2.5Zm-3.75,0h2.5v2.5H640ZM643.7,615h2.5v2.5h-2.5Z" style="fill: #444"/>
+      <path d="M875.7,294.7l10,10a1.91,1.91,0,0,0,2.75,0l1.16-1.16a1.9,1.9,0,0,0,.57-1.39,2,2,0,0,0-.57-1.4l-7.42-7.47,7.42-7.49a1.9,1.9,0,0,0,.57-1.39,2,2,0,0,0-.57-1.4l-1.16-1.15a1.94,1.94,0,0,0-2.75,0l-10,10a2,2,0,0,0-.56,1.4,1.9,1.9,0,0,0,.56,1.39Z" style="fill: #444"/>
+      <path d="M766.5,294.24l6.64,6.69a1.27,1.27,0,0,0,1.83,0l.77-.77a1.26,1.26,0,0,0,.38-.92,1.32,1.32,0,0,0-.38-.93l-4.95-5,4.95-5a1.27,1.27,0,0,0,.38-.92,1.32,1.32,0,0,0-.38-.93l-.77-.77a1.29,1.29,0,0,0-1.83,0l-6.64,6.68a1.33,1.33,0,0,0-.38.93,1.27,1.27,0,0,0,.38.92Z" style="fill: #444"/>
+      <path d="M637.14,295l5.31,5a1.07,1.07,0,0,0,1.47,0l.62-.58a.92.92,0,0,0,.3-.69,1,1,0,0,0-.3-.7l-4-3.74,4-3.74a.92.92,0,0,0,.3-.69,1,1,0,0,0-.3-.7l-.62-.58a1.08,1.08,0,0,0-1.46,0l-5.31,5a1,1,0,0,0-.3.7.92.92,0,0,0,.3.69Z" style="fill: #444"/>
+      <path d="M775.29,455.27l6.78,6.66a1.32,1.32,0,0,0,1.87,0l.79-.77a1.24,1.24,0,0,0,.39-.92,1.3,1.3,0,0,0-.39-.93l-5.06-5,5.06-5a1.24,1.24,0,0,0,.39-.92,1.29,1.29,0,0,0-.39-.93l-.79-.77a1.35,1.35,0,0,0-1.87,0l-6.78,6.66a1.3,1.3,0,0,0-.39.93,1.25,1.25,0,0,0,.39.92ZM769.12,461a1.21,1.21,0,0,0,.38.93,1.26,1.26,0,0,0,.94.38h1.11a1.27,1.27,0,0,0,.93-.38,1.29,1.29,0,0,0,.4-.93V447.63a1.21,1.21,0,0,0-.38-.93,1.26,1.26,0,0,0-.94-.38h-1.11a1.28,1.28,0,0,0-.93.38,1.3,1.3,0,0,0-.4.93V461Z" style="fill: #444"/>
+      <path d="M642,456l5.09,5a1,1,0,0,0,1.4,0l.59-.58a.93.93,0,0,0,.29-.69,1,1,0,0,0-.29-.7l-3.79-3.72,3.79-3.73a.93.93,0,0,0,.29-.69,1,1,0,0,0-.29-.7l-.59-.57a1,1,0,0,0-1.4,0l-5.09,5a1,1,0,0,0-.29.7.93.93,0,0,0,.29.69Zm-4.63,4.31a.9.9,0,0,0,.29.69.94.94,0,0,0,.71.28h.83a1,1,0,0,0,.7-.28,1,1,0,0,0,.3-.69v-10a.9.9,0,0,0-.29-.69.94.94,0,0,0-.71-.29h-.83a1,1,0,0,0-.7.28,1,1,0,0,0-.3.69v10Z" style="fill: #444"/>
+      <path d="M885.56,179a1,1,0,0,1-1.4,0l-7.5-7.8a1.1,1.1,0,0,1,.8-1.9h14.9a.91.91,0,0,1,.7.3,1.22,1.22,0,0,1,0,1.6l-7.5,7.8Z" style="fill: #4c4b4c"/>
+      <path d="M885.56,129.62l7.4,7.8a.91.91,0,0,1,.4.8,1.14,1.14,0,0,1-.3.8,1.08,1.08,0,0,1-.7.3h-14.9a1.2,1.2,0,0,1-1.1-1.1,1.14,1.14,0,0,1,.3-.8l7.4-7.8a1.33,1.33,0,0,1,.8-.3.91.91,0,0,1,.7.3Z" style="fill: #4c4b4c"/>
+      <path d="M639.29,98.36a.57.57,0,0,1-.18.12.52.52,0,0,1-.21,0,.49.49,0,0,1-.21,0,.71.71,0,0,1-.18-.12.73.73,0,0,1-.12-.18.51.51,0,0,1,0-.21V90.09a.54.54,0,0,1,0-.22.58.58,0,0,1,.12-.18.57.57,0,0,1,.18-.13.55.55,0,0,1,.21,0,.58.58,0,0,1,.21,0,.47.47,0,0,1,.18.13l3.88,3.94a.52.52,0,0,1,.13.18.54.54,0,0,1,0,.22.51.51,0,0,1,0,.21.63.63,0,0,1-.13.18Z" style="fill: #32363b"/>
+      <path d="M772.59,100.61a.91.91,0,0,1-.28.19.85.85,0,0,1-.34.07.8.8,0,0,1-.33-.07,1.14,1.14,0,0,1-.29-.19,1.13,1.13,0,0,1-.19-.29.77.77,0,0,1-.07-.33V87.74a.82.82,0,0,1,.07-.33.87.87,0,0,1,.82-.54,1,1,0,0,1,.34.06.75.75,0,0,1,.28.2l6.21,6.13a.8.8,0,0,1,.21.28.82.82,0,0,1,.07.33.77.77,0,0,1-.07.33,1,1,0,0,1-.21.29Z" style="fill: #32363b"/>
+      <path d="M774.85,217.4l0,.06a.36.36,0,0,1,0,.18.28.28,0,0,1-.08.16l-1.44,1.44a.28.28,0,0,1-.16.08.36.36,0,0,1-.18,0l-.06,0,0,0-3-3-3,3,0,0-.06,0a.36.36,0,0,1-.18,0,.28.28,0,0,1-.16-.08L765,217.79a.28.28,0,0,1-.08-.16.36.36,0,0,1,0-.18l0-.06,0,0,3-3-3-3,0-.06,0-.06a.33.33,0,0,1,0-.17.29.29,0,0,1,.08-.16l1.44-1.43a.31.31,0,0,1,.16-.09.32.32,0,0,1,.18,0l.06,0,0,0,3,3,3-3,0,0,.06,0a.32.32,0,0,1,.18,0,.31.31,0,0,1,.16.09l1.44,1.43a.36.36,0,0,1,.08.16.3.3,0,0,1,0,.17l0,.06,0,.06-3,3,3,3Z" style="fill: #4c4b4c"/>
+      <path d="M774.85,257.4l0,.06a.36.36,0,0,1,0,.18.28.28,0,0,1-.08.16l-1.44,1.44a.28.28,0,0,1-.16.08.36.36,0,0,1-.18,0l-.06,0,0,0-3-3-3,3,0,0-.06,0a.36.36,0,0,1-.18,0,.28.28,0,0,1-.16-.08L765,257.79a.28.28,0,0,1-.08-.16.36.36,0,0,1,0-.18l0-.06,0,0,3-3-3-3,0-.06,0-.06a.33.33,0,0,1,0-.17.29.29,0,0,1,.08-.16l1.44-1.43a.31.31,0,0,1,.16-.09.32.32,0,0,1,.18,0l.06,0,0,0,3,3,3-3,0,0,.06,0a.32.32,0,0,1,.18,0,.31.31,0,0,1,.16.09l1.44,1.43a.36.36,0,0,1,.08.16.3.3,0,0,1,0,.17l0,.06,0,.06-3,3,3,3Z" style="fill: #cf1034"/>
+      <path d="M888.57,218l0,.07a.43.43,0,0,1,0,.21.34.34,0,0,1-.1.19l-1.72,1.72a.34.34,0,0,1-.19.1.43.43,0,0,1-.21,0l-.07,0-.06,0-3.64-3.64L879,220.21l-.06,0-.07,0a.43.43,0,0,1-.21,0,.34.34,0,0,1-.19-.1l-1.72-1.72a.34.34,0,0,1-.1-.19.43.43,0,0,1,0-.21l0-.07,0-.06,3.64-3.64-3.64-3.63,0-.07,0-.07a.4.4,0,0,1,0-.21.34.34,0,0,1,.1-.19l1.72-1.71a.38.38,0,0,1,.19-.11.39.39,0,0,1,.21,0l.07,0,.06.05,3.64,3.63,3.64-3.63.06-.05.07,0a.39.39,0,0,1,.21,0,.38.38,0,0,1,.19.11l1.72,1.71a.43.43,0,0,1,.09.19.36.36,0,0,1,0,.21l0,.07,0,.07-3.64,3.63,3.64,3.64Z" style="fill: #4c4b4c"/>
+      <text transform="translate(0 27.46)" style="font-size: 32px;font-family: ArialMT, Arial">Core UI Controls</text>
+      <path d="M776.62,686.3a8,8,0,1,0,8,8A8,8,0,0,0,776.62,686.3Zm3.78,10.23a.81.81,0,0,1,0,1.14l-.39.39a.81.81,0,0,1-1.14,0l-2.26-2.24-2.26,2.24a.81.81,0,0,1-1.14,0l-.39-.39a.81.81,0,0,1,0-1.14l2.24-2.23-2.24-2.23a.81.81,0,0,1,0-1.14l.39-.39a.81.81,0,0,1,1.14,0l2.26,2.24,2.26-2.24a.81.81,0,0,1,1.14,0l.39.39a.81.81,0,0,1,0,1.14l-2.24,2.23Z" style="fill: #4c4b4c"/>
+      <path d="M884.23,681.32a12,12,0,1,0,12,12A12,12,0,0,0,884.23,681.32Zm5.68,15.34a1.21,1.21,0,0,1,0,1.71l-.59.59a1.21,1.21,0,0,1-1.71,0l-3.38-3.36L880.84,699a1.21,1.21,0,0,1-1.71,0l-.59-.59a1.21,1.21,0,0,1,0-1.71l3.37-3.34L878.55,690a1.21,1.21,0,0,1,0-1.71l.59-.59a1.21,1.21,0,0,1,1.71,0l3.38,3.36,3.38-3.36a1.21,1.21,0,0,1,1.71,0l.59.59a1.21,1.21,0,0,1,0,1.71l-3.37,3.34Z" style="fill: #4c4b4c"/>
+      <text transform="translate(766.01 541.8) scale(1.04 1)" style="font-size: 15.648052215576172px;fill: #4c4b4c;font-family: IHS-Icons, IHS-Icons"></text>
+      <text transform="translate(636.84 540.13) scale(1.07 1)" style="font-size: 11.736397743225098px;fill: #4c4b4c;font-family: IHS-Icons, IHS-Icons"></text>
+      <text transform="translate(754.14 64.67)" style="font-size: 14px;fill: #f7931e;font-family: Arial-BoldMT, Arial;font-weight: 700">Base</text>
+      <text transform="translate(628.65 64.67)" style="font-size: 14px;fill: #f7931e;font-family: Arial-BoldMT, Arial;font-weight: 700">-sm</text>
+      <text transform="translate(14.7 64.67)" style="font-size: 14px;fill: #f7931e;font-family: Arial-BoldMT, Arial;font-weight: 700">Class</text>
+      <text transform="translate(152.4 64.67)" style="font-size: 14px;fill: #f7931e;font-family: Arial-BoldMT, Arial;font-weight: 700">A<tspan x="10.11" y="0" style="letter-spacing: -0.07421875em">L</tspan><tspan x="17.62" y="0">T</tspan></text>
+      <text transform="translate(875.54 64.67)" style="font-size: 14px;fill: #f7931e;font-family: Arial-BoldMT, Arial;font-weight: 700">-lg</text>
+      <text transform="translate(298.13 64.67)" style="font-size: 14px;fill: #f7931e;font-family: Arial-BoldMT, Arial;font-weight: 700">IHS-Icon-</text>
+      <text transform="translate(439.13 64.67)" style="font-size: 14px;fill: #f7931e;font-family: Arial-BoldMT, Arial;font-weight: 700">Ico-</text>
+      <text transform="translate(11.7 98.98)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.caret</text>
+      <text transform="translate(11.7 139.39)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.collapse</text>
+      <text transform="translate(141.4 98.98)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Open<tspan x="34.25" y="0" style="fill: #cf1034">&lt;WH</tspan><tspan x="65.75" y="0" style="fill: #cf1034;letter-spacing: -0.07421875em">A</tspan><tspan x="74.05" y="0" style="fill: #cf1034">T&gt;</tspan></text>
+      <text transform="translate(141.4 141.64)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Collapse<tspan x="54.48" y="0" style="fill: #cf1034">&lt;WH</tspan><tspan x="85.98" y="0" style="fill: #cf1034;letter-spacing: -0.07421875em">A</tspan><tspan x="94.27" y="0" style="fill: #cf1034">T&gt;</tspan></text>
+      <text transform="translate(141.4 178.32)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Expand<tspan x="47.48" y="0" style="fill: #cf1034">&lt;WH</tspan><tspan x="78.98" y="0" style="fill: #cf1034;letter-spacing: -0.07421875em">A</tspan><tspan x="87.28" y="0" style="fill: #cf1034">T&gt;</tspan></text>
+      <text transform="translate(141.4 219.32)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Close<tspan x="35.79" y="0" style="fill: #cf1034">&lt;WH</tspan><tspan x="67.29" y="0" style="fill: #cf1034;letter-spacing: -0.07421875em">A</tspan><tspan x="75.59" y="0" style="fill: #cf1034">T&gt;</tspan></text>
+      <text transform="translate(141.4 258)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Delete<tspan x="40.47" y="0" style="fill: #cf1034">&lt;WH</tspan><tspan x="71.97" y="0" style="fill: #cf1034;letter-spacing: -0.07421875em">A</tspan><tspan x="80.27" y="0" style="fill: #cf1034">T&gt;</tspan></text>
+      <text transform="translate(141.4 298)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Next</text>
+      <text transform="translate(141.4 337.32)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Back</text>
+      <text transform="translate(141.4 370.93)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Open side bar</text>
+      <text transform="translate(141.4 387.95)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Close side bar</text>
+      <text transform="translate(298.13 98.98)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-arrow</text>
+      <text transform="translate(437 139.64)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-CollapseAll</text>
+      <line x1="3.55" y1="74.32" x2="959.45" y2="74.32" style="fill: #c1c5ca;stroke: #32363b;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="114.32" x2="959.45" y2="114.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="154.32" x2="959.45" y2="154.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="194.32" x2="959.45" y2="194.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="234.32" x2="959.45" y2="234.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="274.32" x2="959.45" y2="274.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="314.32" x2="959.45" y2="314.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="354.32" x2="959.45" y2="354.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="394.32" x2="959.45" y2="394.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="434.32" x2="959.45" y2="434.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="474.32" x2="959.45" y2="474.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="514.32" x2="959.45" y2="514.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="554.32" x2="959.45" y2="554.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="594.32" x2="959.45" y2="594.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="634.32" x2="959.45" y2="634.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="674.32" x2="959.45" y2="674.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="714.32" x2="959.45" y2="714.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="754.32" x2="959.45" y2="754.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="794.32" x2="959.45" y2="794.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="834.32" x2="959.45" y2="834.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="874.32" x2="959.45" y2="874.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="914.32" x2="959.45" y2="914.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <line x1="3.55" y1="954.32" x2="959.45" y2="954.32" style="fill: none;stroke: #c1c5ca;stroke-miterlimit: 10"/>
+      <text transform="translate(662.89 98.98)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">5X9</text>
+      <text transform="translate(662.89 299)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">8X12</text>
+      <text transform="translate(908.91 139.32)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">17X10</text>
+      <text transform="translate(11.7 179.99)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.expand</text>
+      <text transform="translate(11.7 218.62)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.close</text>
+      <text transform="translate(11.7 258)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.delete</text>
+      <text transform="translate(11.7 300)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.chevron-left</text>
+      <text transform="translate(11.7 337.32)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.chevron-right</text>
+      <text transform="translate(11.7 380.15)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.side-bar-right</text>
+      <text transform="translate(141.4 408.81)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Open side bar</text>
+      <text transform="translate(141.4 425.83)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Close side bar</text>
+      <text transform="translate(141.4 458.32)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Go to start</text>
+      <text transform="translate(141.4 498.67)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Go to end</text>
+      <text transform="translate(141.4 538.55)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Open Menu</text>
+      <text transform="translate(141.4 579.15)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Open Menu</text>
+      <text transform="translate(141.4 619.49)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Resize Panel</text>
+      <text transform="translate(141.4 659.52)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Open Calendar</text>
+      <text transform="translate(141.4 697.67)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Clear <tspan x="37.34" y="0" style="fill: #cf1034">&lt;WH</tspan><tspan x="68.84" y="0" style="fill: #cf1034;letter-spacing: -0.07421875em">A</tspan><tspan x="77.14" y="0" style="fill: #cf1034">T&gt;</tspan><tspan x="93.87" y="0" xml:space="preserve"> Field</tspan></text>
+      <text transform="translate(141.4 738.32)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Search</text>
+      <text transform="translate(141.4 778.52)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Provide Feedback</text>
+      <text transform="translate(141.4 817.91)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Open User Menu</text>
+      <text transform="translate(141.4 856.32)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Open Login Menu</text>
+      <text transform="translate(141.4 897.32)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Application Help</text>
+      <text transform="translate(141.4 939.32)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">Application Settings</text>
+      <text transform="translate(11.7 418.03)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.side-bar-left</text>
+      <text transform="translate(11.7 458.32)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.Chevron-start</text>
+      <text transform="translate(11.7 498.53)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.chevron-end</text>
+      <text transform="translate(11.7 538.55)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.menu-drawer</text>
+      <text transform="translate(11.7 579.15)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.menu-panel</text>
+      <text transform="translate(11.7 620.52)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.resize</text>
+      <text transform="translate(11.7 660.52)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.calendar</text>
+      <text transform="translate(11.7 698.52)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.clear</text>
+      <text transform="translate(11.7 738.91)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.search</text>
+      <text transform="translate(11.7 778.52)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.feedback</text>
+      <text transform="translate(11.7 818.91)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.user-logged-in</text>
+      <text transform="translate(11.7 856.32)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.user-logged-out</text>
+      <text transform="translate(11.7 897.32)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.application-help</text>
+      <text transform="translate(11.7 938.32)" style="font-size: 14px;fill: #32363b;font-family: Arial-BoldMT, Arial;font-weight: 700">.settings</text>
+      <text transform="translate(437 180.25)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-ExpandAll</text>
+      <text transform="translate(437 257.19)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-Delete</text>
+      <text transform="translate(298.13 220.15)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-x</text>
+      <text transform="translate(298.13 298)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-chevron</text>
+      <text transform="translate(298.13 337.32)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-chevron</text>
+      <text transform="translate(298.13 538.55)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-menu</text>
+      <text transform="translate(298.13 579.15)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-mini-menu</text>
+      <text transform="translate(298.13 619.49)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-arrow-drag</text>
+      <text transform="translate(298.13 660.52)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-calendar</text>
+      <text transform="translate(298.13 779.32)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-feedback</text>
+      <text transform="translate(298.13 817.91)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-admin</text>
+      <text transform="translate(298.13 856.32)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-admin-outline</text>
+      <text transform="translate(298.13 897.32)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-help</text>
+      <text transform="translate(298.13 938.32)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-settings</text>
+      <text transform="translate(298.13 738.91)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-search</text>
+      <text transform="translate(430.45 380.15)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-Double Chevron-Right</text>
+      <text transform="translate(430.45 418.15)" style="font-size: 14px;fill: #32363b;font-family: ArialMT, Arial">-Double Chevron-Left</text>
+      <text transform="translate(908.91 179.92)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">17X10</text>
+      <path d="M772.7,177.08a.81.81,0,0,1-1.15,0l-6.18-6.24a1,1,0,0,1,0-1.28,1,1,0,0,1,.66-.24H778.3a.76.76,0,0,1,.58.24,1,1,0,0,1,0,1.28l-6.18,6.24Z" style="fill: #4c4b4c"/>
+      <path d="M772.69,130.56l6.09,6.24a.72.72,0,0,1,.33.64.89.89,0,0,1-.25.64.9.9,0,0,1-.58.24H766a.76.76,0,0,1-.58-.24.72.72,0,0,1-.33-.64.89.89,0,0,1,.25-.64l6.09-6.24a1.11,1.11,0,0,1,.66-.24.76.76,0,0,1,.58.24Z" style="fill: #4c4b4c"/>
+      <text transform="translate(796.17 139.32)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">14X8</text>
+      <text transform="translate(796.17 179.92)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">14X8</text>
+      <path d="M640.73,176.17a.64.64,0,0,1-.82,0l-4.41-3.9a.54.54,0,0,1,0-.8.74.74,0,0,1,.47-.15h8.76a.58.58,0,0,1,.41.15.54.54,0,0,1,0,.8l-4.41,3.9Z" style="fill: #4c4b4c"/>
+      <path d="M640.73,133.47l4.35,3.9a.44.44,0,0,1,.24.4.52.52,0,0,1-.18.4.7.7,0,0,1-.41.15H636a.58.58,0,0,1-.41-.15.44.44,0,0,1-.24-.4.52.52,0,0,1,.18-.4l4.35-3.9a.87.87,0,0,1,.47-.15.58.58,0,0,1,.41.15Z" style="fill: #4c4b4c"/>
+      <text transform="translate(664.37 139.32)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">10X5</text>
+      <text transform="translate(664.37 179.92)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">10X5</text>
+      <text transform="translate(796.45 219.32)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">10X10</text>
+      <text transform="translate(796.45 257.19)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">10X10</text>
+      <text transform="translate(796.45 299)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">10X16</text>
+      <text transform="translate(909.45 219.32)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">12X12</text>
+      <path d="M888.57,258l0,.07a.43.43,0,0,1,0,.21.34.34,0,0,1-.1.19l-1.72,1.72a.34.34,0,0,1-.19.1.43.43,0,0,1-.21,0l-.07,0-.06,0-3.64-3.64L879,260.21l-.06,0-.07,0a.43.43,0,0,1-.21,0,.34.34,0,0,1-.19-.1l-1.72-1.72a.34.34,0,0,1-.1-.19.43.43,0,0,1,0-.21l0-.07,0-.06,3.64-3.64-3.64-3.63,0-.07,0-.07a.4.4,0,0,1,0-.21.34.34,0,0,1,.1-.19l1.72-1.71a.38.38,0,0,1,.19-.11.39.39,0,0,1,.21,0l.07,0,.06.05,3.64,3.63,3.64-3.63.06-.05.07,0a.39.39,0,0,1,.21,0,.38.38,0,0,1,.19.11l1.72,1.71a.43.43,0,0,1,.09.19.36.36,0,0,1,0,.21l0,.07,0,.07-3.64,3.63,3.64,3.64Z" style="fill: #cf1034"/>
+      <text transform="translate(911.45 259.32)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">12X12</text>
+      <text transform="translate(911.45 300)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">15X24</text>
+      <path d="M891.57,332.93l-10-10a1.91,1.91,0,0,0-2.75,0l-1.16,1.16a1.9,1.9,0,0,0-.57,1.39,2,2,0,0,0,.57,1.4l7.42,7.47-7.42,7.49a1.9,1.9,0,0,0-.57,1.39,2,2,0,0,0,.57,1.4l1.16,1.15a1.94,1.94,0,0,0,2.75,0l10-10a2,2,0,0,0,.56-1.4,1.9,1.9,0,0,0-.56-1.39Z" style="fill: #444"/>
+      <path d="M775.74,332.39l-6.64-6.69a1.27,1.27,0,0,0-1.83,0l-.77.77a1.26,1.26,0,0,0-.38.92,1.32,1.32,0,0,0,.38.93l4.95,5-4.95,5a1.27,1.27,0,0,0-.38.92,1.32,1.32,0,0,0,.38.93l.77.77a1.29,1.29,0,0,0,1.83,0l6.64-6.68a1.33,1.33,0,0,0,.38-.93,1.27,1.27,0,0,0-.38-.92Z" style="fill: #444"/>
+      <g>
+        <path d="M775.74,373.39l-6.64-6.69a1.27,1.27,0,0,0-1.83,0l-.77.77a1.26,1.26,0,0,0-.38.92,1.32,1.32,0,0,0,.38.93l4.95,5-4.95,5a1.27,1.27,0,0,0-.38.92,1.32,1.32,0,0,0,.38.93l.77.77a1.29,1.29,0,0,0,1.83,0l6.64-6.68a1.33,1.33,0,0,0,.38-.93,1.27,1.27,0,0,0-.38-.92Z" style="fill: #444"/>
+        <path d="M783.74,373.39l-6.64-6.69a1.27,1.27,0,0,0-1.83,0l-.77.77a1.26,1.26,0,0,0-.38.92,1.32,1.32,0,0,0,.38.93l4.95,5-4.95,5a1.27,1.27,0,0,0-.38.92,1.32,1.32,0,0,0,.38.93l.77.77a1.29,1.29,0,0,0,1.83,0l6.64-6.68a1.33,1.33,0,0,0,.38-.93,1.27,1.27,0,0,0-.38-.92Z" style="fill: #444"/>
+      </g>
+      <g>
+        <path d="M642.33,375.63l-5.16-5a1,1,0,0,0-1.42,0l-.6.58a.93.93,0,0,0-.29.69,1,1,0,0,0,.29.7l3.85,3.74-3.85,3.74a.93.93,0,0,0-.29.69,1,1,0,0,0,.29.7l.6.58a1,1,0,0,0,1.42,0l5.16-5a1,1,0,0,0,.29-.7.94.94,0,0,0-.29-.69Z" style="fill: #444"/>
+        <path d="M648.55,375.63l-5.16-5a1,1,0,0,0-1.42,0l-.6.58a.93.93,0,0,0-.29.69,1,1,0,0,0,.29.7l3.85,3.74-3.85,3.74a.93.93,0,0,0-.29.69,1,1,0,0,0,.29.7l.6.58a1,1,0,0,0,1.42,0l5.16-5a1,1,0,0,0,.29-.7.94.94,0,0,0-.29-.69Z" style="fill: #444"/>
+      </g>
+      <path d="M644.54,333.63l-5.31-5a1.07,1.07,0,0,0-1.47,0l-.62.58a.92.92,0,0,0-.3.69,1,1,0,0,0,.3.7l4,3.74-4,3.74a.92.92,0,0,0-.3.69,1,1,0,0,0,.3.7l.62.58a1.08,1.08,0,0,0,1.46,0l5.31-5a1,1,0,0,0,.3-.7.92.92,0,0,0-.3-.69Z" style="fill: #444"/>
+      <text transform="translate(662.89 339)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">8X12</text>
+      <text transform="translate(662.89 380.15)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">14X12</text>
+      <text transform="translate(796.45 339)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">10X16</text>
+      <text transform="translate(796.45 380.15)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">18X16</text>
+      <g>
+        <path d="M774.5,416.24l6.64,6.69a1.27,1.27,0,0,0,1.83,0l.77-.77a1.26,1.26,0,0,0,.38-.92,1.32,1.32,0,0,0-.38-.93l-4.95-5,4.95-5a1.27,1.27,0,0,0,.38-.92,1.32,1.32,0,0,0-.38-.93l-.77-.77a1.29,1.29,0,0,0-1.83,0l-6.64,6.68a1.33,1.33,0,0,0-.38.93,1.27,1.27,0,0,0,.38.92Z" style="fill: #444"/>
+        <path d="M766.5,416.24l6.64,6.69a1.27,1.27,0,0,0,1.83,0l.77-.77a1.26,1.26,0,0,0,.38-.92,1.32,1.32,0,0,0-.38-.93l-4.95-5,4.95-5a1.27,1.27,0,0,0,.38-.92,1.32,1.32,0,0,0-.38-.93l-.77-.77a1.29,1.29,0,0,0-1.83,0l-6.64,6.68a1.33,1.33,0,0,0-.38.93,1.27,1.27,0,0,0,.38.92Z" style="fill: #444"/>
+      </g>
+      <g>
+        <path d="M641.36,418l5.16,5a1,1,0,0,0,1.42,0l.6-.58a.93.93,0,0,0,.29-.69,1,1,0,0,0-.29-.7l-3.85-3.74,3.85-3.74a.93.93,0,0,0,.29-.69,1,1,0,0,0-.29-.7l-.6-.58a1,1,0,0,0-1.42,0l-5.16,5a1,1,0,0,0-.29.7.94.94,0,0,0,.29.69Z" style="fill: #444"/>
+        <path d="M635.14,418l5.16,5a1,1,0,0,0,1.42,0l.6-.58a.93.93,0,0,0,.29-.69,1,1,0,0,0-.29-.7l-3.85-3.74,3.85-3.74a.93.93,0,0,0,.29-.69,1,1,0,0,0-.29-.7l-.6-.58a1,1,0,0,0-1.42,0l-5.16,5a1,1,0,0,0-.29.7.94.94,0,0,0,.29.69Z" style="fill: #444"/>
+      </g>
+      <text transform="translate(662.89 421.15)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">14X12</text>
+      <text transform="translate(662.89 460.32)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">12X12</text>
+      <path d="M644.72,493.63l-5.09-5a1,1,0,0,0-1.4,0l-.59.58a.93.93,0,0,0-.29.69,1,1,0,0,0,.29.7l3.79,3.72L637.63,498a.93.93,0,0,0-.29.69,1,1,0,0,0,.29.7l.59.57a1,1,0,0,0,1.4,0l5.09-5a1,1,0,0,0,.29-.7.93.93,0,0,0-.29-.69Zm4.63-4.31a.9.9,0,0,0-.29-.69.94.94,0,0,0-.71-.28h-.83a1,1,0,0,0-.7.28,1,1,0,0,0-.3.69v10a.9.9,0,0,0,.29.69.94.94,0,0,0,.71.29h.83a1,1,0,0,0,.7-.28,1,1,0,0,0,.3-.69v-10Z" style="fill: #444"/>
+      <text transform="translate(662.89 499.34)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">12X12</text>
+      <text transform="translate(796.45 421.15)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">18X16</text>
+      <text transform="translate(796.45 458.32)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">16X16</text>
+      <path d="M779,494.39l-6.78-6.66a1.32,1.32,0,0,0-1.87,0l-.79.77a1.24,1.24,0,0,0-.39.92,1.3,1.3,0,0,0,.39.93l5.06,5-5.06,5a1.24,1.24,0,0,0-.39.92,1.29,1.29,0,0,0,.39.93l.79.77a1.35,1.35,0,0,0,1.87,0l6.78-6.66a1.3,1.3,0,0,0,.39-.93,1.25,1.25,0,0,0-.39-.92Zm6.17-5.74a1.21,1.21,0,0,0-.38-.93,1.26,1.26,0,0,0-.94-.38h-1.11a1.27,1.27,0,0,0-.93.38,1.29,1.29,0,0,0-.4.93V502a1.21,1.21,0,0,0,.38.93,1.26,1.26,0,0,0,.94.38h1.11a1.28,1.28,0,0,0,.93-.38,1.3,1.3,0,0,0,.4-.93V488.65Z" style="fill: #444"/>
+      <text transform="translate(796.45 500.34)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">16X16</text>
+      <text transform="translate(796.45 538.55)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">18X16</text>
+      <text transform="translate(662.89 538.55)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">12X14</text>
+      <text transform="translate(868.92 543.13) scale(1.04 1)" style="font-size: 23.47243881225586px;fill: #4c4b4c;font-family: IHS-Icons, IHS-Icons"></text>
+      <text transform="translate(911.45 538.55)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">24X27</text>
+      <text transform="translate(911.45 579.15)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">6X24</text>
+      <text transform="translate(911.45 619.49)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">16X16</text>
+      <text transform="translate(911.45 660.52)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">23X24</text>
+      <text transform="translate(911.45 698.52)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">24X24</text>
+      <text transform="translate(911.45 738.91)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">24X24</text>
+      <text transform="translate(798.89 579.15)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">4X16</text>
+      <text transform="translate(798.89 619.49)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">12X12</text>
+      <text transform="translate(798.89 659.52)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">17X18</text>
+      <text transform="translate(798.89 698.52)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">16X16</text>
+      <text transform="translate(662.89 619.49)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">10X10</text>
+      <text transform="translate(911.45 340)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">15X24</text>
+      <text transform="translate(798.89 98.98)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">8X14</text>
+      <path d="M883.49,102.49a1.37,1.37,0,0,1-.43.27,1.33,1.33,0,0,1-.51.1,1.26,1.26,0,0,1-.5-.1,1.73,1.73,0,0,1-.44-.27,1.61,1.61,0,0,1-.29-.41,1.06,1.06,0,0,1-.1-.47V84.11a1.12,1.12,0,0,1,.1-.48,1.29,1.29,0,0,1,.29-.4,1.37,1.37,0,0,1,.44-.28,1.41,1.41,0,0,1,.5-.09,1.49,1.49,0,0,1,.51.09,1.13,1.13,0,0,1,.43.28L892.81,92a1.15,1.15,0,0,1,.31.4,1.12,1.12,0,0,1,.1.48,1.06,1.06,0,0,1-.1.47,1.41,1.41,0,0,1-.31.41Z" style="fill: #32363b"/>
+      <text transform="translate(909.04 98.98)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">12X20</text>
+      <path d="M886,741a9.25,9.25,0,0,0,4-.89l5.27,5.26a3.17,3.17,0,1,0,4.48-4.5l-5.25-5.26A9.35,9.35,0,1,0,886,741Zm0-16a6.63,6.63,0,1,1-6.63,6.62A6.63,6.63,0,0,1,886,725Z" style="fill: #444"/>
+      <text transform="translate(801.52 738.91)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">16X16</text>
+      <text transform="translate(801.52 777.91)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">18X18</text>
+      <path d="M898.17,762.32h-16.8a3.8,3.8,0,0,0-3.6,4v11.83a3.85,3.85,0,0,0,3.6,4l9.9.08v4.14l5.4-4.22h1.5a3.75,3.75,0,0,0,3.6-4V766.29A3.75,3.75,0,0,0,898.17,762.32Z" style="fill: #444"/>
+      <text transform="translate(910.68 777.91)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">24X24</text>
+      <text transform="translate(910.68 817.91)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">21X24</text>
+      <path d="M786.49,815.29a2.65,2.65,0,0,0-1.16-.72,12.43,12.43,0,0,1-2.59-1l-.82-.43a4.79,4.79,0,0,0,1.43-2.46,1.52,1.52,0,0,0,.31-.65,1.42,1.42,0,0,0-.06-1.1l-.11-.1a2.66,2.66,0,0,0-.47-3,5.41,5.41,0,0,0-2.24-1.14,3.55,3.55,0,0,0-4.63,1.92,3.09,3.09,0,0,0,0,2.25.36.36,0,0,0-.11.1c-.22.27-.08.83,0,1.16a1.12,1.12,0,0,0,.29.59,4.27,4.27,0,0,0,1.41,2.46l-.81.43a12.43,12.43,0,0,1-2.6,1,2.65,2.65,0,0,0-1.16.72,8.82,8.82,0,0,0-1.35,4.95c0,.88.16,1.21.41,1.3,3.13,1.16,12,1.16,15.17,0,.25-.1.45-.42.41-1.3a8.81,8.81,0,0,0-1.35-4.95h0Z" style="fill: #444"/>
+      <text transform="translate(801.89 817.91)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">16X18</text>
+      <text transform="translate(910.68 857.91)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">21X24</text>
+      <text transform="translate(801.89 858.91)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">16X18</text>
+      <text transform="translate(801.89 897.32)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">18X18</text>
+      <text transform="translate(801.89 939.32)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">18X18</text>
+      <text transform="translate(911.45 897.32)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">24X24</text>
+      <text transform="translate(911.45 939.32)" style="font-size: 12px;fill: #acb0b5;font-family: ArialMT, Arial">24X24</text>
+      <path d="M776.95,738.78a6.16,6.16,0,0,0,2.64-.59l3.52,3.51a2.12,2.12,0,0,0,3-3l-3.5-3.51a6.23,6.23,0,1,0-5.64,3.59Zm0-10.65a4.42,4.42,0,1,1-4.42,4.41A4.42,4.42,0,0,1,776.95,728.14Z" style="fill: #444"/>
+    </g>
+  </g>
+</svg>

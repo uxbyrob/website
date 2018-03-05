@@ -1,0 +1,1462 @@
+<style type="text/css">
+  #color-schema {
+    margin-bottom: 10vh;
+  }
+
+  .brand-color-primary.hover-example:hover, .brand-color-primary.hover-example:focus {
+    background-color: #007778;
+    cursor: pointer;
+  }
+</style>
+
+<div class="col-xs-10" style="margin-left: -1%;">
+  <h2>IHSM Colors</h2>
+
+  <br />
+  <div class="control-panel well-sm" style="display: flex; flex-direction: row; justify-content: space-between;">
+    <div class="form-group">
+      <h5>Types</h5>
+      <div class="checkbox">
+        <input type="checkbox" id="main-colors-checkbox" onchange="toggleMainColors(this)" value="mainColors" checked />
+        <label for="main-colors-checkbox">Main colors</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="variation-colors-checkbox" onchange="toggleVariationColors(this)" value="variationColors" checked />
+        <label for="variation-colors-checkbox">Variation colors</label>
+      </div>
+    </div>
+    <div class="form-group" style="display: inline-block;">
+      <h5>Names</h5>
+      <div class="checkbox">
+        <input type="checkbox" id="bg-colors-checkbox" onchange="toggleBackgroundColors(this)" value="backgrounds" checked />
+        <label for="bg-colors-checkbox">Backgrounds</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="text-colors-checkbox" onchange="toggleTextColors(this)" value="textColors" />
+        <label for="text-colors-checkbox">Text / Foregrounds</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="deprecations-checkbox" onchange="toggleDeprecations(this)" value="deprecations" checked />
+        <label for="deprecations-checkbox">Deprecated</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <h5>Design Considerations</h5>
+      <div class="checkbox">
+        <input type="checkbox" id="text-examples-checkbox" onchange="toggleTextExamples(this)" value="textExamples" />
+        <label for="text-examples-checkbox">Typography examples</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="hex-checkbox" onchange="toggleHex(this)" value="hex" checked />
+        <label for="hex-checkbox">Hex</label>
+      </div>
+    </div>
+
+<!--
+    <div class="form-group">
+      <button type="button" onclick="resetColorControls()" class="btn btn-emphasis btn-sm pull-right">Reset</button>
+    </div>
+-->
+  </div>
+
+
+  <!-- The color schema grid -->
+  <br />
+  <div id="color-schema" class="color-grid">
+    <div class="row" style="margin-left: -1%;">
+      <div class="col-xs-1">
+        <h4>Darker</h4>
+      </div>
+      <div class="col-xs-1"></div>
+      <div class="col-xs-1">
+        <h4>Dark</h4>
+      </div>
+      <div class="col-xs-1"></div>
+      <div class="col-xs-1">
+        <h4>Main</h4>
+      </div>
+      <div class="col-xs-1"></div>
+      <div class="col-xs-1">
+        <h4>Light</h4>
+      </div>
+      <div class="col-xs-1"></div>
+      <div class="col-xs-1">
+        <h4>Lighter</h4>
+      </div>
+      <div class="col-xs-1"></div>
+    </div>
+
+
+    <br /><br />
+    <!-- Grays -->
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none transparent color-gray-darker-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-gray-darker">
+          <span class="lod display-none transparent" title="Suitable for use against dark colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #53575C
+          </span>
+          <span class="dol display-none transparent" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #53575C
+          </span>
+        </span>
+        <code class="color-bg-name">color-gray-darker</code>
+        <code class="hex">#53575C</code>
+        <code class="color-text-name display-none transparent">color-gray-darker-text</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none transparent color-gray-dark-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-gray-dark">
+          <span class="lod display-none transparent" title="Suitable for use against dark colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #84888D
+          </span>
+          <span class="dol display-none transparent" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #84888D
+          </span>
+        </span>
+        <code class="color-bg-name">color-gray-dark</code>
+        <code class="hex">#84888D</code>
+        <code class="color-text-name display-none transparent">color-gray-dark-text</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item main">
+        <span class="text-color display-none transparent color-gray-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color main color-gray">
+          <span class="lod display-none transparent" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #ACB0B5
+          </span>
+          <span class="dol display-none transparent" title="Suitable for use against dark colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #ACB0B5
+          </span>
+        </span>
+        <code class="color-bg-name">color-gray</code>
+        <code class="hex">#ACB0B5</code>
+        <code class="color-text-name display-none transparent">color-gray-text</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none transparent color-gray-light-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-gray-light">
+          <span class="lod display-none transparent" title="Warning: Not enough contrast for use against light colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #C1C5CA
+          </span>
+          <span class="dol display-none transparent" title="Suitable for use against dark colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #C1C5CA
+          </span>
+        </span>
+        <code class="color-bg-name">color-gray-light</code>
+        <code class="hex">#C1C5CA</code>
+        <code class="color-text-name display-none transparent">color-gray-light-text</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none transparent color-gray-lighter-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-gray-lighter">
+          <span class="lod display-none transparent" title="Warning: Not enough contrast for use against light colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #EAEEF3
+          </span>
+          <span class="dol display-none transparent" title="Suitable for use against dark colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #EAEEF3
+          </span>
+        </span>
+        <code class="color-bg-name">color-gray-lighter</code>
+        <code class="hex">#EAEEF3</code>
+        <code class="color-text-name display-none transparent">color-gray-lighter-text</code>
+      </div>
+      <div class="col-xs-1"></div>
+    </div> <!-- /.row.colors -->
+
+
+    <!-- Brand -->
+    <div class="row colors" style="margin-left: -1%;">
+
+      <div class="col-xs-1"></div>
+      
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none brand-color-primary-dark-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color brand-color-primary-dark">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #007778
+          </span>
+          <span class="dol display-none" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #007778
+          </span>
+        </span>
+        <code class="color-bg-name">brand-color-primary-dark</code>
+        <code class="hex">#007778</code>
+        <code class="color-text-name display-none">brand-color-primary-dark-text</code>
+        <span class="deprecation">
+          Deprecated
+          <code>ihs-color-primary-dark</code>
+        </span>
+      </div>
+
+      <div class="col-xs-1"></div>
+      
+      <div class="col-xs-1 color-item main">
+        <span class="text-color display-none brand-color-primary-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color brand-color-primary">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #009697
+          </span>
+          <span class="dol display-none" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #009697
+          </span>
+        </span>
+        <code class="color-bg-name">brand-color-primary</code>
+        <code class="hex">#009697</code>
+        <code class="color-text-name display-none">brand-color-primary-text</code>
+        <span class="deprecation">
+          Deprecated
+          <code>ihs-color-primary</code>
+        </span>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+      
+      <div class="col-xs-1"></div>
+    </div> <!-- /.row.colors -->
+
+
+    <div class="row colors" style="margin-left: -1%;">
+
+      <div class="col-xs-1"></div>
+      
+      <div class="col-xs-1"></div>
+      
+      <div class="col-xs-1"></div>
+
+      <!--
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none brand-color-secondary-dark-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color brand-color-secondary-dark">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #006E32
+          </span>
+          <span class="dol display-none" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #006E32
+          </span>
+        </span>
+        <code class="color-bg-name">brand-color-secondary-dark</code>
+        <code class="hex">#006E32</code>
+        <code class="color-text-name display-none">brand-color-secondary-dark-text</code>
+      </div>
+      -->
+
+      <div class="col-xs-1"></div>
+      
+      <div class="col-xs-1 color-item main">
+        <span class="text-color display-none brand-color-secondary-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color brand-color-secondary">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #00AB4E
+          </span>
+          <span class="dol display-none" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #00AB4E
+          </span>
+        </span>
+        <code class="color-bg-name">brand-color-secondary</code>
+        <code class="hex">#00AB4E</code>
+        <code class="color-text-name display-none">brand-color-secondary-text</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+      
+      <div class="col-xs-1"></div>
+    </div> <!-- /.row.colors -->
+
+
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="swatch-color brand-color-gradient-dark">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #007778
+          </span>
+          <span class="dol display-none" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #007778
+          </span>
+        </span>
+        <code class="color-bg-name">brand-color-gradient-dark</code>
+        <code class="hex">#007778 #006E32</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item main">
+        <span class="swatch-color brand-color-gradient">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #009697
+          </span>
+          <span class="dol display-none" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #009697
+          </span>
+        </span>
+        <code class="color-bg-name">brand-color-gradient</code>
+        <code class="hex">#009697 #00AB4E</code>
+      </div>
+
+
+      <div class="col-xs-1"></div>
+      
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+    </div> <!-- /.row.colors -->
+
+
+    <!-- Contextual Status - Success -->
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none color-success-dark-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-success-dark">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #6EA720
+          </span>
+          <span class="dol display-none" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #6EA720
+          </span>
+        </span>
+        <code class="color-bg-name">color-success-dark</code>
+        <code class="hex">#6EA720</code>
+        <code class="color-text-name display-none">color-success-dark-text</code>
+      </div>
+      
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item main">
+        <span class="text-color display-none color-success-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-success">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-lod-text"></svg>
+            #8DC63F
+          </span>
+          <span class="dol display-none" title="Suitable for use against dark colors">
+            <svg class="ihs-icon-checkmark color-gray-darker-text"></svg>
+            #8DC63F
+          </span>
+        </span>
+        <code class="color-bg-name">color-success</code>
+        <code class="hex">#8DC63F</code>
+        <code class="color-text-name display-none">color-success-text</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none color-success-light-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-success-light">
+          <span class="lod display-none" title="Warning: Not enough contrast for use against light colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #ACE55E
+          </span>
+          <span class="dol display-none" title="Suitable for use against dark colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #ACE55E
+          </span>
+        </span>
+        <code class="color-bg-name">color-success-light</code>
+        <code class="hex">#ACE55E</code>
+        <code class="color-text-name display-none">color-success-light-text</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+    </div> <!-- /.row.colors -->
+
+
+    <!-- Contextual Status - Info -->
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none color-info-dark-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-info-dark">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #0096D2
+          </span>
+          <span class="dol display-none" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #0096D2
+          </span>
+        </span>
+        <code class="color-bg-name">color-info-dark</code>
+        <code class="hex">#0096D2</code>
+        <code class="color-text-name display-none">color-info-dark-text</code>
+      </div>
+      
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item main">
+        <span class="text-color display-none color-info-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-info">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-lod-text"></svg>
+            #00B5F1
+          </span>
+          <span class="dol display-none" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #00B5F1
+          </span>
+        </span>
+        <code class="color-bg-name">color-info</code>
+        <code class="hex">#00B5F1</code>
+        <code class="color-text-name display-none">color-info-text</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none color-info-light-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-info-light">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-lod-text"></svg>
+            #1FD4FF
+          </span>
+          <span class="dol display-none" title="Suitable for use against dark colors">
+            <svg class="ihs-icon-checkmark color-gray-darker-text"></svg>
+            #1FD4FF
+          </span>
+        </span>
+        <code class="color-bg-name">color-info-light</code>
+        <code class="hex">#1FD4FF</code>
+        <code class="color-text-name display-none">color-info-light-text</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+    </div> <!-- /.row.colors -->
+
+
+    <!-- Contextual Status - Warning -->
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none color-warning-dark-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-warning-dark">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #D87500
+          </span>
+          <span class="dol display-none" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-gray-darker-text"></svg>
+            #D87500
+          </span>
+        </span>
+        <code class="color-bg-name">color-warning-dark</code>
+        <code class="hex">#D87500</code>
+        <code class="color-text-name display-none">color-warning-dark-text</code>
+      </div>
+      
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item main">
+        <span class="text-color display-none color-warning-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-warning">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #F7941D
+          </span>
+          <span class="dol display-none" title="Suitable for use against dark colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #F7941D
+          </span>
+        </span>
+        <code class="color-bg-name">color-warning</code>
+        <code class="hex">#F7941D</code>
+        <code class="color-text-name display-none">color-warning-text</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none color-warning-light-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-warning-light">
+          <span class="lod display-none" title="Suitable for use against dark colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #FFB33C
+          </span>
+          <span class="dol display-none" title="Suitable for use against dark colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #FFB33C
+          </span>
+        </span>
+        <code class="color-bg-name">color-warning-light</code>
+        <code class="hex">#FFB33C</code>
+        <code class="color-text-name display-none">color-warning-light-text</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+    </div> <!-- /.row.colors -->
+
+
+    <!-- Contextual Status - Danger -->
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none color-danger-dark-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-danger-dark">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #B00015
+          </span>
+          <span class="dol display-none" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #B00015
+          </span>
+        </span>
+        <code class="color-bg-name">color-danger-dark</code>
+        <code class="hex">#B00015</code>
+        <code class="color-text-name display-none">color-danger-dark-text</code>
+      </div>
+      
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item main">
+        <span class="text-color display-none color-danger-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-danger">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #CF1034
+          </span>
+          <span class="dol display-none" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #CF1034
+          </span>
+        </span>
+        <code class="color-bg-name">color-danger</code>
+        <code class="hex">#CF1034</code>
+        <code class="color-text-name display-none">color-danger-text</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none color-danger-light-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-danger-light">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #EE2F53
+          </span>
+          <span class="dol display-none" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #EE2F53
+          </span>
+        </span>
+        <code class="color-bg-name">color-danger-light</code>
+        <code class="hex">#EE2F53</code>
+        <code class="color-text-name display-none">color-danger-light-text</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+    </div> <!-- /.row.colors -->
+
+
+    <div class="row colors" style="margin-left: -1%; background: linear-gradient(-90deg, #FFF, #FFF, #F0F6F7);">
+
+      <div class="col-xs-1 color-item variation transparent brand-color-secondary-text"><h2>Special Use Colors</h2></div>
+      
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+      
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="text-color display-none color-gray-action-text">The quick brown fox &hellip;</span>
+        <span class="swatch-color color-gray-action">
+          <span class="lod display-none" title="Suitable for use against light colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #4C4B4C
+          </span>
+          <span class="dol display-none" title="Warning: Not enough contrast for use against dark colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #4C4B4C
+          </span>
+        </span>
+        <code class="color-bg-name">color-gray-action</code>
+        <code class="hex">#4C4B4C</code>
+        <code class="color-text-name display-none">color-gray-action-text</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+      
+      <div class="col-xs-1 color-item variation transparent">
+        <span class="swatch-color color-gray-bg">
+          <span class="lod display-none" title="Warning: Not enough contrast for use against light colors">
+            <svg class="ihs-icon-warning color-warning-text"></svg>
+            #F0F1F2
+          </span>
+          <span class="dol display-none" title="Suitable for use against dark colors">
+            <svg class="ihs-icon-checkmark color-success-text"></svg>
+            #F0F1F2
+          </span>
+        </span>
+        <code class="color-bg-name">color-gray-bg</code>
+        <code class="hex">#F0F1F2</code>
+      </div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+
+      <div class="col-xs-1"></div>
+      
+      <div class="col-xs-1"></div>
+    </div> <!-- /.row.colors -->
+
+  </div> <!-- /.color-grid -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Color Uses -->
+  <div class="color-uses color-grid">
+    <h3>Color uses</h3>
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1 color-item">
+        <span class="swatch-color brand-color-primary color-lod-text hover-example" onclick="alert('Clicking is fun! Don\'t you feel better?');" title="Ooh, ... the branded colors! ... Must hover and click ...">
+          <span>Clicks</span>
+          <span>Hover / Focus</span>
+        </span>
+      </div>
+      <div class="col-xs-4">
+        <p>The <code>brand-color-primary</code> is used to communicate that an object is clickable; Encouraging a user to interact with the <abbr title="User Interface">UI</abbr>. This color is also used to identify the active item in a list group.</p>
+        <p><strong>It may help to think of it as also being called "brand-color-action"</strong> indicating available actions to the user.</p>
+        <p>For hover / focus states use the dark variation of the appropriate main color.</p>
+        <p>Go ahead &hellip; hover and click the color to the left. It won't hurt. &nbsp; ;) </p>
+      </div>
+      <div class="col-xs-5">
+      </div>
+    </div>
+
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1 color-item">
+        <span class="swatch-color brand-color-secondary color-lod-text">
+          brand-color-secondary
+        </span>
+      </div>
+      <div class="col-xs-4">
+        <p>The <code>brand-color-secondary</code> color is meant to draw a bit more of the user's attention. It is commonly used as the text color of headings. It should be used judiciously.</p>
+        <p><span class="label label-default">Side note</span> <code>brand-color-secondary</code> is technically IHS Markit's primary color from a "branding" perspective. Because web development places great focus on getting users to perform actions we went ahead and swapped the 'primary' and 'secondary' colors (as labeled by branding) for you - making life much easier. Action colors are used much more on the web and this way you won't have to fight Bootstrap's convention of labeling the action color the "primary" color.</p>
+      </div>
+      <div class="col-xs-5">
+      </div>
+    </div>
+
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1 color-item">
+        <span class="swatch-color brand-color-gradient color-lod-text">
+          brand-color-gradient
+        </span>
+      </div>
+      <div class="col-xs-4">
+        <p><code>brand-gradient</code> is commonly used in the search bar of the header pattern. Just as the <code>brand-secondary</code> color is meant to draw a bit more of the user's attention, the <code>brand-gradient</code> draws just a bit more. It should be used sparingly.</p>
+      </div>
+      <div class="col-xs-5">
+      </div>
+    </div>
+
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1 color-item">
+        <span class="swatch-color color-lod-text" style="background: linear-gradient(180deg, #007778, #007778 50%, rgba(0, 119, 120, .65) 50.001%, rgba(0, 119, 120, .65)); justify-content: space-around;">
+          <span>Not Disabled</span>
+          <span>Disabled</span>
+        </span>
+      </div>
+      <div class="col-xs-4">
+        <p>Disabled state is 65% opacity and does not specify a color</p>
+      </div>
+      <div class="col-xs-5">
+      </div>
+    </div>
+
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-3">
+        <p>Intended use is built into color names</p>
+        <p>For brevity it is assumed that most colors are intended as background colors. Colors that are intended 
+            for typography, foreground, border, outlines, or other uses will include their specific 
+            intent in their <abbr title="Cascading Style Sheets">CSS</abbr> class name. e.g. <em>text</em></p>
+        <p>Thus, we have common background colors (like <em>color-success</em>) 
+            and special use colors (like <em>brand-color-primary-text</em>). We hope this keeps names as short as possible while allowing developers to quickly sort and find their target's name when assisted by <abbr title="Integrated Development Environment">IDE</abbr> tooling.</p>
+      </div>
+      <div class="col-xs-2 color-item">
+        <dl>
+          <dt><em>brand</em></dt>
+            <dd>Specific to IHS</dd>
+          <dt><em>color</em></dt>
+            <dd>All colors have &ldquo;color&rdquo; in their name</dd>
+          <dt><em>bg</em></dt>
+            <dd>Explicitly a background color</dd>
+          <dt><em>text</em></dt>
+            <dd>Specifies a typography / foreground color</dd>
+        </dl>
+      </div>
+      <div class="col-xs-5">
+      </div>
+    </div>
+
+<!--
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1 color-item">
+        <span class="swatch-color color-info-light color-gray-dark-text">
+          Dark on Light
+        </span>
+      </div>
+      <div class="col-xs-4">
+        <p>Use the light color variations when color is needed in the background of dark text / foregrounds.</p>
+
+        <br />
+        <p>This example uses:</p>
+        <code>bg = color-info-light</code><br/>
+        <code>text = color-gray-dark-text</code>
+      </div>
+      <div class="col-xs-5">
+      </div>
+    </div>
+-->
+
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1 color-item">
+        <span class="swatch-color color-success color-lod-text">
+          Success
+        </span>
+      </div>
+      <div class="col-xs-4">
+        <p>Use contextually to indicate success status of user actions.</p>
+      </div>
+      <div class="col-xs-5">
+      </div>
+    </div>
+
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1 color-item">
+        <span class="swatch-color color-info color-lod-text">
+          Info
+        </span>
+      </div>
+      <div class="col-xs-4">
+        <p>Use contextually to draw an extra bit of the user's attention to general information, minor changes, and other snippets of information that can safely be glanced over after they've been read the first time.</p>
+      </div>
+      <div class="col-xs-5">
+      </div>
+    </div>
+
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1 color-item">
+        <span class="swatch-color color-warning color-lod-text">
+          Warning
+        </span>
+      </div>
+      <div class="col-xs-4">
+        <p>Use contextually to indicate warning status of user actions. Also commonly used to indicate that our products detect risk of data loss, unfinished (not-saved) changes, connectivity issues, out-of-synch systems, etc.</p>
+        <p><strong>Additionally, use it as if it were also called "brand-color-attention"</strong> to attract the user's attention when needed.</p>
+      </div>
+      <div class="col-xs-5">
+      </div>
+    </div>
+
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1 color-item">
+        <span class="swatch-color color-danger color-lod-text">
+          Danger
+        </span>
+      </div>
+      <div class="col-xs-4">
+        <p>Use contextually to indicate error / danger status of user actions when the user should be notified of failures, data loss, road blocks, etc.</p>
+      </div>
+      <div class="col-xs-5">
+      </div>
+    </div>
+
+<!--
+    <div class="row colors" style="margin-left: -1%;">
+      <div class="col-xs-1 color-item">
+        <span class="swatch-color color-gray color-lod-text">
+          Grays
+        </span>
+      </div>
+      <div class="col-xs-4">
+        <p>
+          <em>color-gray-lighter</em> = Subtly indicates separation and difference. The non-active status of elements in control areas = background of breadcrumbs, wells, striped table rows, non-active navigation tabs, borders, scrollbars, hovers, etc.
+        </p>
+        <p style="color: red">When do we use gray colors? What about <em>color-bg-black</em> and <em>color-bg-white</em>? Should we add <em>ihs-</em>? Should this be part of branding or not?</p>
+      </div>
+      <div class="col-xs-5">
+      </div>
+    </div>
+-->
+  
+  </div> <!-- /.color-uses -->
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    function toggleBackgroundColors(checkboxElement) {
+      toggleDisplayByCheckbox(checkboxElement, '.color-item .color-bg-name');
+    }
+  
+    function toggleTextColors(checkboxElement) {
+      toggleDisplayByCheckbox(checkboxElement, '.color-item .color-text-name');
+    }
+  
+    function toggleTextExamples(checkboxElement) {
+      toggleDisplayByCheckbox(checkboxElement, '.color-item .lod');
+      toggleDisplayByCheckbox(checkboxElement, '.color-item .dol');
+      toggleDisplayByCheckbox(checkboxElement, '.color-item .text-color');
+    }
+  
+    function toggleHex(checkboxElement) {
+      toggleDisplayByCheckbox(checkboxElement, '.color-item .hex');
+    }
+  
+    function toggleVariationColors(checkboxElement) {
+      toggleOpacityByCheckbox(checkboxElement, '.color-item.variation');
+    }
+  
+    function toggleMainColors(checkboxElement) {
+      toggleOpacityByCheckbox(checkboxElement, '.color-item.main');
+    }
+  
+    function toggleDeprecations(checkboxElement) {
+      toggleDisplayByCheckbox(checkboxElement, '.color-item .deprecation');
+    }
+  
+    function resetColorControls() {
+      document.getElementById('bg-colors-checkbox').checked = true;
+      document.getElementById('text-colors-checkbox').checked = false;
+      document.getElementById('text-examples-checkbox').checked = false;
+      document.getElementById('hex-checkbox').checked = true;
+      document.getElementById('variation-colors-checkbox').checked = false;
+      document.getElementById('main-colors-checkbox').checked = true;
+    }
+  
+    // Draw user's attention to the difference between main and variation colors during initial page load.
+    setTimeout(() => {
+      toggleVariationColors({ checked: true }, '.color-item.variation');
+    }, 1000);
+  
+  </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+May have forgotten these as well
+
+.IHS-Color-G1 {background-color: @brand-primary;}
+.IHS-Color-G9 {background-color: @body-bg;}
+.IHS-Color-G10 {background-color: @brand-info;}
+.IHS-Color-G1-Add {color: @brand-primary;}
+.IHS-Color-G5-Add {color: @gray-base;}
+.IHS-Color-G9-Add {color: @body-bg;}
+.IHS-Color-G15-Add {color: @black;}
+
+.IHS-Color-T1 {background-color: @IHS-Color-T1;}
+.IHS-Color-T2 {background-color: @IHS-Color-T2;}
+.IHS-Color-T3 {background-color: @IHS-Color-T3;}
+.IHS-Color-T4 {background-color: @IHS-Color-T4;}
+.IHS-Color-T5 {background-color: @IHS-Color-T5;}
+.IHS-Color-T6 {background-color: @IHS-Color-T6;}
+.IHS-Color-T7 {background-color: @IHS-Color-T7;}
+.IHS-Color-T8 {background-color: @IHS-Color-T8;}
+
+
+
+  <div class="pattern-preview">
+      <h2>Colors</h2>
+        <div class="swatches">
+          <h3>Brand</h3>
+          <p>Core colors for the brand.</p>
+          <ul class="swatches-list">
+            <li>
+              <span class="swatch-color IHS-Color-H1"></span>
+              <code>ihs-color-h1</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-H2"></span>
+              <code>ihs-color-h2</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-H3"></span>
+              <code>ihs-color-h3</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-H4"></span>
+              <code>ihs-color-h4</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-H5"></span>
+              <code>ihs-color-h5</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-H6"></span>
+              <code>ihs-color-h6</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-H7"></span>
+              <code>ihs-color-h7</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-H8"></span>
+              <code>ihs-color-h8</code>
+            </li>
+            </ul>
+        </div>
+             <h3>O</h3>
+          <p>Colors for selectors, form field and disabled buttons</p>
+          <ul class="swatches-list">
+            <li>
+              <span class="swatch-color IHS-Color-O1"></span>
+              <code>ihs-color-o1</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-O2"></span>
+              <code>ihs-color-o2</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-O3"></span>
+              <code>ihs-color-o3</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-O4"></span>
+              <code>ihs-color-o4</code>
+            </li>
+           </ul>
+          <h3>Ba</h3>
+          <p>Colors for buttons (normal / emphasis)</p>
+          <ul class="swatches-list">
+            <li>
+              <span class="swatch-color IHS-Color-BN1"></span>
+              <code>ihs-color-bn1</code>
+              Base
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-BN2"></span>
+              <code>ihs-color-bn2</code>
+              Hover
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-BN3"></span>
+              <code>ihs-color-bn3</code>
+              Hover
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-BE1"></span>
+              <code>ihs-color-be1</code>
+              Base
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-BE2"></span>
+              <code>ihs-color-be2</code>
+              Hover
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-BG1"></span>
+              <code>ihs-color-bg1</code>
+              Base
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-BG2"></span>
+              <code>ihs-color-bg2</code>
+              Hover
+            </li>
+           </ul>
+           <h3>G</h3>
+          <p>General colors for text and else</p>
+          <ul class="swatches-list">
+            <li>
+              <span class="swatch-color IHS-Color-G1"></span>
+              <code>ihs-color-g1</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-G2"></span>
+              <code>ihs-color-g2</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-G3"></span>
+              <code>ihs-color-g3</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-G4"></span>
+              <code>ihs-color-g4</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-G5"></span>
+              <code>ihs-color-g5</code>
+            </li> 
+             <li>
+              <span class="swatch-color IHS-Color-G6"></span>
+              <code>ihs-color-g6</code>
+            </li> 
+             <li>
+              <span class="swatch-color IHS-Color-G7"></span>
+              <code>ihs-color-g7</code>
+            </li> 
+             <li>
+              <span class="swatch-color IHS-Color-G8"></span>
+              <code>ihs-color-g8</code>
+            </li> 
+             <li>
+              <span class="swatch-color IHS-Color-G9"></span>
+              <code>ihs-color-g9</code>
+            </li> 
+             <li>
+              <span class="swatch-color IHS-Color-G10"></span>
+              <code>ihs-color-g10</code>
+            </li> 
+             <li>
+              <span class="swatch-color IHS-Color-G11"></span>
+              <code>ihs-color-g11</code>
+            </li> 
+            <li>
+              <span class="swatch-color IHS-Color-G12"></span>
+              <code>ihs-color-g12</code>
+            </li> 
+            <li>
+              <span class="swatch-color IHS-Color-G13"></span>
+              <code>ihs-color-g13</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-G14"></span>
+              <code>ihs-color-g14</code>
+            </li> 
+            <li>
+              <span class="swatch-color IHS-Color-G15"></span>
+              <code>ihs-color-g15</code>
+            </li> 
+            <li>
+              <span class="swatch-color IHS-Color-G16"></span>
+              <code>ihs-color-g16</code>
+            </li> 
+            <li>
+              <span class="swatch-color IHS-Color-G17"></span>
+              <code>ihs-color-g17</code>
+            </li> 
+           </ul>
+           <h3>T</h3>
+           <p>Colors for Workspace Tiles</p>
+          <ul class="swatches-list">
+            <li>
+              <span class="swatch-color IHS-Color-T1"></span>
+              <code>ihs-color-t1</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-T2"></span>
+              <code>ihs-color-t2</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-T3"></span>
+              <code>ihs-color-t3</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-T4"></span>
+              <code>ihs-color-t4</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-T5"></span>
+              <code>ihs-color-t5</code>
+            </li> 
+             <li>
+              <span class="swatch-color IHS-Color-T6"></span>
+              <code>ihs-color-t6</code>
+            </li> 
+             <li>
+              <span class="swatch-color IHS-Color-T7"></span>
+              <code>ihs-color-t7</code>
+            </li> 
+             <li>
+              <span class="swatch-color IHS-Color-T8"></span>
+              <code>ihs-color-t8</code>
+            </li> 
+           </ul>
+           <h3>H</h3>
+           <p>Colors for Highlighting</p>
+            <ul class="swatches-list">
+            <li>
+              <span class="swatch-color IHS-Color-L1"></span>
+              <code>ihs-color-l1</code>
+             </li>
+             <li> 
+              <span class="swatch-color IHS-Color-L2"></span>
+              <code>ihs-color-l2</code>
+             </li>
+             <li> 
+              <span class="swatch-color IHS-Color-L3"></span>
+              <code>ihs-color-l3</code>
+            </li>
+            </ul>
+            <h3>N</h3>
+             <p>Colors for Notifications</p>
+          <ul class="swatches-list">
+            <li>
+              <span class="swatch-color IHS-Color-N1"></span>
+              <code>ihs-color-n1</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-N2"></span>
+              <code>ihs-color-n2</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-N3"></span>
+              <code>ihs-color-n3</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-N4"></span>
+              <code>ihs-color-n4</code>
+            </li>
+            </ul>
+            <h3>D</h3>
+             <p>Colors for Table Highlighting and Color Coding</p>
+          <ul class="swatches-list">
+            <li>
+              <span class="swatch-color IHS-Color-D1"></span>
+              <code>ihs-color-d1</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D2"></span>
+              <code>ihs-color-d2</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D3"></span>
+              <code>ihs-color-d3</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D4"></span>
+              <code>ihs-color-d4</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D5"></span>
+              <code>ihs-color-d5</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D6"></span>
+              <code>ihs-color-d6</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D7"></span>
+              <code>ihs-color-d7</code>
+            </li>
+            </ul>
+            <ul class="swatches-list">
+            <li>
+              <span class="swatch-color IHS-Color-D1A"></span>
+              <code>ihs-color-d1a</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D2A"></span>
+              <code>ihs-color-d2a</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D3A"></span>
+              <code>ihs-color-d3a</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D4A"></span>
+              <code>ihs-color-d4a</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D5A"></span>
+              <code>ihs-color-d5a</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D6A"></span>
+              <code>ihs-color-d6a</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D7A"></span>
+              <code>ihs-color-d7a</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D8A"></span>
+              <code>ihs-color-d8a</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D9A"></span>
+              <code>ihs-color-d9a</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D10A"></span>
+              <code>ihs-color-d10a</code>
+            </li>
+            </ul>
+            <ul class="swatches-list">
+            <li>
+              <span class="swatch-color IHS-Color-D1B"></span>
+              <code>ihs-color-d1b</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D2B"></span>
+              <code>ihs-color-d2b</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D4B"></span>
+              <code>ihs-color-d4b</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D6B"></span>
+              <code>ihs-color-d6b</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D7B"></span>
+              <code>ihs-color-d7b</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D8B"></span>
+              <code>ihs-color-d8b</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D9B"></span>
+              <code>ihs-color-d9b</code>
+            </li>
+            <li>
+              <span class="swatch-color IHS-Color-D10B"></span>
+              <code>ihs-color-d10b</code>
+            </li>
+            </ul>
+        </div>
+      </div>
+
+    </div>
+-->
+</div>
+
+
+<!-- Not sure we need color-bg-black. We do expect to need color-bg-white
+<div class="container">
+  <hr />
+  <h3>Background Grays</h3>
+  <ul class="swatches-list" style="background-image: repeating-linear-gradient(45deg,rgba(0,0,0,.065),rgba(0,0,0,.065) 1px,rgba(0,0,0,0) 0,rgba(0,0,0,0) 6px),repeating-linear-gradient(-45deg,rgba(0,0,0,.065),rgba(0,0,0,.065) 1px,rgba(0,0,0,0) 0,rgba(0,0,0,0) 6px);">
+    <li>
+      <span class="swatch-color color-bg-black"></span>
+      <code>color-bg-black</code>
+    </li>
+    <li>
+      <span class="swatch-color color-bg-gray-darker"></span>
+      <code>color-bg-gray-darker</code>
+    </li>
+    <li>
+      <span class="swatch-color color-bg-gray-dark"></span>
+      <code>color-bg-gray-dark</code>
+    </li>
+    <li>
+      <span class="swatch-color color-bg-gray"></span>
+      <code>color-bg-gray<br />&nbsp;</code>
+    </li>
+    <li>
+      <span class="swatch-color color-bg-gray-light"></span>
+      <code>color-bg-gray-light</code>
+    </li> 
+    <li>
+      <span class="swatch-color color-bg-gray-lighter"></span>
+      <code>color-bg-gray-lighter</code>
+    </li> 
+    <li>
+      <span class="swatch-color color-bg-white"></span>
+      <code>color-bg-white</code>
+    </li> 
+  </ul>
+
+  
+  <hr />
+  These text colors (color-text-white and color-text-black) are probably only used by EWB. We will probably keep color-text-white only.
+  <h3>Typography / Foreground Grays</h3>
+  <p class="alert alert-warning">
+    <svg class="ihs-icon-warning"></svg>
+    <strong>Notice:</strong> <em>color-black</em> and <em>color-white</em> are deprecated in favor of <em>color-text-black</em> and <em>color-text-white</em> respectively.
+  </p>
+  <ul class="swatches-list" style="background-image: repeating-linear-gradient(45deg,rgba(0,0,0,.065),rgba(0,0,0,.065) 1px,rgba(0,0,0,0) 0,rgba(0,0,0,0) 2px),repeating-linear-gradient(-45deg,rgba(0,0,0,.065),rgba(0,0,0,.065) 1px,rgba(0,0,0,0) 0,rgba(0,0,0,0) 2px);">
+    <li>
+      <span class="swatch-color color-bg-white color-text-black">color-text-black</span>
+      <code>color-text-black</code>
+    </li>
+    <li>
+      <span class="swatch-color color-bg-black color-white">color-text-white</span>
+      <code>color-text-white</code>
+    </li> 
+  </ul>
+
+
+  <hr />
+  We should actively remove and deprecate these. They should not be used!!!!!!
+  <h3>Leftover - general</h3>
+  <p>General colors for text and else</p>
+  <ul class="swatches-list" style="background-image: repeating-linear-gradient(45deg,rgba(0,0,0,.065),rgba(0,0,0,.065) 1px,rgba(0,0,0,0) 0,rgba(0,0,0,0) 2px),repeating-linear-gradient(-45deg,rgba(0,0,0,.065),rgba(0,0,0,.065) 1px,rgba(0,0,0,0) 0,rgba(0,0,0,0) 2px);">
+    <li>
+      <span class="swatch-color IHS-Color-G1"></span>
+      <code>IHS-Color-G1</code>
+    </li>
+    <li>
+      <span class="swatch-color IHS-Color-G9"></span>
+      <code>IHS-Color-G9</code>
+    </li>
+    <li>
+      <span class="swatch-color IHS-Color-G10"></span>
+      <code>IHS-Color-G10</code>
+    </li>
+  </ul>
+  <p>Just the text colors below</p>
+  <ul class="swatches-list" style="background-image: repeating-linear-gradient(45deg,rgba(0,0,0,.065),rgba(0,0,0,.065) 1px,rgba(0,0,0,0) 0,rgba(0,0,0,0) 2px),repeating-linear-gradient(-45deg,rgba(0,0,0,.065),rgba(0,0,0,.065) 1px,rgba(0,0,0,0) 0,rgba(0,0,0,0) 2px);">
+    <li>
+      <span class="swatch-color color-bg-white IHS-Color-G1-Add">IHS-Color-G1-Add</span>
+      <code>IHS-Color-G1-Add</code>
+    </li>
+    <li>
+      <span class="swatch-color color-bg-white IHS-Color-G5-Add">IHS-Color-G5-Add</span>
+      <code>IHS-Color-G5-Add</code>
+    </li>
+    <li>
+      <span class="swatch-color color-bg-black IHS-Color-G9-Add">IHS-Color-G9-Add</span>
+      <code>IHS-Color-G9-Add</code>
+    </li>
+    <li>
+      <span class="swatch-color color-bg-white IHS-Color-G15-Add">IHS-Color-G15-Add</span>
+      <code>IHS-Color-G15-Add</code>
+    </li>
+  </ul>
+
+
+  <hr />
+  Currently being used in EWB.
+  <h3>Workspace Tiles</h3>
+  <ul class="swatches-list">
+    <li>
+      <span class="swatch-color IHS-Color-T1"></span>
+      <code>ihs-color-t1</code>
+    </li>
+    <li>
+      <span class="swatch-color IHS-Color-T2"></span>
+      <code>ihs-color-t2</code>
+    </li>
+    <li>
+      <span class="swatch-color IHS-Color-T3"></span>
+      <code>ihs-color-t3</code>
+    </li>
+    <li>
+      <span class="swatch-color IHS-Color-T4"></span>
+      <code>ihs-color-t4</code>
+    </li>
+    <li>
+      <span class="swatch-color IHS-Color-T5"></span>
+      <code>ihs-color-t5</code>
+    </li> 
+      <li>
+      <span class="swatch-color IHS-Color-T6"></span>
+      <code>ihs-color-t6</code>
+    </li> 
+      <li>
+      <span class="swatch-color IHS-Color-T7"></span>
+      <code>ihs-color-t7</code>
+    </li> 
+      <li>
+      <span class="swatch-color IHS-Color-T8"></span>
+      <code>ihs-color-t8</code>
+    </li> 
+  </ul>
+-->
+
+</div> <!-- /.col-xs-10 OUTER div -->
+

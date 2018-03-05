@@ -1,0 +1,12 @@
+{
+  "name": "csspatternlibrary3",
+  "version": "2.0.5",
+  "description": "Minor update that added an Energy icon package, additional icons added",
+  "style": "./css/styles-nw.css",
+  "publishConfig" : {
+    "registry" : "http://npm-na.ihs.com/repository/public-npm/"
+  },
+  "dependencies": {
+    "bootstrap": "3.3.6"
+  }
+}

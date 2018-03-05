@@ -1,0 +1,31 @@
+.cpl-scope {
+  // ------------------------------------------------ WELLS --------------------------- //
+
+  
+  .well {
+    min-height: @well-height-min;
+    padding: @well-padding-base;
+    margin-bottom: @well-margin-bottom;
+    background-color: @well-bg;
+    border: @well-border-size @well-border;
+    border-radius: @border-radius-base;
+    
+    .box-shadow(inset 0 1px 1px rgba(0,0,0,.05));
+    
+    blockquote {
+      border-color: #ddd;
+      border-color: rgba(0,0,0,.15);
+    }
+
+  }
+
+  // Sizes
+  .well-lg {
+    padding: @well-padding-lg;
+    border-radius: @border-radius-large;
+  }
+  .well-sm {
+    padding: @well-padding-sm;
+    border-radius: @border-radius-small;
+  }
+} // End .cpl-scope

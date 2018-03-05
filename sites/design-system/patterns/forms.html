@@ -1,0 +1,533 @@
+<div class="col-base-12">
+<h2>Forms</h2>
+<!--
+  <div class="pattern-preview">
+      <code>ihs-formfield-standard</code>
+      <div class="form-group">
+          <label>Label here</label>
+          <input class="form-control" id="" name="">
+          <span class="required"></span>
+      </div>
+
+      <div class="row">
+          <div class="col-md-4">
+              <code>ihs-formfield-short</code>
+              <div class="form-group">
+                  <label>Label here</label>
+                  <span class="required"></span>
+                  <input class="form-control short" id="" name="">
+              </div>
+              <div class="form-group">
+                  <label>Label here</label>
+                  <input class="form-control short" id="" name="" value="What font is presented like for read only" readonly>
+                  <span class="required"></span>
+                  <p>Read Only state</p>
+              </div>
+          </div>
+          <div class="col-md-8">  
+              <code>Inline example</code>           
+              <div class="form-horizontal">
+                  <div class="form-group">
+                      <br />
+                      <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                      <div class="col-sm-10">
+                          <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                          <span class="required"></span>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                      <div class="col-sm-10">
+                          <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                          <span class="required"></span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row col-md-6" style="clear: left;"> 
+              <code style="display: block;">With Remove X Icon example</code>
+              <div class="">
+                  <div class="form-group has-feedback">
+                    <label>Label Here</label>
+                    <span class="required"></span>
+                    <input type="text" class="form-control short" id="remove-x1" placeholder="Active state of the input. Placeholder for information can go here ..." required="true">
+                      <div class="form-control-feedback">
+                        <svg class="ihs-icon-x" id="first"></svg>
+                      </div>
+                  </div>
+                  <div class="form-group has-feedback">
+                      <label>Label Here</label>
+                      <input type="text" class="form-control" value="Read only state of the input ..." readonly>
+                      <div class="form-control-feedback">
+                        <svg class="ihs-icon-x"  id="third"></svg>
+                      </div>
+                  </div>
+                  <div class="form-group has-feedback">
+                    <label>Label Here</label>
+                    <input type="text" class="form-control" id="remove-x2" value="Test here of text" disabled>
+                    <div class="form-control-feedback">
+                      <svg class="ihs-icon-x" id="second"></svg>
+                    </div>
+                    <p>Disabled state</p>
+                  </div>
+              </div>
+      </div>      
+  </div>
+
+  <div class="pattern-preview">
+          <!-- 
+          <div class="row">
+            <div class="col-md-3">
+              <code>ihs-selector-dropdown-standard</code>
+              <div class="form-group">
+                      <select id="nameIt" class="form-control select-menu" >
+                          <option>Imported Manufacturer Name</option>
+                          <option>option 1 option 1 option 1 option 1 option 1</option>
+                          <option>option 2</option>
+                          <option>option 3</option>
+                          <option>option 4</option>
+                          <option>option 5</option>
+                      </select>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <code>ihs-selector-dropdown-short</code>
+              <div class="form-group">
+                  <select class="form-control">
+                          <option>Imported Manufacturer Name</option>
+                          <option>option 1</option>
+                          <option>option 2</option>
+                          <option>option 3</option>
+                          <option>option 4</option>
+                          <option>option 5</option>
+                  </select>
+              </div>
+          </div>
+          </div>
+
+          <div class="row">
+              <div class="col-md-4">
+                  <code>ihs-selector-check-binary-12</code>
+                  <div class="form-group">
+                  <div class="checkbox-inline">
+                      <input type="checkbox" id="checkbox-1" value="" checked>
+                      <label for="checkbox-1">
+                          Checkbox 1 Inline
+                      </label>
+                  </div>
+                  <div class="checkbox-inline">
+                      <input type="checkbox" id="checkbox-2" value="" checked>
+                      <label for="checkbox-2">
+                          Checkbox Inline 2
+                      </label>
+                  </div>
+                  </div>
+
+                  <div class="pl-admin-container IHS-Color-G5">
+                  <div class="form-group">
+                  <div class="checkbox reversed">
+                      <input type="checkbox" id="checkbox-reversed-1" value="" checked>
+                      <label for="checkbox-reversed-1">
+                          Checkbox 1
+                      </label>
+                  </div>
+                  <div class="checkbox reversed">
+                      <input type="checkbox" id="checkbox-reversed-2" value="" checked>
+                      <label for="checkbox-reversed-2">
+                          Checkbox 2
+                      </label>
+                  </div>
+                  <div class="checkbox reversed">
+                      <input type="checkbox" id="checkbox-reversed-3" value="" checked>
+                      <label for="checkbox-reversed-3">
+                          Checkbox 3
+                      </label>
+                  </div>
+                  </div>
+                  </div>
+              
+              </div>
+              
+              <div class="col-md-4">
+                  <code>ihs-selector-radio-12</code>
+                  <div class="form-group">
+                      <div class="radio">
+                          <input type="radio" id="radio-1" value="1" name="demo">
+                          <label for="radio-1">
+                              Radio 1
+                          </label>
+                      </div>
+                      <div class="radio">
+                      <input type="radio" id="radio-2" value="2" name="demo">
+                          <label for="radio-2">
+                              Radio 2
+                          </label>
+                      </div>
+                      <div class="radio">
+                      <input type="radio" id="radio-3" value="3" name="demo" disabled>
+                          <label for="radio-3">
+                              Radio 3
+                          </label>
+                      </div>
+                  </div>
+
+                  <div class="pl-admin-container IHS-Color-G2">
+                      <div class="form-group">
+                      <div class="radio">
+                          <input type="radio" id="radio-reversed-1" value="1" name="demo-reversed">
+                          <label for="radio-reversed-1">
+                              Radio 1
+                          </label>
+                      </div>
+                      <div class="radio">
+                      <input type="radio" id="radio-reversed-2" value="2" name="demo-reversed">
+                          <label for="radio-reversed-2">
+                              Radio 2
+                          </label>
+                      </div>
+                      <div class="radio">
+                      <input type="radio" id="radio-reversed-3" value="3" name="demo-reversed" disabled>
+                          <label for="radio-reversed-3">
+                              Radio 3 (disabled)
+                          </label>
+                      </div>
+                      </div>
+                  </div>
+
+              </div>
+              
+              <div class="col-md-2">
+                  <code>ihs-selector-check-three-way-12</code>
+                  <div class="form-group">
+                      <div class="checkbox">
+                          <input type="checkbox" id="checkbox-all" class="checkbox-group">
+                          <label for="checkbox-all">
+                              Check all
+                          </label>
+                      </div>
+                      <div class="checkbox">
+                          <input type="checkbox" id="checkbox-all-1" class="checkbox-group" value="">
+                          <label for="checkbox-all-1">
+                          Checkbox 1, now is the time for all good men to come to the aid of their country and fight for  the freedoms abound.
+                          </label>
+                      </div>
+                      <div class="checkbox">
+                          <input type="checkbox" id="checkbox-all-2" class="checkbox-group">
+                          <label for="checkbox-all-2">
+                              Checkbox 2
+                          </label>
+                      </div>
+                      <div class="checkbox">
+                          <input type="checkbox" id="checkbox-all-3" class="checkbox-group" value="" disabled="true">
+                          <label for="checkbox-all-3">
+                              Checkbox 3  (disabled not checked)
+                          </label>
+                      </div>
+                      <div class="checkbox">
+                          <input type="checkbox" id="checkbox-all-4" class="checkbox-group" value="" disabled="true" checked>
+                          <label for="checkbox-all-4">
+                              Checkbox 4  (disabled checked)
+                          </label>
+                      </div>
+                  </div>
+              
+                  
+              </div>
+          </div>
+  </div>
+-->
+
+  <div class="pattern-preview">
+                        <code>ihs-search</code>
+                        <div class="input-group search-group">
+                            <span class="input-group-addon" id="ew-caret-picker" data-toggle="dropdown">
+                                Filter <svg class="ihs-icon-arrow rotate-270"></svg>
+                            </span>
+
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">My Content</a></li>
+                                <li><a href="#">All Content</a></li>
+                            </ul>       
+
+                            <div class="form-group">
+                                <input type="text" class="form-control short" id="search-x1" placeholder="Enter in search">
+                                <svg class="ihs-icon-x form-control-feedback" id="search-x"></svg>
+                            </div>
+
+                            <span class="input-group-btn">
+                                <button class="btn btn-icon" type="button"><svg class="ihs-icon-search"></svg></button>
+                            </span>  
+              
+                        </div>
+
+
+
+                         <!-- <div class="input-group search-group">
+                          <div class="input-group-btn">
+                            <button type="button" class="btn btn-deemphasized btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter <span class="ihs-icon-arrow rotate-270"></span></button>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">My Content</a></li>
+                              <li><a href="#">All Content</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="#">Separated link</a></li>
+                            </ul>
+                          </div>
+                          <input type="text" class="form-control short" aria-label="...">
+                          <span class="input-group-btn">
+                                <button class="btn btn-go btn-icon" type="button"><span class="ihs-icon-search"></span></button>
+                            </span>    
+                        </div> --><!-- /input-group -->
+
+
+
+                        <!-- <br />
+                        <div class="input-group search-group">
+                            <div class="input-group-btn">
+                                <button type="button" class="btn btn-sm" data-toggle="dropdown">Filter <span class="ihs-icon-arrow rotate-270"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#contains">Contains</a></li>
+                                    <li><a href="#its_equal">It's equal</a></li>
+                                    <li><a href="#greather_than">Greather than ></a></li>
+                                    <li><a href="#less_than">Less than < </a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#all">Anything</a></li>
+                                </ul>
+                            </div>
+
+                            <input type="hidden" name="search-param" value="all" id="search-param">         
+                            <input type="text" class="form-control short typeahead" name="x" placeholder="Search term...">
+                            
+                            <span class="input-group-btn">
+                                <button class="btn btn-go btn-icon" type="button"><span class="ihs-icon-search"></span></button>
+                            </span>
+                        </div> -->
+  </div>
+
+  
+
+  <div class="pattern-preview">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="well bs-component">
+              <form class="form-horizontal">
+                <fieldset>
+                  <legend>Legend</legend>
+                  <div class="form-group">
+                    <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                    <div class="col-lg-10">
+                      <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+                    <div class="col-lg-10">
+                      <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> Checkbox
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="textArea" class="col-lg-2 control-label">Textarea</label>
+                    <div class="col-lg-10">
+                      <textarea class="form-control" rows="3" id="textArea"></textarea>
+                      <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-lg-2 control-label">Radios</label>
+                    <div class="col-lg-10">
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                          Option one is this
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                          Option two can be something else
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="select" class="col-lg-2 control-label">Selects</label>
+                    <div class="col-lg-10">
+                      <select class="form-control" id="select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                      <br>
+                      <select multiple="" class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                      <button type="reset" class="btn btn-default">Cancel</button>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4 col-lg-offset-1">
+
+              <form class="bs-component">
+                <div class="form-group">
+                  <label class="control-label" for="focusedInput">Focused input</label>
+                  <input class="form-control" id="focusedInput" type="text" value="This is focused...">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label" for="disabledInput">Disabled input</label>
+                  <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
+                </div>
+
+                <div class="form-group has-warning">
+                  <label class="control-label" for="inputWarning">Input warning</label>
+                  <input type="text" class="form-control" id="inputWarning">
+                </div>
+
+                <div class="form-group has-error">
+                  <label class="control-label" for="inputError">Input error</label>
+                  <input type="text" class="form-control" id="inputError">
+                </div>
+
+                <div class="form-group has-success">
+                  <label class="control-label" for="inputSuccess">Input success</label>
+                  <input type="text" class="form-control" id="inputSuccess">
+                </div>
+
+                <div class="has-success">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success
+                        </label>
+                    </div>
+                </div>
+                <div class="has-warning">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" id="checkboxWarning" value="option1"> Checkbox with warning
+                        </label>
+                    </div>
+                </div>
+                <div class="has-error">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" id="checkboxError" value="option1"> Checkbox with error
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label" for="inputLarge">Large input</label>
+                  <input class="form-control input-lg" type="text" id="inputLarge">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label" for="inputDefault">Default input</label>
+                  <input type="text" class="form-control" id="inputDefault">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label" for="inputSmall">Small input</label>
+                  <input class="form-control input-sm" type="text" id="inputSmall">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label">Input addons</label>
+                    <div class="input-group">
+                      <span class="input-group-addon">$</span>
+                      <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                              <button class="btn btn-default" type="button">Button</button>
+                        </span>
+                    </div>
+                </div>
+
+              </form>
+
+          </div>
+        </div>
+  </div>
+
+<!--
+  <div class="pattern-preview">
+        <div class="row">
+            <div class="col-lg-6">
+              <h2>Shuttle</h2>
+              <div class="dual-list">
+                  <p>Hold down shift key to select multiple items. Use cmd+A to select all.</p>
+                  <div class="list-left container">
+                      <ul class="list-group">
+                          <li class="list-group-item">bootstrap-duallist</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                          <li class="list-group-item">Morbi leo risus</li>
+                          <li class="list-group-item">Porta ac consectetur ac</li>
+                          <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
+                  </div>
+                  <div class="list-arrows button-container">
+                      <button class="btn btn-deemphasized move-right">
+                          <svg class="ihs-icon-arrow rotate-180"></svg>
+                      </button>
+                      <button class="btn btn-deemphasized move-left">
+                          <svg class="ihs-icon-arrow"></svg>
+                      </button>
+                  </div>
+                  <div class="list-right container">
+                      <ul class="list-group">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                          <li class="list-group-item">Morbi leo risus</li>
+                          <li class="list-group-item">Porta ac consectetur ac</li>
+                          <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+           <div class="col-lg-6">
+            <h2>Calendar</h2>
+            <div class="row">
+              <div class="col-md-4 col-sm-2">
+                  <div class="form-group input-group">
+                      <input type="text" class="form-control" value="09/30/2016" data-date-format="mm/dd/yyyy" id="ihs-calendar-input">
+                      <span class="input-group-addon" id="ihs-calendar-icon"><svg class="ihs-icon-calendar"></svg></span>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+-->
+
+</div>
+
+<!-- Twitter type ahead -->
+<!-- <script src="js/typeahead.bundle.min.js"></script> -->
+
+<!-- <script src="js/bootstrap-select.js"></script> -->
+<script src="js/ihs-formfield.js"></script>
+<!-- <script src="js/ihs-typeahead.js"></script> -->
+<script src="js/ihs-tooltip.js"></script>
+<!-- <script src="js/ihs-selector.js"></script> -->
+<script src="js/ihs-selector-check-radio.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/ihs-calendar.js"></script>

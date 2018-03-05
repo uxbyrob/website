@@ -1,0 +1,61 @@
+.cpl-scope {
+  // ------------------------------- BUTTONS ------------------------ //
+  .btn {
+    .button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base; @line-height-base; @btn-border-radius-base);
+
+      &.btn-xs {
+        .button-size(@padding-xs-vertical; @padding-xs-horizontal; @font-size-small; @line-height-small; @btn-border-radius-small);
+      }
+
+      &.btn-sm {
+        .button-size(@padding-small-vertical; @padding-small-horizontal; @font-size-base; @line-height-base; @btn-border-radius-base);
+      }
+
+      &.btn-lg {
+        .button-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-base; @btn-border-radius-large);
+      }
+
+
+      &.btn-icon {
+        .size-object(24px,24px);
+        text-align: center;
+        padding: 0px;
+        background-color: @gray-darker;
+
+        svg {
+            .icon-set(14px, @btn-default-bg, 0px , 0px);
+            vertical-align: middle;
+        }
+
+        &.btn-lg {
+          .size-object(48px,48px);
+
+          svg {
+            .icon-set(24px, @btn-default-bg, 0px , 0px); 
+          }
+        }
+      }
+
+      &.btn-go {
+          background-color: @brand-success;  // Custom color?
+            border-color: @brand-success;
+            color: @btn-default-bg;
+
+          &:hover {
+            background-color: @darken-brand-success;
+            border-color: @darken-brand-success;
+            color: @btn-default-bg;
+          }
+
+          &[disabled] {
+            background-color: @brand-success;
+            border-color: @brand-success;
+          }
+
+          &:hover[disabled] {
+            background-color: @brand-success;
+            border-color: @brand-success;
+          }
+      }
+  }
+} // End .cpl-scope

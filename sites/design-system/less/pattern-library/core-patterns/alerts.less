@@ -1,0 +1,20 @@
+.cpl-scope {
+    // ------------------------------- ALERTS ------------------------ //
+
+    .alert {
+        .border(0px);
+        padding: 8px 8px;
+
+        svg[class*="ihs-icon"]{
+            .icon-set(@font-size-base + 3, @gray, 0px 4px 0px 0px, 0px);
+            vertical-align: text-bottom;
+        }
+
+    }
+    .alert-dismissable, .alert-dismissible {
+        .close {
+            top: -3px;
+            right: 0px;
+        }
+    }
+} // End .cpl-scope
