@@ -7,6 +7,6 @@
     "registry" : "http://npm-na.ihs.com/repository/public-npm/"
   },
   "dependencies": {
-    "bootstrap": "3.3.6"
+    "bootstrap": "3.4.1"
   }
 }
