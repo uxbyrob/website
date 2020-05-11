@@ -35,7 +35,7 @@ $(document).ready(function() {
 	Header Functions
 	==============================================*/
 	//$('.jumbotron').height($(window).height()+50);
-	$('.message-box').css({'marginTop':$(window).height()*0.4});
+	$('.message-box').css({'marginTop':$(window).height()*0.2});
 
 	$('.home-slider').flexslider({
 		animation: "slide",
