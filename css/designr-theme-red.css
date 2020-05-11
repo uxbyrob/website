@@ -327,7 +327,7 @@ body {
 header.jumbotron{
     padding:0;
     margin-bottom:0;
-    min-height:500px;
+    min-height:200px;
 }
 
 .jumbotron .left-col,
