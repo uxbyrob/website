@@ -232,6 +232,7 @@ p {
         
     }
 
+    /*
     #about {
         background:url(../assets/headstock.jpg) no-repeat center center;
         background-color: #efae49;
@@ -239,7 +240,7 @@ p {
            -moz-background-size: cover;
              -o-background-size: cover;
                 background-size: cover;
-    }
+    }*/
 
     #contact {
         background:url(../assets/contact-bg.jpg) no-repeat center center;
