@@ -204,7 +204,7 @@ $(document).ready(function() {
 	Resize Functions
 	==============================================*/
 	$(window).resize(function(){
-		$('.jumbotron').height($(window).height());
+		//$('.jumbotron').height($(window).height());
 		$('.message-box').css({'marginTop':$(window).height()*0.4});
 		scrollSpyRefresh();
 		waypointsRefresh();
