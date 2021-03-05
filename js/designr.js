@@ -205,7 +205,7 @@ $(document).ready(function() {
 	==============================================*/
 	$(window).resize(function(){
 		//$('.jumbotron').height($(window).height());
-		$('.message-box').css({'marginTop':$(window).height()*0.2});
+		$('.message-box').css({'marginTop':$(window).height()*0.1});
 		scrollSpyRefresh();
 		waypointsRefresh();
 	});
