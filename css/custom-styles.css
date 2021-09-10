@@ -146,13 +146,13 @@ p {
 ------------------------*/
 
 #skills {
-    background:url(../assets/black-les-paul.jpg) no-repeat top left fixed; 
+    /*background:url(../assets/black-les-paul.jpg) no-repeat top left fixed; 
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
             background-size: cover;
     background-color: #000;
-    padding:60px 0 80px 0;
+    padding:60px 0 80px 0;*/
 }
 
 
@@ -162,12 +162,12 @@ p {
 ------------------------*/
 
 #contact {
-    background:url(../assets/guitar-railroad.jpg) no-repeat center left;
+    /*background:url(../assets/guitar-railroad.jpg) no-repeat center left;
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
             background-size: cover;
-    padding:80px 0; 
+    padding:80px 0; */
 }
 
 #contact-form .form-control {
@@ -242,7 +242,7 @@ p {
                 background-size: cover;
     }*/
 
-    #contact {
+    /*#contact {
         background:url(../assets/contact-bg.jpg) no-repeat center center;
         color:#fff;
         padding:80px 0; 
@@ -250,15 +250,15 @@ p {
            -moz-background-size: cover;
              -o-background-size: cover;
                 background-size: cover;
-    }
+    */
 
-    #skills {
+    /* #skills {
         background:url(../assets/guitarNeckShot.jpg) no-repeat top left;
         -webkit-background-size: cover;
            -moz-background-size: cover;
              -o-background-size: cover;
                 background-size: cover;    
-    }
+    }*/
 
     .navbar-brand,
     .navbar-brand:hover,
