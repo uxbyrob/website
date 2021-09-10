@@ -107,13 +107,13 @@ p {
 
 
 #about {
-    background:url(../assets/guitar-grey-bg.jpg) no-repeat center center;
+    /*background:url(../assets/guitar-grey-bg.jpg) no-repeat center center;
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
             background-size: cover;
     padding:40px 0 50px 0px;
-    background-color: brown;
+    background-color: brown;*/
 }
 
 #about h1 {
