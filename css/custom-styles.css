@@ -14,7 +14,7 @@
 
  .message-box-test{
     margin: 0px 10px auto 0;
-		background:rgba(0,0,0,0.6);
+    background:rgba(0,0,0,0.6);
     padding:40px;
     color: white;
 }
@@ -74,11 +74,13 @@ p {
 -----Services Styles------
 ------------------------*/
 
+/*
 .services ul  {
-    text-align: right;
+   text-align: right;
     list-style-position: right;
-    direction: rtl;
+   direction: rtl;
 }
+*/
 
 .services li {
 		font-size: 16px;
