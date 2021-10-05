@@ -1412,193 +1412,49 @@ header.jumbotron{
 /*-----------------------
 ------Media Queries------
 ------------------------*/
+@media (max-width: 1920px) {
+
+    
+}
+
 
 @media (max-width: 1199px) {
-
-.jumbotron .left-col p{
-    font-size:28px;
-    line-height:32px;
-}
-
-.jumbotron .left-col p span{
-    font-size:36px;
-}
-
-.jumbotron .right-col p{
-    font-size:82px;
-    line-height:82px;
-}
-
 }
 
 @media (max-width: 991px) {
-
-.jumbotron .message-box{
-	padding:10px 0;
 }
 
-.jumbotron .left-col {
-    width:100%;
-    text-align:center;
-}
-
-.jumbotron .left-col p{
-    padding:10px;
-}
-
-.jumbotron .right-col{
-    width:100%;
-    text-align:center;
-}
-
-.jumbotron .right-col p{
-    padding:10px;
-}
-
-}
 
 @media (max-width: 768px) {
 
-#main-nav .navbar-brand{
-    color:#f05557;
-}
-
-#main-nav{
-    background:#fff;
-    border-bottom:1px solid #ddd;
-}
-
-#main-nav .navbar-toggle{
-    color:#f05557;
-    border-color:#f05557;
-}
-
-#main-nav .navbar-toggle .icon-bar{
-    background:#f05557;
-}
-
-#main-nav .container{
-    padding:10px 20px;
-}
-
-#main-nav .nav a,
-#main-nav .nav a:active,
-#main-nav .nav a:hover{
-    color:#f05557;
-    line-height:42px;
-    text-align:center;
-}
-
-#main-nav .nav a:before {
-    display:none;
-}
-
-#main-nav .nav a:hover,
-#main-nav .nav li.active a {
-    box-shadow:0 0 0 1px;
-}
-
-.jumbotron .left-col p{
-    font-size:24px;
-    line-height:28px;
-}
-
-.jumbotron .left-col p span{
-    font-size:32px;
-}
-
-.jumbotron .right-col p{
-    font-size:62px;
-    line-height:62px;
-}
-
-#main-footer ul.footer-nav{
-    margin-bottom:24px;
-}
-
-#main-footer .left-col,
-#main-footer .right-col{
-    text-align:center;
-}
-
-.modal-dialog{
-    max-width:480px;
-}
-
-.modal-body .left-col,
-.modal-body .right-col{
-	width:100%;
-}
-
-h1.section-title{
-    font-size:42px;
-    line-height:56px;
-}
-
+    .section-title span {
+        font-size: 1em;
+        border: 0px solid black;
+    }
 }
 
 @media (max-width: 479px) {
 
-.jumbotron .right-col p{
-    font-size:38px;
-    line-height:38px;
-}
-
-h1.section-title{
-    font-size:32px;
-    line-height:46px;
+   
 }
 
 
-p {
-    font-size:16px;
-    line-height:21px;
-}
+@media only screen and (min-width:0px)  { 
 
-.btn-theme{
-	padding:15px 40px;
-	font-size:18px;
-}
+    .jumbotron .left-col {
+        width: 100%;
+        border: 1px solid red;
+        text-align: center;
+    }
+    
+    .jumbotron .left-col p {
+        font-size: 2em;
+        line-height: 1.2em;
+    }
 
-#about h1 {
-    font-size:28px;
-    line-height:36px;
-}
-
-#about p {
-    font-size:21px;
-    line-height:28px;
-}
-
-
-#filter-works ul li a{
-    font-size:21px;
-    line-height:28px;
-}
-
-#contact .contact-info p,
-#contact .contact-info address{
-    font-size:16px;
-    line-height:26px;
-}
-
-
-#contact .form-control {
-    height:58px;
-    font-size:24px;
-    line-height:30px;
-}
-
-#contact .form-group [class*="icon-"] {
-    font-size:32px;
-    line-height:58px;
-
-}
-
-#contact textarea.form-control {
-    font-size:24px;
-    line-height:32px;
-	padding-top:14px;
-}
+    .jumbotron .left-col p span {
+        /*font-size: 18px;*/
+        font-size: 1.1sem;
+    }
 
 }
