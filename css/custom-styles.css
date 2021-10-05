@@ -21,6 +21,11 @@
 
 #services span {
     font-size: 40px;
+    line-height: auto;
+}
+
+#services {
+    padding-top: 25px;
 }
 
 
@@ -94,7 +99,7 @@
 }
 
 .services .icon {
-    border: 7px solid #f05557;
+    border: 3px solid #f05557;
     border-radius: 50%;
 }
 
@@ -335,9 +340,9 @@
         box-shadow:0 0 0 1px;
     }
 
-    h1.section-title{
-        font-size:42px;
-        line-height:56px;
+    h1.section-title span{
+        font-size:15px;
+        line-height:30px;
     }
 	
 	#about img {
@@ -405,9 +410,9 @@
     }
 
     h1.section-title{
-        font-size:32px;
+        font-size:25px;
         line-height:15px;
-        margin: 0 0 30px;
+        margin: 0px 0 30px;
     }
 
     
