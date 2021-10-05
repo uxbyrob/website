@@ -1,4 +1,86 @@
 
+/* -------------------------
+-------- Footer ------------
+---------------------------*/
+#main-footer {
+    background:rgba(0,0,0,0.8);
+    color:#efae49;
+    padding:30px 0;
+}
+
+/* Navigation */
+
+#main-footer ul.footer-nav {
+    list-style:none;
+    padding:0;
+    margin:0;
+    margin-bottom:24px;
+}
+
+#main-footer ul.footer-nav li{
+    display:inline-block;
+    padding:0 17px;
+    line-height:15px;
+    border-right: 1px solid #f05557;
+}
+
+#main-footer ul.footer-nav li:first-child{
+    padding-left: 0;
+}
+
+#main-footer ul.footer-nav li:last-child{
+    border-right: none;
+}
+
+/* Left Column */
+
+#main-footer .small-logo { /* title */
+    padding:0;
+    margin:0;
+    margin-bottom: 24px;
+    font-size: 22px;
+    line-height:24px;
+    font-weight:normal;
+}
+
+#main-footer .small-logo span {
+    padding:0;
+    font-size:18px;
+    line-height:24px;
+    font-weight:300;
+    text-transform:none;
+}
+
+/*Right Column*/
+
+#main-footer .right-col p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+#main-footer .right-col{
+    text-align: left;
+}
+
+#main-footer .right-col h2{
+    text-transform:none;
+    font-size:18px;
+    line-height:24px;
+    font-weight:700;
+    margin:0 0 24px;
+}
+
+#main-footer .right-col p{
+    font-size:15px;
+    line-height:24px;
+    font-weight:300;
+}
+
+
+
+
+
 /*----------------------
 ----OVERRIDES ---
 ------------------------*/
@@ -205,20 +287,7 @@
 }
 
 
-/* -------------------------
--------- Footer ------------
----------------------------*/
-#main-footer {
-    background:rgba(0,0,0,0.8);
-    color:#efae49;
-    padding:30px 0;
-}
 
-#main-footer .right-col p {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 300;
-}
 
 /*-----------------------
 ------Media Queries------
