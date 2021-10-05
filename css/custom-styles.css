@@ -387,7 +387,7 @@
         border: 0px solid red;
     }
 
-    .services .icon {
+    .services .icon, .hobby {
         display: none;
         
     }
@@ -400,10 +400,12 @@
         border: 0px solid orange;
     }
 
-    .services .icon {
+    .services .icon, .hobby {
         display: none;
         
     }
+
+  
 }
 
 
