@@ -168,12 +168,12 @@ body {
 }
 
 #main-nav.scrolled .navbar-toggle{
-    color:#f05557;
+    color:#fff;
     border-color:#f05557;
 }
 
 #main-nav.scrolled .navbar-toggle .icon-bar{
-    background:#f05557;
+    background:#fff;
 }
 
 #main-nav .container{
