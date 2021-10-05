@@ -110,6 +110,19 @@
     padding-top: 25px;
 }
 
+#services .header-placement {
+    padding-right: 0px;
+    border: 1px red solid;
+}
+
+#services .text-center {
+    padding-right: 0px;
+    margin-right: -5px;
+    padding-left: 0px;
+    border: 0px red solid;
+}
+
+
 
 
 /*----------------------
@@ -181,7 +194,7 @@
 }
 
 .services .icon {
-    border: 3px solid #f05557;
+    border: 1px solid #f05557;
     border-radius: 50%;
 }
 
