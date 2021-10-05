@@ -19,7 +19,7 @@
 
 #main-footer ul.footer-nav li{
     display:inline-block;
-    padding:0 17px;
+    padding:0 10px;
     line-height:15px;
     border-right: 1px solid #f05557;
 }
@@ -43,7 +43,7 @@
     font-weight:normal;
 }
 
-#main-footer .small-logo span {
+#main-footer .small-logo span { /* BiLine */
     padding:0;
     font-size:18px;
     line-height:24px;

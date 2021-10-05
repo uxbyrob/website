@@ -1,50 +1,3 @@
-/*----------------------
----Main Layout Styles---
-------------------------*/
-.img-center{
-    margin:20px auto;
-}
-
-#main-nav a.ir-logo {
-    margin:0;
-    margin-top:5px;
-    padding:0;
-    width:151px;
-    height:57px;
-	text-indent: 200%;
-	white-space: nowrap;
-	overflow: hidden;
-    background: url("../assets/logo.png");
-}
-
-#main-nav a.ir-logo span{
-    color:transparent;
-    font:0/0 a;
-}
-
-.navbar {
-    margin:0;
-    border-radius:0;
-}
-
-/*---------------------------
----Main Typography Styles----
------------------------------*/
-
-body{
-	font-family: Lato, sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-	font-family: Lato, sans-serif;
-	color:#f05557;
-}
-
 h1 {
     font-size:30px;
     line-height:30px;
@@ -1222,99 +1175,57 @@ header.jumbotron{
     font-weight:400;
 }
 
+
+
+
+
 /*----------------------
------Footer Styles-----
+---Main Layout Styles---
 ------------------------*/
-#main-footer {
-    background:#fff;
-    color:#f05557;
-    padding:30px 0;
+.img-center{
+    margin:20px auto;
 }
 
-#main-footer .small-logo {
-    padding:0;
+#main-nav a.ir-logo {
     margin:0;
-    margin-bottom:24px;
-    font-size:24px;
-    line-height:24px;
-    font-weight:normal;
-    color:#f05557;
+    margin-top:5px;
+    padding:0;
+    width:151px;
+    height:57px;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+    background: url("../assets/logo.png");
 }
 
-#main-footer .small-logo span {
-    padding:0;
-    font-size:18px;
-    line-height:24px;
-    font-weight:300;
-    text-transform:none;
+#main-nav a.ir-logo span{
+    color:transparent;
+    font:0/0 a;
 }
 
-
-#main-footer ul.footer-nav {
-    list-style:none;
-    padding:0;
+.navbar {
     margin:0;
-    margin-bottom:24px;
+    border-radius:0;
 }
 
-#main-footer ul.footer-nav li{
-    display:inline-block;
-    padding:0 15px;
-    line-height:24px;
-    border-right:1px solid #f05557;
+/*---------------------------
+---Main Typography Styles----
+-----------------------------*/
+
+body{
+	font-family: Lato, sans-serif;
 }
 
-#main-footer ul.footer-nav li:first-child{
-    padding-left:0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: Lato, sans-serif;
+	color:#f05557;
 }
 
-#main-footer ul.footer-nav li:last-child{
-    border-right:none;
-}
-
-#main-footer ul.footer-nav li a{
-    color:#f05557;
-    text-decoration:none;
-    font-size:14px;
-    line-height:24px;
-    font-weight:400;
-    text-transform:uppercase;
-    letter-spacing:0.02em;
-    padding:0;
-    -webkit-transition:color 0.2s ease-out;
-    transition:color 0.2s ease-out;
-}
-
-#main-footer ul.footer-nav li a:hover,
-#main-footer ul.footer-nav li a:active{
-    color:#f37970;
-    text-decoration:none;
-}
-
-#main-footer p{
-    color:#f05557;
-    font-size:14px;
-    line-height:24px;
-    font-weight:400;
-}
-
-#main-footer .right-col{
-    text-align:right;
-}
-
-#main-footer .right-col h2{
-    text-transform:none;
-    font-size:18px;
-    line-height:24px;
-    font-weight:700;
-    margin:0 0 24px;
-}
-
-#main-footer .right-col p{
-    font-size:15px;
-    line-height:24px;
-    font-weight:300;
-}
 
 
 /*------------------------
@@ -1427,16 +1338,8 @@ header.jumbotron{
 
 @media (min-width: 500px) {
 
-    .section-title span {
-        font-size: 12px;
-        border: 0px solid black;
-    }
 
-    .services .details p {
-        font-size: 14px;
-        border: 0px solid black;
-        font-weight: normal;
-    }
+   
 }
 
 
@@ -1450,15 +1353,6 @@ header.jumbotron{
         text-align: center;
     }
     
-    .jumbotron .left-col p {
-        font-size: 2em;
-        line-height: 1.2em;
-    }
 
-    .jumbotron .left-col p span {
-        /*font-size: 18px;*/
-        font-size: 1.1em;
-        font-weight: normal;
-    }
 
 }
