@@ -377,6 +377,15 @@
     .container .section-title, .line {
         display: none;
     }
+
+    header.jumbotron{
+        padding:0;
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+        min-height: 130px;
+    }
+
+    
 }
 
 
@@ -397,6 +406,13 @@
         display: none;
     }
 
+    header.jumbotron{
+        padding:0;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+        min-height: 10px;
+    }
+
     
 }
 
@@ -414,9 +430,26 @@
     .container .section-title, .line {
         display: none;
     }
+
+    header.jumbotron{
+        padding:0;
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+        min-height: 10px;
+        background: none;
+    }
+
+
 }
 
 @media (max-width: 340px) {
+
+    .jumbotron{
+        padding:0;
+        padding-bottom: 50px;
+        margin-bottom:0;
+        min-height:200px;
+    }
 
     #services span {
         font-size: 30px;
@@ -430,6 +463,14 @@
 
     .container .section-title, .line {
         display: none;
+    }
+
+    header.jumbotron{
+        padding:0;
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+        min-height: 10px;
+        background: none;
     }
 
   

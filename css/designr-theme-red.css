@@ -322,7 +322,7 @@ header.jumbotron{
     padding:0;
     padding-bottom: 50px;
     margin-bottom:0;
-    min-height:200px;
+    min-height: 70px;
 }
 
 .jumbotron .left-col,
