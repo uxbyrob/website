@@ -1443,7 +1443,7 @@ header.jumbotron{
 
     .jumbotron .left-col {
         width: 100%;
-        border: 1px solid red;
+        border: 0px solid red;
         text-align: center;
     }
     
