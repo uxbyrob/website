@@ -86,13 +86,7 @@ h2 {
     text-transform:uppercase;
 }
 
-p {
-    font-size:18px;
-    line-height:24px;
-    font-weight:300;
-    letter-spacing:0.01em;
-    margin-bottom:20px;
-}
+
 
 a,
 a:hover,
@@ -1415,28 +1409,37 @@ header.jumbotron{
 @media (max-width: 1920px) {
 
     
-}
 
 
 @media (max-width: 1199px) {
-}
 
-@media (max-width: 991px) {
-}
-
-
-@media (max-width: 768px) {
-
-    .section-title span {
-        font-size: 1em;
-        border: 0px solid black;
-    }
-}
-
-@media (max-width: 479px) {
+    
 
    
 }
+
+@media (max-width: 991px) {
+
+    
+
+}
+
+
+@media (min-width: 500px) {
+
+    .section-title span {
+        font-size: 12px;
+        border: 0px solid black;
+    }
+
+    .services .details p {
+        font-size: 14px;
+        border: 0px solid black;
+        font-weight: normal;
+    }
+}
+
+
 
 
 @media only screen and (min-width:0px)  { 
@@ -1454,7 +1457,8 @@ header.jumbotron{
 
     .jumbotron .left-col p span {
         /*font-size: 18px;*/
-        font-size: 1.1sem;
+        font-size: 1.1em;
+        font-weight: normal;
     }
 
 }
