@@ -351,6 +351,47 @@
 	
 		
 }
+
+@media (max-width: 380px) {
+
+    .jumbotron{
+        padding:0;
+        padding-bottom: 50px;
+        margin-bottom:0;
+        min-height:200px;
+    }
+
+    #services span {
+        font-size: 30px;
+        border: 0px solid orange;
+    }
+
+    .services .icon, .hobby {
+        display: none;
+        
+    }
+
+    .container .section-title, .line {
+        display: none;
+    }
+
+    header.jumbotron{
+        padding:0;
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+        min-height: 10px;
+        
+    }
+
+    .details p {
+        font-size: 1.1em;
+    }
+
+  
+}
+
+
+
 @media (width: 1920px) {
 
 
@@ -369,10 +410,7 @@
         border: 0px solid green;
     }
 
-    .services .details p {
-        font-size: 18px;
-        border: 0px solid green;
-    }
+    
 
     .container .section-title, .line {
         display: none;
@@ -383,6 +421,10 @@
         padding-bottom: 50px;
         margin-bottom: 20px;
         min-height: 130px;
+    }
+
+    .details p {
+        font-size: 1.2em;
     }
 
     
@@ -444,6 +486,10 @@
         background: none;
     }
 
+    .details p {
+        font-size: 1.1em;
+    }
+
 
 }
 
@@ -476,6 +522,10 @@
         margin-bottom: 20px;
         min-height: 10px;
         background: none;
+    }
+
+    .details p {
+        font-size: 1.1em;
     }
 
   
@@ -515,6 +565,8 @@
     
 	
 }
+
+
 
 
 
